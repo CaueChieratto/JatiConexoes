@@ -1,0 +1,611 @@
+html,body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.ai{
+    background-color: yellow;
+    padding: 50px;
+    text-align: center;
+    text-shadow: none;
+    color: black;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+
+    .info-footer{
+        width: fit-content;
+        text-align: center;
+        display: flex;
+        flex-wrap: wrap;
+        align-content: center;
+        justify-content: center;
+    }
+    
+
+
+.top-bar{
+    position:relative;
+} 
+
+.img-bck{
+    width: 100%;
+}
+
+.logo{
+    width: 300px;
+    object-fit: cover;
+    margin: 100px;
+    position:absolute;
+    top: 10px;left: 20px;
+    border-radius:0%;
+
+}
+
+.logo-bottom{
+    background-color: #134f5c;
+    color: white;
+    font-size: 24px;
+    text-align: center;
+    font-weight: bold;
+    padding: 4px;
+    margin: 0 0 100px 0;
+}
+
+.logo-bottom-cata{
+    background-color: #134f5c;
+    color: white;
+    font-size: 24px;
+    text-align: center;
+    font-weight: bold;
+    padding: 15px 4px 4px;
+    margin: 0 0 100px 0;
+}
+
+.logo-description{
+    margin: 20px;
+    padding: 16px 0 0;
+    font-weight: normal;
+    border-top: 1px white solid;
+}
+
+.background h2{
+    color:white
+}
+
+.background h3{
+    color:white
+}
+
+
+.background{
+    margin: 75px 0 0 0;
+    background-image: url(./IMG/fundo7.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100%;
+    padding: 30px 0;
+}
+
+.background1{
+    margin: 75px 0 0 0;
+    background-image: url(./IMG/fundo7.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100%;
+    padding: 30px 0;
+}
+
+.background2{
+    margin: 75px 0 0 0;
+    background-image: url(./IMG/fundo2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    padding: 30px 0;
+    background-attachment: fixed;
+}
+
+.background-pdf{
+    margin: 0;
+    background-image: url(./IMG/fundo7.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100%;
+    padding: 30px 0;
+}
+
+.background1-pdf{
+    margin: 0;
+    background-image: url(./IMG/fundo7.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100%;
+    padding: 30px 0;
+}
+
+.background-icon{
+    margin: 75px 0;
+    background-image: url(./IMG/fundo2.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100%;
+    padding: 30px 0;
+}
+
+
+
+.wrapper{
+    margin: 0 30px;
+    display:flex;
+    justify-content: center;
+    gap: 250px;
+}
+
+h1,h2,h3,h4,h5{
+    color: white
+}
+h1{
+    margin: 10px;
+    font-size: 30px;
+    font-family: "anton",Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    box-shadow: 2px black;
+}
+
+h2{
+   width: fit-content;
+   color: white;
+   font-family: "lato";
+   font-weight: normal;
+}
+
+h3{
+    font-family: "lato",sans-serif;
+    color:white;
+    max-width: 500px;
+    font-weight: 300;
+    width: fit-content;
+    margin: 10px 45px 0 0;
+}
+
+p{
+    text-align: justify;
+    color: white;
+}
+
+
+.info{
+    width: fit-content;
+    text-align: center;
+}
+
+.produtos{
+    width: 350px;
+}
+
+
+.description{
+    font-family: "lato",sans-serif;
+    color: black;
+    max-width: 500px;
+    font-weight: 300;
+}
+
+.description0{
+    font-family: "lato",sans-serif;
+    color:white;
+    max-width: 500px;
+    font-weight: 300;
+}
+.description0 a{
+    font-size: 18px;
+    color: white;
+    font-weight: bold;
+    text-decoration: underline;
+    vertical-align: baseline;
+    font-family: "bebas neue";
+}
+
+a{
+    font-size: 20px;
+    letter-spacing: 1.5px;
+    color: white;
+    font-weight: bold;
+    text-decoration: underline;
+    vertical-align: baseline;
+    font-family: "bebas neue";
+}
+
+
+.lista{
+    max-width: 600px;
+    text-align: center;
+    color:white;
+    font-size: 22px;
+    font-family: "anton",arial;
+    letter-spacing: 1px;
+    font-weight: bold;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none; 
+    border-bottom: 1px solid white;
+}
+
+
+.closed{
+    display: none;
+}
+
+
+
+li{
+    list-style: none;
+    font-size: 12px;
+    margin: 12px;
+}
+
+.list{
+    
+    font-size: 18px;
+    color:white;
+    font-weight: normal;
+    text-decoration: underline;
+    vertical-align: baseline;
+    font-family: "bebas neue";
+}
+
+.centro{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.info-footer{
+    width: fit-content;
+    text-align: center;
+    display: flex;
+}
+
+.produtos-footer{
+    width: 350px;
+    margin: 15px;
+}
+
+
+.description-footer{
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    text-shadow: none;
+}
+
+.instagram{
+    background-color: #FE005C;
+    width: 50px;
+    border-radius: 100%;
+    margin: 15px;
+}
+
+.facebook{
+    background-color: #1877F2;
+    width: 50px;
+    border-radius: 100%;
+    margin: 15px;
+}
+
+.whatsapp{
+    width: 53px;
+    border-radius: 100%;
+    margin: 15px 15px 15px 15px;
+}
+
+.footer-end{
+    background-color:#134f5c;
+    padding: 50px;
+    font-family: "lato",sans-serif;
+    text-shadow: none;
+}
+
+.text-end{
+    color: white;
+    text-align: center;
+    font-size: 12px;
+    text-shadow: none;
+}
+
+.end{
+    color: white;
+    font-family: "Montserrat";
+    text-align: center;
+    margin-top: 80px;
+    text-shadow: none;
+    font-size: 20px;
+}
+
+/* CATÁLAGO */
+
+@media (max-width:1350px){
+    .background2-cata{
+        width: 25% !important;
+    }
+}
+@media (max-width:1100px){
+    .background2-cata{
+        width: 30% !important;
+    }
+}
+@media (max-width:900px){
+    .background2-cata{
+        width: 40% !important;
+    }
+}
+@media (max-width:700px){
+    .background2-cata{
+        width: 51% !important;
+    }
+}
+
+.divisao1{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: white;
+}
+
+
+.background2-cata{
+  margin: 20px 0 0;
+  width: 20%;
+  /* background-color: red; */
+}
+.wrapper-cata{
+    margin: 0 30px;
+    display:flex;
+    justify-content: center;
+    gap: 250px;
+}
+
+.info-cata{
+    width: fit-content;
+    text-align: center;
+    display: flex;
+}
+
+h1.nome{
+    text-shadow: none;
+    font-size: 24px;
+    /* background-color: red; */
+    width:fit-content ;
+    margin:0 0 0px 200px;
+    font-weight: normal;
+    color: #134f5c;
+}
+
+.item{
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    box-shadow:1px 1px 20px 1px #f5f6fa;
+    border-radius: 8px;
+    padding: 16px;
+    width: 75%;
+    transition: 0.3s;
+}
+
+.item:hover{
+    cursor:pointer;
+    box-shadow:5px 5px 20px 5px #e2e5f0;
+    transition: 0.3s;
+}
+
+.produtos-cata{
+    width: 200px;
+    margin: 20px 0;
+    padding: 0 30px 0 30px;
+
+
+}
+
+.cata-center{
+    padding-left:0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.description-cata{
+    color:white;
+    background-color:#53A677;
+    width: fit-content;
+    padding: 10px;
+    margin:0 0 20px 0 ;
+    border-radius: 60%;
+    font-size: 20px;
+    text-align: center;
+    font-weight: normal;
+    text-shadow: none
+}
+h1.description-cata {
+    color:white;
+    background-color:#53A677;
+    width: fit-content;
+    padding: 10px;
+    margin:0 0 20px 0 ;
+    border-radius: 60%;
+    font-size: 12px;
+    text-align: center;
+    font-weight: normal;
+    text-shadow: none
+}
+
+a.explain{
+    width:fit-content;
+    margin:0;
+    font-size: 14px;
+    color: #134f5c;
+    font-weight:600;
+    text-decoration: none;
+    display:table-row-group;
+    padding:0;
+    text-shadow: none;
+}
+h2.explain{
+    width:fit-content;
+    margin: 0;
+    font-size: 14px;
+    color: #134f5c;
+    font-weight:600;
+    text-decoration: none;
+    display:table-row-group;
+    padding:0;
+    text-shadow: none;
+}
+
+
+/* TABELAS */
+
+
+.background-tabela{
+    padding:0 50px;
+    margin:0 0 140px 110px;
+    display: ruby-text;
+    width: 80%;
+}
+
+.wrapper-tabela{
+    margin: 0 ;
+    display:inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    text-shadow: none;
+    padding: 0px;
+
+}
+
+.info-tabela{
+    width: fit-content;
+    text-align: center;
+    text-shadow: none;
+}
+
+.produtos-tabela{
+    width: 350px;
+    margin: 0px;
+    padding-top: 90px;
+    padding-left: 100px;
+    /* background-color: purple; */
+}
+
+.description0-tabela{
+    padding:0px;
+    margin: 0px;
+    /* background-color: yellow; */
+}
+
+.title-tabela{
+    color:#134f5c;
+    margin:0 200px 50px 0;
+    text-align:left;
+    text-shadow: none;
+    /* background-color: red; */
+    font-weight: 500;
+    width:70%;
+}
+
+.toda-tabela{
+    background-color: palevioletred;
+    padding: 10px;
+}
+
+.tabela-titulo{
+    background-color:#53A677;
+    padding: 5px 0 5px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.tabela{
+    background-color: #AADFBA;
+    padding: 5px 0 5px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.tabela1{
+    background-color:blue;
+    padding: 5px 0 5px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.name-1{
+    color: white;
+    font-family: sans-serif;
+    font-size: 18px;
+    margin: 0;
+    text-align: center;
+    background-color: purple;
+}
+
+.tabela-meio{
+    background-color: red;
+    padding: 10px;
+}
+
+.name1{
+    color:#42454A;
+    font-family: sans-serif;
+    font-size: 18px;
+    margin: 0 0 0 0;
+    text-align: center;
+    background-color: gold;
+}
+
+dd{
+    color: black;
+    font-family: sans-serif;
+    font-size: 15px;
+}
+
+
+.buttom{
+    width: fit-content;
+    margin: 20px 0 0 0px;
+    background-color: #53A677;
+   
+}
+
+.buttom-a{
+    text-decoration: dashed;
+    width: fit-content;
+    margin: 20px 0 0 30px;
+    background-color:#53A677;
+    margin: 0;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 10px;
+    font-size: 16px;
+}
+
+
+
