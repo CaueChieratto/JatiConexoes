@@ -10,16 +10,18 @@ html,body{
     padding: 0;
 }
 
-@media only screen and (max-width:850px){
-    .background{
-        margin: 75px 0 0 0;
-        background-image: url(./IMG/fundo1.jpg);
-        background-repeat: no-repeat;
-        background-attachment: fixed;
-        background-size: cover;
-        width: 100%;
-        padding: 30px 0;
+@media only screen and (max-width:1150px){
+    .info-footer{
+        width: fit-content;
+        text-align: center;
+        display: flex;
+        flex-wrap: wrap;
+        align-content: center;
+        justify-content: center;
     }
+    
+}
+@media only screen and (max-width:980px){
     
     .wrapper{
         margin: 0 30px;
@@ -33,21 +35,25 @@ html,body{
     }
 }
 
-@media only screen and (max-width:1150px){
-    .info-footer{
-        width: fit-content;
-        text-align: center;
-        display: flex;
-        flex-wrap: wrap;
-        align-content: center;
-        justify-content: center;
+@media (max-width:750px){
+    .lista{
+        border-bottom: none !important;
     }
-    
 }
 
-@media (max-width:380px){
+@media (max-width:550px){
     .produtos{
         width: 170px !important;
+    }
+
+    .lista{
+        font-size: 25px;
+        border-bottom: none !important;
+    }
+}
+@media (max-width:350px){
+    .produtos{
+        width: 100px !important;
     }
 }
 
@@ -97,22 +103,27 @@ html,body{
 }
 
 .background h2{
-    color:white
+    color:#134f5c;
 }
 
 .background h3{
-    color:white
+    color:#134f5c;
 }
 
 
 .background{
-    margin: 75px 0 0 0;
-    background-image: url(./IMG/fundo8.jpg);
-    background-repeat: no-repeat;
-    /* background-attachment: fixed; */
-    background-size: cover;
-    width: 100%;
+    margin: 75px;
+    background-color: #98D9F2;
     padding: 30px 0;
+    box-shadow:5px 5px 20px 10px #555;
+    /* width: 90%; */
+    border-radius: 100px;
+    transition: 0.3s;
+}
+.background:hover{
+    cursor:default;
+    box-shadow:5px 5px 20px 5px #98D9F2;
+    transition: 0.2s;
 }
 
 
@@ -174,6 +185,7 @@ h1{
     text-transform: uppercase;
     letter-spacing: 1.5px;
     text-shadow:none;
+    color: #134f5c;
 }
 
 h2{
@@ -184,7 +196,7 @@ h2{
 
 
 .produtos-title{
-   color: white;
+   color:#134f5c;
    font-family: "lato";
    font-weight: 400;
    font-size: 16px;
@@ -194,7 +206,7 @@ h2{
     list-style: normal;
 }
 .titulo2-lista{
-   color: white;
+   color: #134f5c;
    font-family: "lato";
    font-weight: 600;
    font-size: 18px;
@@ -209,7 +221,7 @@ h2{
 .list-produtos{
     display: flex;
     margin: 5px;
-
+    color: #134f5c;
 }
 
 .central{
@@ -230,7 +242,7 @@ h3{
 
 p{
     text-align: justify;
-    color: white;
+    color: #134f5c;
 }
 
 
@@ -248,9 +260,9 @@ p{
     margin-bottom: 25px;
 }
 
-/* a.espaço{
+a.espaço{
     color: #134f5c;
-} */
+}
 
 
 .description{
@@ -268,11 +280,12 @@ p{
 }
 .description0 a{
     font-size: 18px;
-    /* color: #134f5c; */
+    color: #134f5c;
     font-weight: bold;
     text-decoration: underline;
     vertical-align: baseline;
     font-family: "bebas neue";
+    
 }
 
 a{
@@ -289,7 +302,8 @@ a{
 .lista{
     max-width: 600px;
     text-align: center;
-    color:white;
+    color:#134f5c;
+    margin-top: 30px;
     font-size: 22px;
     font-family: "bebas neue",arial;
     letter-spacing: 1px;
@@ -299,7 +313,7 @@ a{
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none; 
-    border-bottom: 1px solid white;
+    border-bottom: 1px solid #555;
 }
 
 
@@ -318,9 +332,9 @@ li{
 .list{
     
     font-size: 18px;
-    color:white;
+    color:#134f5c;
     font-weight: normal;
-    text-decoration: underline;
+    text-decoration: none;
     vertical-align: baseline;
     font-family: "bebas neue";
 }
