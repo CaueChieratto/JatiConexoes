@@ -388,7 +388,7 @@ p.explain{
     color: #134f5c;
     font-weight:600;
     text-decoration: none;
-    padding:2px 0 0 15px;
+    padding:2px 0 0 0;
     text-shadow: none;
     letter-spacing: normal;
 }
@@ -458,7 +458,7 @@ p.explain{
     text-shadow: none;
     /* background-color: red; */
     font-weight: 500;
-    width:70%;
+    /* width:70%; */
     justify-content: center;
 }
 
@@ -548,7 +548,7 @@ dd{
 
 .buttom1{
     width: fit-content;
-    margin:0;
+    margin:10px 0 0 0;
     background-color: #53A677;
     text-align: center;
     display: none;
@@ -631,6 +631,7 @@ dd{
     }
     .title1-tabela{
         display: flex;
+        flex-direction: column;
     }
 
    

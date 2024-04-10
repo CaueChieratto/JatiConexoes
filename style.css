@@ -135,14 +135,14 @@ html,body{
     margin: 75px;
     background-color: white;
     padding: 30px 0;
-    box-shadow:5px 5px 20px 0px #f5f6fa;
+    box-shadow:5px 5px 20px 15px #f5f6fa;
     /* width: 90%; */
     border-radius: 100px;
     transition: 0.3s;
 }
 .background:hover{
     cursor:default;
-    box-shadow:5px 5px 20px 5px #e2e5f0;
+    box-shadow:5px 5px 20px 17px #e2e5f0;
     transition: 0.2s;
 }
 
