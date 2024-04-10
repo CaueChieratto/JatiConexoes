@@ -381,14 +381,14 @@ li{
 
 p.explain{
     width:fit-content;
-    margin: 0;
+    margin: 15px 0 0 0;
     font-size: 16px;
     display: flex;
     font-family: Arial, Helvetica, sans-serif;
     color: #134f5c;
     font-weight:600;
     text-decoration: none;
-    padding:2px 0 0 15px;
+    padding:2px 0 0 0;
     text-shadow: none;
     letter-spacing: normal;
 }
@@ -460,11 +460,20 @@ p.explain{
     font-weight: 500;
     width:70%;
     justify-content: center;
+    display: flex;
+    flex-direction: column;
 }
 
 
 .tabela-titulo{
     background-color:#53A677;
+    padding: 5px 0 5px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.tabela-titulo1{
+    background-color:#0770B5;
     padding: 5px 0 5px;
     width: 100%;
     display: flex;
@@ -581,14 +590,14 @@ dd{
     display: flex;
     align-items: center;
     flex-direction: column;
-    box-shadow:1px 1px 20px 1px #53A677;
+    box-shadow:1px 1px 20px 1px  #f5f6fa;
     border-radius: 55px;
     padding: 16px;
     transition: 0.3s;
 }
 
 .item:hover{
-    box-shadow:1px 1px 20px 1px #134f5c;
+    box-shadow:1px 1px 20px 1px #e2e5f0;
     transition: 0.3s;
 }
 
@@ -664,6 +673,9 @@ dd{
     .title1-tabela{
         font-size: 16px;
     }
+    p.explain{
+        font-size: 12px;
+    }
 }
 
 @media (max-width: 380px){
@@ -686,5 +698,8 @@ dd{
     .wrapper-tabela{
         align-items: flex-start;
         gap: 0px !important;
+    }
+    p.explain{
+        font-size: 8px;
     }
 }
