@@ -487,6 +487,14 @@ p.explain{
     justify-content: space-around;
     background-color:#f5f6fa;
 }
+.tabela2{
+    /* background-color:blue; */
+    padding: 5px 0 5px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    background-color:#86C4E8;
+}
 
 .name-1{
     color: white;

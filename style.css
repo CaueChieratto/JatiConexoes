@@ -19,6 +19,8 @@ html,body{
         align-content: center;
         justify-content: center;
     }
+
+    
     
 }
 @media only screen and (max-width:980px){
@@ -33,11 +35,24 @@ html,body{
     .lista{
         margin-top: 60px;
     }
+    .centro1{
+        justify-content: center;
+    }
 }
 
 @media (max-width:750px){
     .lista{
         border-bottom: none !important;
+    }
+}
+@media (max-width:720px){
+    .lista{
+        font-size: 18px !important;
+    }
+}
+@media (max-width:650px){
+    .lista{
+        font-size: 16px !important;
     }
 }
 
@@ -47,7 +62,6 @@ html,body{
     }
 
     .lista{
-        font-size: 25px;
         border-bottom: none !important;
     }
 }
@@ -103,26 +117,26 @@ html,body{
 }
 
 .background h2{
-    color:#134f5c;
+    color:#18A85B;
 }
 
 .background h3{
-    color:#134f5c;
+    color:#18A85B;
 }
 
 
 .background{
     margin: 75px;
-    background-color: #98D9F2;
+    background-color: white;
     padding: 30px 0;
-    box-shadow:5px 5px 20px 10px #555;
+    box-shadow:5px 5px 20px 0px #f5f6fa;
     /* width: 90%; */
     border-radius: 100px;
     transition: 0.3s;
 }
 .background:hover{
     cursor:default;
-    box-shadow:5px 5px 20px 5px #98D9F2;
+    box-shadow:5px 5px 20px 5px #e2e5f0;
     transition: 0.2s;
 }
 
@@ -176,7 +190,7 @@ html,body{
 }
 
 h1,h2,h3,h4,h5{
-    color: white
+    color: #18A85B
 }
 h1{
     margin: 0px;
@@ -185,7 +199,7 @@ h1{
     text-transform: uppercase;
     letter-spacing: 1.5px;
     text-shadow:none;
-    color: #134f5c;
+    color: #18A85B;
 }
 
 h2{
@@ -196,7 +210,7 @@ h2{
 
 
 .produtos-title{
-   color:#134f5c;
+   color:#18A85B;
    font-family: "lato";
    font-weight: 400;
    font-size: 16px;
@@ -206,7 +220,7 @@ h2{
     list-style: normal;
 }
 .titulo2-lista{
-   color: #134f5c;
+   color: #18A85B;
    font-family: "lato";
    font-weight: 600;
    font-size: 18px;
@@ -221,7 +235,8 @@ h2{
 .list-produtos{
     display: flex;
     margin: 5px;
-    color: #134f5c;
+    /* color: #9C9C9C; */
+    color: #807f7f;
 }
 
 .central{
@@ -233,7 +248,7 @@ h2{
 
 h3{
     font-family: "lato",sans-serif;
-    color:white;
+    color:#18A85B;
     max-width: 500px;
     font-weight: 300;
     width: fit-content;
@@ -242,7 +257,7 @@ h3{
 
 p{
     text-align: justify;
-    color: #134f5c;
+    color:#555;
 }
 
 
@@ -250,6 +265,10 @@ p{
     width: fit-content;
     text-align: center;
     /* color: #134f5c; */
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .produtos{
@@ -261,7 +280,7 @@ p{
 }
 
 a.espaço{
-    color: #134f5c;
+    color: #18A85B;
 }
 
 
@@ -270,17 +289,25 @@ a.espaço{
     color: black;
     max-width: 500px;
     font-weight: 300;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-evenly;
 }
 
 .description0{
     font-family: "lato",sans-serif;
-    color:#134f5c;
+    color:#18A85B;
     max-width: 500px;
     font-weight: 300;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-evenly;
 }
 .description0 a{
     font-size: 18px;
-    color: #134f5c;
+    color:#18A85B;
     font-weight: bold;
     text-decoration: underline;
     vertical-align: baseline;
@@ -299,23 +326,6 @@ a{
 }
 
 
-.lista{
-    max-width: 600px;
-    text-align: center;
-    color:#134f5c;
-    margin-top: 30px;
-    font-size: 22px;
-    font-family: "bebas neue",arial;
-    letter-spacing: 1px;
-    font-weight: bold;
-    cursor: pointer;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none; 
-    border-bottom: 1px solid #555;
-}
-
 
 .closed{
     display: none;
@@ -329,21 +339,74 @@ li{
     margin: 12px;
 }
 
+
+.centro{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    display: none;
+    
+}
+
+.lista{
+    max-width: 600px;
+    text-align: center;
+    color:white;
+    margin-top: 30px;
+    font-size: 22px;
+    font-family: "bebas neue",arial;
+    letter-spacing: 1px;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: #18A85B;
+    padding: 10px;
+    border-radius: 20px;
+    
+}
+
+
 .list{
     
     font-size: 18px;
-    color:#134f5c;
+    color:white;
     font-weight: normal;
     text-decoration: none;
     vertical-align: baseline;
     font-family: "bebas neue";
 }
 
-.centro{
-    text-align: center;
+.centro1{
     display: flex;
-    justify-content: center;
+    color: white;
 }
+
+
+.lista1{
+    max-width: 600px;
+    text-align: center;
+    color:white;
+    margin-top: 30px;
+    font-size: 22px;
+    font-family: "bebas neue",arial;
+    letter-spacing: 1px;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: #18A85B;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+
+a.list1{
+    
+    font-size: 18px;
+    color:white ;
+    font-weight: normal;
+    text-decoration: none;
+    vertical-align: baseline;
+    font-family: "bebas neue";
+}
+
 
 .wrapper-footer{
     margin: 0 30px;
