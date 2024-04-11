@@ -14,6 +14,9 @@ html,body{
     .produtos-footer{
         width: 250px !important;
     }
+    .info-3{
+        justify-content: flex-start !important;
+    }
 }
 
 @media only screen and (max-width:1150px){
@@ -61,6 +64,11 @@ html,body{
         font-size: 16px !important;
     }
     .background{
+        border-radius: 40px !important;
+        margin: 75px 30px !important;
+    }
+
+    .background2{
         border-radius: 40px !important;
         margin: 75px 30px !important;
     }
@@ -165,12 +173,21 @@ html,body{
     border-radius: 100px;
     transition: 0.3s;
 }
+
 .background:hover{
     cursor:default;
     box-shadow:5px 5px 20px 17px #e2e5f0;
     transition: 0.2s;
 }
-
+.background-3{
+    margin: 75px;
+    background-color: white;
+    padding: 30px 0;
+    box-shadow:5px 5px 20px 15px #f5f6fa;
+    /* width: 90%; */
+    border-radius: 100px;
+    transition: 0.3s;
+}
 
 /* .background2{
     margin: 75px 0 0 0;
@@ -230,6 +247,12 @@ html,body{
 
 
 .wrapper{
+    margin: 0 30px;
+    display:flex;
+    justify-content: center;
+    gap: 250px;
+}
+.wrapper-3{
     margin: 0 30px;
     display:flex;
     justify-content: center;
@@ -524,6 +547,15 @@ p{
     flex-direction: column;
     justify-content: space-between;
 }
+.info-3{
+    width: fit-content;
+    text-align: center;
+    /* color: #134f5c; */
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+}
 
 .info-icon{
     width: fit-content;
@@ -614,7 +646,7 @@ a.espaço-7{
     text-decoration: underline;
     vertical-align: baseline;
     font-family: "bebas neue";
-    
+    width: 700px;
 }
 
 a{
