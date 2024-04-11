@@ -735,25 +735,25 @@ a.espaço{
     color:#191b23;
 }
 a.espaço-1{
-    color:#5EC1E3;
+    color:rgba(94, 193, 227, 0.7);
 }
 a.espaço-2{
-    color: rgba(158, 42, 151, 0.5);
+    color: rgba(158, 42, 151, 0.3);
 }
 a.espaço-3{
-    color: rgba(243, 134, 63, 0.8);
+    color: rgba(243, 134, 63, 0.7);
 }
 a.espaço-4{
-    color: rgba(255, 208, 53, 0.8);
+    color: rgba(255, 208, 53, 0.7);
 }
 a.espaço-5{
-    color:rgba(255, 40, 58, 0.8);
+    color:rgba(255, 40, 58, 0.6);
 }
 a.espaço-6{
-    color: rgba(24, 168, 91, 0.7);
+    color: rgba(24, 168, 91, 0.5);
 }
 a.espaço-7{
-    color: rgba(38, 38, 130, 0.5);
+    color: rgba(38, 38, 130, 0.4);
 }
 
 .lista1{
@@ -780,7 +780,7 @@ a.espaço-7{
     letter-spacing: 1px;
     font-weight: bold;
     cursor: pointer;
-    background-color:#5EC1E3;
+    background-color:rgba(94, 193, 227, 0.9);
     padding: 10px;
     border-radius: 20px;
 }
@@ -794,7 +794,7 @@ a.espaço-7{
     letter-spacing: 1px;
     font-weight: bold;
     cursor: pointer;
-    background-color: rgba(158, 42, 151, 0.5);
+    background-color: rgba(158, 42, 151, 0.4);
     padding: 10px;
     border-radius: 20px;
 }
