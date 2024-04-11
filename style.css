@@ -738,24 +738,22 @@ a.espaço-1{
     color:#5EC1E3;
 }
 a.espaço-2{
-    color: #9E2A97;
     color: rgba(158, 42, 151, 0.5);
-    
 }
 a.espaço-3{
-    color: #F3863F;
+    color: rgba(243, 134, 63, 0.8);
 }
 a.espaço-4{
-    color: #FFD035;
+    color: rgba(255, 208, 53, 0.8);
 }
 a.espaço-5{
-    color:#FF283A;
+    color:rgba(255, 40, 58, 0.8);
 }
 a.espaço-6{
-    color: #18A85B;
+    color: rgba(24, 168, 91, 0.7);
 }
 a.espaço-7{
-    color: #262682;
+    color: rgba(38, 38, 130, 0.5);
 }
 
 .lista1{
@@ -796,7 +794,6 @@ a.espaço-7{
     letter-spacing: 1px;
     font-weight: bold;
     cursor: pointer;
-    /* background-color: rgb(158, 42, 151); */
     background-color: rgba(158, 42, 151, 0.5);
     padding: 10px;
     border-radius: 20px;
@@ -811,7 +808,7 @@ a.espaço-7{
     letter-spacing: 1px;
     font-weight: bold;
     cursor: pointer;
-    background-color: #F3863F;
+    background-color:rgba(243, 134, 63, 0.8);
     padding: 10px;
     border-radius: 20px;
 }
@@ -825,7 +822,7 @@ a.espaço-7{
     letter-spacing: 1px;
     font-weight: bold;
     cursor: pointer;
-    background-color: #FFD035;
+    background-color:rgba(255, 208, 53, 0.8);
     padding: 10px;
     border-radius: 20px;
 }
@@ -839,7 +836,7 @@ a.espaço-7{
     letter-spacing: 1px;
     font-weight: bold;
     cursor: pointer;
-    background-color:#FF283A;
+    background-color:rgba(255, 40, 58, 0.8);
     padding: 10px;
     border-radius: 20px;
 }
@@ -853,7 +850,7 @@ a.espaço-7{
     letter-spacing: 1px;
     font-weight: bold;
     cursor: pointer;
-    background-color: #18A85B;
+    background-color:rgba(24, 168, 91, 0.7);
     padding: 10px;
     border-radius: 20px;
 }
@@ -867,7 +864,7 @@ a.espaço-7{
     letter-spacing: 1px;
     font-weight: bold;
     cursor: pointer;
-    background-color:#262682;
+    background-color:rgba(38, 38, 130, 0.5);
     padding: 10px;
     border-radius: 20px;
 }
