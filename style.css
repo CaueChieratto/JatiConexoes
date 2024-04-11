@@ -10,6 +10,12 @@ html,body{
     padding: 0;
 }
 
+@media (max-width: 1300px){
+    .produtos-footer{
+        width: 250px !important;
+    }
+}
+
 @media only screen and (max-width:1150px){
     .info-footer{
         width: fit-content;
@@ -74,6 +80,21 @@ html,body{
     }
     .description-footer{
         font-size: 12px !important;
+    }
+    .whatsapp{
+        width: 43px !important;
+    }
+    .instagram{
+        width: 40px !important;
+    }
+    .facebook{
+        width: 40px !important;
+    }
+}
+
+@media (max-width: 280px){
+    .info-icon{
+        flex-direction: column;
     }
 }
 
@@ -147,7 +168,7 @@ html,body{
 }
 
 
-.background2{
+/* .background2{
     margin: 75px 0 0 0;
     background-image: url(./IMG/fundo2.jpg);
     background-repeat: no-repeat;
@@ -155,6 +176,21 @@ html,body{
     width: 100%;
     padding: 30px 0;
 
+} */
+
+.background2{
+    margin: 75px;
+    background-color: white;
+    padding: 30px 0;
+    box-shadow:5px 5px 20px 15px #f5f6fa;
+    /* width: 90%; */
+    border-radius: 100px;
+    transition: 0.3s;
+}
+.background2:hover{
+    cursor:default;
+    box-shadow:5px 5px 20px 17px #e2e5f0;
+    transition: 0.2s;
 }
 
 /* .background-pdf{
@@ -207,13 +243,101 @@ h1{
     text-transform: uppercase;
     letter-spacing: 1.5px;
     text-shadow:none;
+    color:#5EC1E3;
+}
+h1.dois{
+    margin: 0px;
+    font-size: 30px;
+    font-family: "bebas neue",Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    text-shadow:none;
+    color:  #9E2A97;
+}
+h1.três{
+    margin: 0px;
+    font-size: 30px;
+    font-family: "bebas neue",Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    text-shadow:none;
+    color: #F3863F;
+}
+h1.quatro{
+    margin: 0px;
+    font-size: 30px;
+    font-family: "bebas neue",Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    text-shadow:none;
+    color: #FFD035;
+}
+h1.cinco{
+    margin: 0px;
+    font-size: 30px;
+    font-family: "bebas neue",Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    text-shadow:none;
+    color: #FF283A;
+}
+h1.seis{
+    margin: 0px;
+    font-size: 30px;
+    font-family: "bebas neue",Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    text-shadow:none;
     color: #18A85B;
+}
+h1.sete{
+    margin: 0px;
+    font-size: 30px;
+    font-family: "bebas neue",Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    text-shadow:none;
+    color:#262682;
 }
 
 h2{
     font-size: 18px;
+    margin-bottom: 15px; 
+}
+h2.um{
+    font-size: 18px;
+    margin-bottom: 15px; 
+    color: #5EC1E3;
+}
+h2.dois{
+    font-size: 18px;
     margin-bottom: 15px;
-    
+    color: #9E2A97;
+}
+h2.três{
+    font-size: 18px;
+    margin-bottom: 15px;
+    color: #F3863F;
+}
+h2.quatro{
+    font-size: 18px;
+    margin-bottom: 15px;
+    color: #FFD035;
+}
+h2.cinco{
+    font-size: 18px;
+    margin-bottom: 15px;
+    color:#FF283A;
+}
+h2.seis{
+    font-size: 18px;
+    margin-bottom: 15px;
+    color: #18A85B;
+}
+h2.sete{
+    font-size: 18px;
+    margin-bottom: 15px;
+    color:#262682;
 }
 
 
@@ -228,7 +352,67 @@ h2{
     list-style: normal;
 }
 .titulo2-lista{
+   color: #5EC1E3;
+   font-family: "lato";
+   font-weight: 600;
+   font-size: 18px;
+   margin: 10px 0 0;
+   display: flex;
+   justify-content:flex-start;
+    list-style: normal;
+}
+.titulo2-lista-2{
+   color: #9E2A97;
+   font-family: "lato";
+   font-weight: 600;
+   font-size: 18px;
+   margin: 10px 0 0;
+   display: flex;
+   justify-content:flex-start;
+    list-style: normal;
+}
+.titulo2-lista-3{
+   color: #F3863F;
+   font-family: "lato";
+   font-weight: 600;
+   font-size: 18px;
+   margin: 10px 0 0;
+   display: flex;
+   justify-content:flex-start;
+    list-style: normal;
+}
+.titulo2-lista-4{
+   color:#FFD035;
+   font-family: "lato";
+   font-weight: 600;
+   font-size: 18px;
+   margin: 10px 0 0;
+   display: flex;
+   justify-content:flex-start;
+    list-style: normal;
+}
+.titulo2-lista-5{
+   color:#FF283A;
+   font-family: "lato";
+   font-weight: 600;
+   font-size: 18px;
+   margin: 10px 0 0;
+   display: flex;
+   justify-content:flex-start;
+    list-style: normal;
+}
+.titulo2-lista-6{
    color: #18A85B;
+   font-family: "lato";
+   font-weight: 600;
+   font-size: 18px;
+   margin: 10px 0 0;
+   display: flex;
+   justify-content:flex-start;
+    list-style: normal;
+}
+.titulo2-lista-7{
+   color:#262682;
    font-family: "lato";
    font-weight: 600;
    font-size: 18px;
@@ -257,6 +441,62 @@ h2{
 h3{
     font-family: "lato",sans-serif;
     color:#18A85B;
+    max-width: 500px;
+    font-weight: 300;
+    width: fit-content;
+    margin: 10px 45px 0 0;
+}
+h3.um{
+    font-family: "lato",sans-serif;
+    color:#5EC1E3;
+    max-width: 500px;
+    font-weight: 300;
+    width: fit-content;
+    margin: 10px 45px 0 0;
+}
+h3.dois{ 
+    font-family: "lato",sans-serif;
+    color:#9E2A97;
+    max-width: 500px;
+    font-weight: 300;
+    width: fit-content;
+    margin: 10px 45px 0 0;
+}
+h3.três{
+    font-family: "lato",sans-serif;
+    color:#F3863F;
+    max-width: 500px;
+    font-weight: 300;
+    width: fit-content;
+    margin: 10px 45px 0 0;
+}
+h3.quatro{
+    font-family: "lato",sans-serif;
+    color:#FFD035;
+    max-width: 500px;
+    font-weight: 300;
+    width: fit-content;
+    margin: 10px 45px 0 0;
+}
+h3.cinco{
+    font-family: "lato",sans-serif;
+    color:#FF283A;
+    max-width: 500px;
+    font-weight: 300;
+    width: fit-content;
+    margin: 10px 45px 0 0;
+}
+h3.seis{
+    font-family: "lato",sans-serif;
+    color: #18A85B;
+    max-width: 500px;
+    font-weight: 300;
+    width: fit-content;
+    margin: 10px 45px 0 0;
+}
+h3.sete{
+    font-family: "lato",sans-serif;
+    color:#262682; 
     max-width: 500px;
     font-weight: 300;
     width: fit-content;
@@ -298,13 +538,42 @@ p{
 }
 
 a.espaço{
+    color:#5EC1E3;
+}
+a.espaço-2{
+    color: #9E2A97;
+}
+a.espaço-3{
+    color: #F3863F;
+}
+a.espaço-4{
+    color: #FFD035;
+}
+a.espaço-5{
+    color:#FF283A;
+}
+a.espaço-6{
     color: #18A85B;
 }
+a.espaço-7{
+    color: #262682;
+}
+
 
 
 .description{
     font-family: "lato",sans-serif;
     color: black;
+    max-width: 500px;
+    font-weight: 300;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.description-2{
+    font-family: "lato",sans-serif;
+    color: #9E2A97;
     max-width: 500px;
     font-weight: 300;
     display: flex;
@@ -326,6 +595,15 @@ a.espaço{
 .description0 a{
     font-size: 18px;
     color:#18A85B;
+    font-weight: bold;
+    text-decoration: underline;
+    vertical-align: baseline;
+    font-family: "bebas neue";
+    
+}
+.description0-3 a{
+    font-size: 18px;
+    color: #F3863F;
     font-weight: bold;
     text-decoration: underline;
     vertical-align: baseline;
@@ -409,7 +687,91 @@ li{
     letter-spacing: 1px;
     font-weight: bold;
     cursor: pointer;
+    background-color:#5EC1E3;
+    padding: 10px;
+    border-radius: 20px;
+}
+.lista1-2{
+    max-width: 600px;
+    text-align: center;
+    color:white;
+    margin-top: 30px;
+    font-size: 22px;
+    font-family: "bebas neue",arial;
+    letter-spacing: 1px;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: #9E2A97;
+    padding: 10px;
+    border-radius: 20px;
+}
+.lista1-3{
+    max-width: 600px;
+    text-align: center;
+    color:white;
+    margin-top: 30px;
+    font-size: 22px;
+    font-family: "bebas neue",arial;
+    letter-spacing: 1px;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: #F3863F;
+    padding: 10px;
+    border-radius: 20px;
+}
+.lista1-4{
+    max-width: 600px;
+    text-align: center;
+    color:white;
+    margin-top: 30px;
+    font-size: 22px;
+    font-family: "bebas neue",arial;
+    letter-spacing: 1px;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: #FFD035;
+    padding: 10px;
+    border-radius: 20px;
+}
+.lista1-5{
+    max-width: 600px;
+    text-align: center;
+    color:white;
+    margin-top: 30px;
+    font-size: 22px;
+    font-family: "bebas neue",arial;
+    letter-spacing: 1px;
+    font-weight: bold;
+    cursor: pointer;
+    background-color:#FF283A;
+    padding: 10px;
+    border-radius: 20px;
+}
+.lista1-6{
+    max-width: 600px;
+    text-align: center;
+    color:white;
+    margin-top: 30px;
+    font-size: 22px;
+    font-family: "bebas neue",arial;
+    letter-spacing: 1px;
+    font-weight: bold;
+    cursor: pointer;
     background-color: #18A85B;
+    padding: 10px;
+    border-radius: 20px;
+}
+.lista1-7{
+    max-width: 600px;
+    text-align: center;
+    color:white;
+    margin-top: 30px;
+    font-size: 22px;
+    font-family: "bebas neue",arial;
+    letter-spacing: 1px;
+    font-weight: bold;
+    cursor: pointer;
+    background-color:#262682;
     padding: 10px;
     border-radius: 20px;
 }
@@ -446,9 +808,15 @@ a.list1{
 
 
 .description-footer{
-    color: white;
+    color:#42454A;
     font-size: 20px;
     text-align: center;
+}
+a.description-footer{
+    color:#42454A;
+    font-size: 20px;
+    text-align: center;
+    text-decoration:  none;
 }
 
 .instagram{

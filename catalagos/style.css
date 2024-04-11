@@ -359,6 +359,12 @@ li{
         width: 51% !important;
     }
 }
+@media (max-width: 280px){
+    .info-icon{
+        flex-direction: column;
+    }
+}
+
 
 .divisao1{
     display: flex;
