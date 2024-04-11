@@ -407,15 +407,14 @@ p.explain{
     padding:0 50px;
     margin:0 0 140px 110px;
     display: flex;
-    width: 80%;
+    /* width: 80%; */
     position: relative;
 }
 
 .wrapper-tabela{
     margin: 0 ;
-    display:inline-flex;
+    display:flex;
     align-items: center;
-    justify-content: center;
     gap: 50px;
     text-shadow: none;
     padding: 0px;
@@ -527,6 +526,28 @@ p.explain{
     padding: 10px;
     width: 25%;
 }
+.name-1-2{
+    color: white;
+    font-family: sans-serif;
+    font-size: 18px;
+    margin: 0;
+    text-align: center;
+    /* background-color: purple; */
+    padding: 10px;
+    width: 25%;
+}
+
+
+.name1-2{
+    color:#42454A;
+    font-family: sans-serif;
+    font-size: 18px;
+    margin: 0 0 0 0;
+    text-align: center;
+    /* background-color: gold; */
+    padding: 10px;
+    width: 25%;
+}
 
 dd{
     color: black;
@@ -569,7 +590,7 @@ dd{
     background-color: #53A677;
     text-align: center;
     display: none;
-   
+   border-radius: 6px;
 }
 
 .buttom1-a{
@@ -609,17 +630,57 @@ dd{
     width: 700px;
 }
 
-@media (max-width: 1400px){
+@media (max-width: 1350px){
     .toda-tabela{
         width: auto;
     }
+
+    .buttom1{
+        margin: 10px 0 40px 0;
+    }
+}
+@media (max-width: 1200px){
+    .toda-tabela{
+        width: auto;
+    }
+    .name-1-2{
+        font-size: 15px;
+    }
+
+    .name1-2{
+        font-size: 15px;
+    }
+    .name-1{
+        font-size: 15px;
+    }
+
+    .name1{
+        font-size: 15px;
+    }
 }
 
-@media (max-width: 1200px){
+@media (max-width: 1087px){
+    .name-1-2{
+        font-size: 13px;
+    }
+
+    .name1-2{
+        font-size: 13px;
+    }
+    .name-1{
+        font-size: 13px;
+    }
+
+    .name1{
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 1050px){
     .wrapper-tabela{
         flex-direction: column;
-        width: 100%;
-        align-items: normal;
+        /* width: 100%; */
+        align-items: center;
         gap: 100px !important;
     }
 
@@ -628,8 +689,10 @@ dd{
     }
 
     .background-tabela{
-        margin: 0 0 60px 0;
-        width: 90%;
+        margin: 0 ;
+        /* width: 90%; */
+        padding: 0;
+        justify-content: center;
     }
 
     .buttom{
@@ -648,22 +711,90 @@ dd{
     }
     .title1-tabela{
         display: flex;
+        flex-direction: column;
+    }
+    .name-1-2{
+        font-size: 16px;
+    }
+
+    .name1-2{
+        font-size: 16px;
+    }
+    .name-1{
+        font-size: 16px;
+    }
+
+    .name1{
+        font-size: 16px;
     }
 
    
+    .toda-tabela{
+        width: 700px;
+    }
+}
+
+@media (max-width: 850px){
+    .toda-tabela{
+        width: 500px;
+    }
+    .name-1-2{
+        font-size: 14px;
+    }
+
+    .name1-2{
+        font-size: 14px;
+    }
+    .name-1{
+        font-size: 14px;
+    }
+
+    .name1{
+        font-size: 14px;
+    }
 }
 
 @media (max-width: 620px){
     .toda-tabela{
-        width: auto;
+        width: 500px;
     }
 }
-@media (max-width: 475px){
+@media (max-width: 550px){
+    .toda-tabela{
+        width: 450px;
+    }
+    .name-1-2{
+        font-size: 15px;
+    }
+
+    .name1-2{
+        font-size: 15px;
+    }
     .name-1{
-        font-size: 10px;
+        font-size: 15px;
+    }
+
+    .name1{
+        font-size: 15px;
+    }
+}
+@media (max-width: 480px){
+
+    .toda-tabela{
+        width: 400px;
+    }
+
+    .name-1-2{
+        font-size: 12px;
+    }
+    .name1-2{
+        font-size: 12px;
+    }
+    .name-1{
+        font-size: 12px;
     }
     .name1{
-        font-size: 10px;
+        font-size: 12px;
     }
 
     .produtos-tabela{
@@ -678,28 +809,61 @@ dd{
     }
 }
 
+
+
+@media (max-width: 420px){
+    .toda-tabela{
+        width: 350px;
+    }
+    .name-1-2{
+        font-size: 10px;
+    }
+
+    .name1-2{
+        font-size: 10px;
+    }
+    .name-1{
+        font-size: 10px;
+    }
+
+    .name1{
+        font-size: 10px;
+    }
+}
+
 @media (max-width: 380px){
     .name-1{
-        font-size: 5px;
+        font-size: 10px;
     }
     .name1{
-        font-size: 5px;
+        font-size: 10px;
+    }
+    .name-1-2{
+        font-size: 10px;
+    }
+    .name1-2{
+        font-size: 10px;
     }
 
     .title1-tabela{
-        font-size: 10px !important;
+        font-size: 20px !important;
     }
     .produtos-tabela{
-        width: 100px;
+        width: 250px;
     }
     .buttom1-a{
         font-size: 10px;
     }
-    .wrapper-tabela{
-        align-items: flex-start;
-        gap: 0px !important;
-    }
+
     p.explain{
         font-size: 8px;
+    }
+
+    .wrapper-tabela{
+        gap: 20px !important;
+    }
+
+    .item{
+        border-radius: 10px;
     }
 }
