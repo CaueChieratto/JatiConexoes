@@ -261,9 +261,33 @@ html,body{
 
 
 h1,h2,h3,h4,h5{
-    color: #18A85B
+    color: black
 }
 h1{
+    margin: 0px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: "lato", sans-serif;
+    text-transform: uppercase;
+    text-shadow:none;
+    color:#666666;
+}
+.titulo2-lista{
+    color: #807f7f;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    margin: 20px 0 0;
+    display: flex;
+    justify-content:flex-start;
+     list-style: normal;
+ }
+ h2.b{
+    font-size: 18px;
+    margin-bottom: 15px; 
+    color: #666666;
+}
+h1.um{
     margin: 0px;
     font-size: 30px;
     font-family: "bebas neue",Arial, Helvetica, sans-serif;
@@ -330,7 +354,9 @@ h1.sete{
 h2{
     font-size: 18px;
     margin-bottom: 15px; 
+    color: black;
 }
+
 h2.um{
     font-size: 18px;
     margin-bottom: 15px; 
@@ -378,7 +404,8 @@ h2.sete{
    justify-content: center;
     list-style: normal;
 }
-.titulo2-lista{
+
+.titulo2-lista-1{
    color: #5EC1E3;
    font-family: "lato";
    font-weight: 600;
@@ -468,7 +495,15 @@ h2.sete{
 
 h3{
     font-family: "lato",sans-serif;
-    color:#18A85B;
+    color:black;
+    max-width: 500px;
+    font-weight: 300;
+    width: fit-content;
+    margin: 10px 45px 0 0;
+}
+h3.b{
+    font-family: "lato",sans-serif;
+    color:black;
     max-width: 500px;
     font-weight: 300;
     width: fit-content;
@@ -576,6 +611,9 @@ p{
 }
 
 a.espaço{
+    color:black;
+}
+a.espaço-1{
     color:#5EC1E3;
 }
 a.espaço-2{
@@ -716,6 +754,20 @@ li{
 
 
 .lista1{
+    max-width: 600px;
+    text-align: center;
+    color:white;
+    margin-top: 30px;
+    font-size: 22px;
+    font-family: "bebas neue",arial;
+    letter-spacing: 1px;
+    font-weight: bold;
+    cursor: pointer;
+    background-color:#5EC1E3;
+    padding: 10px;
+    border-radius: 20px;
+}
+.lista1-1{
     max-width: 600px;
     text-align: center;
     color:white;
