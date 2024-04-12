@@ -548,7 +548,7 @@ a.explain{
     width:fit-content;
     margin:0;
     font-size: 14px;
-    color: #191b23;
+    color:rgba(25, 27, 35, 0.8);
     font-weight:600;
     text-decoration: none;
     display:table-row-group;
@@ -573,7 +573,7 @@ p.explain{
     margin: 0;
     font-size: 9px;
     font-family:"DM sans", sans-serif;
-    color: #191b23;
+    color:rgba(25, 27, 35, 0.8);
     font-weight:600;
     text-decoration: none;
     padding:2px 0 0 15px;

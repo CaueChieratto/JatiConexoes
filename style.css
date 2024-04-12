@@ -86,7 +86,8 @@ html,body{
 
 @media (max-width:550px){
     .produtos{
-        width: 170px !important;
+        width: 250px !important;
+        /* width: 170px !important; */
     }
     
     .lista{
@@ -919,7 +920,7 @@ a.list1{
     text-align: center;
 }
 a.description-footer{
-    color:#191b23;
+    color:rgba(25, 27, 35, 0.9);
     font-size: 16px;
     text-align: center;
     text-decoration:  none;
