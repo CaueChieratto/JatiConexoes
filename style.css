@@ -621,8 +621,7 @@ p{
 .produtos{
     width: 350px;
     background-color:white;
-    padding:15px;
-    border-radius: 100%;
+    /* border-radius: 100%; */
     margin-bottom: 25px;
 }
 
