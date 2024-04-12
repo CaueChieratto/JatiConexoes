@@ -379,34 +379,31 @@ li{
     text-shadow: none;
 }
 
+.title-tabela{
+    color:#191b23;;
+    font-family: "DM sans", sans-serif;
+    text-shadow: none;
+    font-weight: 600;
+    margin:0 0 35px 0;
+    display: flex;
+    flex-direction: column;
+    font-size: 22px;
+    text-align: center;
+    align-items: center;
+}
+
 p.explain{
     width:fit-content;
-    margin: 15px 0 0 0;
+    margin: 5px 0 0 0;
     font-size: 16px;
     display: flex;
-    font-family: Arial, Helvetica, sans-serif;
-    color: #134f5c;
-    font-weight:600;
+    font-family:"DM sans" , sans-serif;
+    color: #191b23;;
+    font-weight:500;
     text-decoration: none;
     padding:2px 0 0 0;
     text-shadow: none;
     letter-spacing: normal;
-}
-p.explain1{
-    width:fit-content;
-    margin: 15px 0 0 0;
-    font-size: 16px;
-    display: flex;
-    font-family: Arial, Helvetica, sans-serif;
-    color: white;
-    font-weight:600;
-    text-decoration: none;
-    padding:2px 0 0 0;
-    text-shadow: none;
-    letter-spacing: normal;
-    background-color: #134f5c;
-    padding: 20px;
-    border-radius: 50%;
 }
 
 .ai{
@@ -421,10 +418,9 @@ p.explain1{
 
 .background-tabela{
     padding:0 50px;
-    margin:0 0 140px 110px;
+    justify-content: center;
     display: flex;
-    /* width: 80%; */
-    position: relative;
+    margin-bottom: 80px;
 }
 
 .wrapper-tabela{
@@ -457,20 +453,8 @@ p.explain1{
     /* background-color: yellow; */
 }
 
-.title-tabela{
-    color:#134f5c;
-    margin:0 200px 50px 0;
-    text-align:left;
-    text-shadow: none;
-    /* background-color: red; */
-    font-weight: 500;
-    width:70%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    align-content: flex-start;
-    flex-wrap: wrap;
-}
+
+
 .title1-tabela{
     color:#134f5c;
     margin:50px 0 0 ;
@@ -492,45 +476,34 @@ p.explain1{
     display: flex;
     justify-content: space-around;
 }
-
-.tabela-titulo2{
-    background-color:#53A677;
-    padding: 10px 0;
-    display: flex;
-    justify-content: space-around;
-    margin: 1px 0;
-    color: white;
-    font-family: sans-serif;
-    font-size: 14px;
-    width: 105px;
-    border-top-right-radius: 50px;
-    font-weight: bold;
-}
-.tabela-titulo3{
-    background-color:#0770B5;
-    padding: 10px 0;
-    display: flex;
-    justify-content: space-around;
-    margin: 30px 0 1px 0;
-    color: white;
-    font-family: sans-serif;
-    font-size: 14px;
-    width: 105px;
-    border-top-right-radius: 50px;
-    font-weight: bold;
-}
-
-.tabelinha{
-    display: flex;
-    /* flex-direction: row-reverse; */
-}
-
 .tabela-titulo1{
     background-color:#0770B5;
     padding: 5px 0 5px;
     width: 100%;
     display: flex;
     justify-content: space-around;
+}
+.tabela-titulo2{
+    background-color:#53A677;
+    padding: 10px 10px 10px 15px;
+    width: 15%;
+    border-top-right-radius: 40px;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    margin: 0 0 1px 0;
+}
+.tabela-titulo3{
+    background-color:#0770B5;
+    padding: 10px 10px 10px 15px;
+    width: 15%;
+    border-top-right-radius: 40px;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    margin: 5px 0 1px 0;
 }
 
 .tabela{
@@ -613,9 +586,16 @@ dd{
 .buttom{
     width: fit-content;
     margin:0;
-    background-color: #53A677;
+    background-color:rgba(243, 134, 63, 0.7);
     text-align: center;
-   
+    visibility: hidden;
+}
+.buttom-1{
+    width: fit-content;
+    margin:0;
+    /* background-color:rgba(243, 134, 63, 0.7); */
+    text-align: center;
+    visibility: visible;
 }
 
 .center-tabela{
@@ -630,20 +610,42 @@ dd{
     text-decoration: dashed;
     width: fit-content;
     margin: 20px 0 0 30px;
-    background-color:#53A677;
+    background-color:rgba(243, 134, 63, 0.7);
     margin: 0;
     padding: 10px;
     font-family: Arial, Helvetica, sans-serif;
     border-radius: 6px;
     font-size: 16px;
+    visibility: hidden;
+}
+.buttom-a-1{
+    text-decoration: dashed;
+    width: fit-content;
+    margin: 20px 0 0 30px;
+    background-color: rgba(24, 168, 91, 0.7);
+    margin: 0;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 6px;
+    font-size: 16px;
+    visibility: visible;
 }
 
 .buttom1{
     width: fit-content;
     margin:10px 0 0 0;
-    background-color: #53A677;
+    background-color:rgba(243, 134, 63, 0.7);
     text-align: center;
     display: none;
+   border-radius: 6px;
+   visibility: hidden;
+}
+.buttom1-1{
+    width: fit-content;
+    margin:10px 0 0 0;
+    background-color:rgba(243, 134, 63, 0.7);
+    text-align: center;
+    visibility: hidden;
    border-radius: 6px;
 }
 
@@ -651,7 +653,19 @@ dd{
     text-decoration: dashed;
     width: fit-content;
     margin: 20px 0 0 30px;
-    background-color:#53A677;
+    background-color:rgba(243, 134, 63, 0.7);
+    margin: 0;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 6px;
+    font-size: 16px;
+    visibility: hidden;
+}
+.buttom1-a-1{
+    text-decoration: dashed;
+    width: fit-content;
+    margin: 20px 0 0 30px;
+    background-color: rgba(24, 168, 91, 0.7);
     margin: 0;
     padding: 10px;
     font-family: Arial, Helvetica, sans-serif;
@@ -661,7 +675,7 @@ dd{
 
 
 .item{
-    margin: 50px 10px 50px;
+    margin: 0px 10px 20px;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -685,17 +699,28 @@ dd{
 }
 
 @media (max-width: 1350px){
-    .toda-tabela{
-        width: auto;
+
+    .buttom1-1{
+        margin: 10px 0 40px 0;
+    }
+    
+    .title-tabela{
+        font-size: 18px;
+    }
+    p.explain{
+        font-size: 14px;
     }
 
-    .buttom1{
-        margin: 10px 0 40px 0;
+    .tabela-titulo2{
+        font-size: 18px;
+    }
+    .tabela-titulo3{
+        font-size: 18px;
     }
 }
 @media (max-width: 1200px){
     .toda-tabela{
-        width: auto;
+        width: 600px;
     }
     .name-1-2{
         font-size: 15px;
@@ -709,6 +734,12 @@ dd{
     }
 
     .name1{
+        font-size: 15px;
+    }
+    .tabela-titulo2{
+        font-size: 15px;
+    }
+    .tabela-titulo3{
         font-size: 15px;
     }
 }
@@ -728,6 +759,12 @@ dd{
     .name1{
         font-size: 13px;
     }
+    .tabela-titulo2{
+        font-size: 13px;
+    }
+    .tabela-titulo3{
+        font-size: 13px;
+    }
 }
 
 @media (max-width: 1050px){
@@ -735,7 +772,8 @@ dd{
         flex-direction: column;
         /* width: 100%; */
         align-items: center;
-        gap: 100px !important;
+        gap: 40px !important;
+        margin: 40px 20px 50px;
     }
 
     .logo-bottom-cata{
@@ -749,20 +787,21 @@ dd{
         justify-content: center;
     }
 
-    .buttom{
+    .buttom-a-1{
         display: none;
-        
+    }
+    .buttom1-a-1{
+        visibility: visible;
+        margin-top: 10px;
+    }
+    .buttom1-1{
+        margin-top: 15px;
     }
 
-    .buttom1{
-        display: flex;
-    }
     .esconde{
         display: flex;
     }
-    .title-tabela{
-        display: none;
-    }
+    
     .title1-tabela{
         display: flex;
         flex-direction: column;
@@ -779,6 +818,12 @@ dd{
     }
 
     .name1{
+        font-size: 16px;
+    }
+    .tabela-titulo2{
+        font-size: 16px;
+    }
+    .tabela-titulo3{
         font-size: 16px;
     }
 
@@ -806,6 +851,15 @@ dd{
     .name1{
         font-size: 14px;
     }
+    .tabela-titulo2{
+        font-size: 14px;
+    }
+    .tabela-titulo3{
+        font-size: 14px;
+    }
+    .buttom1-a-1{
+        font-size: 14px;
+    }
 }
 
 @media (max-width: 620px){
@@ -831,6 +885,12 @@ dd{
     .name1{
         font-size: 15px;
     }
+    .tabela-titulo2{
+        font-size: 15px;
+    }
+    .tabela-titulo3{
+        font-size: 15px;
+    }
 }
 @media (max-width: 480px){
 
@@ -850,6 +910,12 @@ dd{
     .name1{
         font-size: 12px;
     }
+    .tabela-titulo2{
+        font-size: 12px;
+    }
+    .tabela-titulo3{
+        font-size: 12px;
+    }
 
     .produtos-tabela{
         width: 200px;
@@ -858,8 +924,14 @@ dd{
     .title1-tabela{
         font-size: 16px;
     }
+    .title-tabela{
+        font-size: 16px;
+    }
+    .title1-tabela{
+        font-size: 16px;
+    }
     p.explain{
-        font-size: 12px;
+        font-size: 10px;
     }
 }
 
@@ -881,6 +953,12 @@ dd{
     }
 
     .name1{
+        font-size: 10px;
+    }
+    .tabela-titulo2{
+        font-size: 10px;
+    }
+    .tabela-titulo3{
         font-size: 10px;
     }
 }
@@ -919,5 +997,55 @@ dd{
 
     .item{
         border-radius: 10px;
+    }
+    
+}
+
+@media(max-width: 350px){
+    .background-tabela{
+        justify-content: flex-end;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-content: center;
+    }
+    .toda-tabela{
+        width: 300px;
+    }
+    .title-tabela{
+        font-size: 12px;
+    }
+
+    p.explain{
+        font-size: 8px;
+    }
+}
+
+@media (max-width: 320px){
+    .toda-tabela{
+        width: 250px;
+    }
+    .name-1{
+        font-size: 6px;
+    }
+    .name1{
+        font-size: 8px;
+    }
+    .name-1-2{
+        font-size: 6px;
+    }
+    .name1-2{
+        font-size: 8px;
+    }
+    .produtos-tabela{
+        width: 150px;
+    }
+
+    .title-tabela{
+        font-size: 8px;
+    }
+
+    p.explain{
+        font-size: 6px;
     }
 }
