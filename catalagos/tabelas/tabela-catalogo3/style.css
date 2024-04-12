@@ -392,6 +392,22 @@ p.explain{
     text-shadow: none;
     letter-spacing: normal;
 }
+p.explain1{
+    width:fit-content;
+    margin: 15px 0 0 0;
+    font-size: 16px;
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-weight:600;
+    text-decoration: none;
+    padding:2px 0 0 0;
+    text-shadow: none;
+    letter-spacing: normal;
+    background-color: #134f5c;
+    padding: 20px;
+    border-radius: 50%;
+}
 
 .ai{
     background-color: yellow;
@@ -449,6 +465,11 @@ p.explain{
     /* background-color: red; */
     font-weight: 500;
     width:70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: flex-start;
+    flex-wrap: wrap;
 }
 .title1-tabela{
     color:#134f5c;
@@ -471,6 +492,39 @@ p.explain{
     display: flex;
     justify-content: space-around;
 }
+
+.tabela-titulo2{
+    background-color:#53A677;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-around;
+    margin: 1px 0;
+    color: white;
+    font-family: sans-serif;
+    font-size: 14px;
+    width: 105px;
+    border-top-right-radius: 50px;
+    font-weight: bold;
+}
+.tabela-titulo3{
+    background-color:#0770B5;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-around;
+    margin: 30px 0 1px 0;
+    color: white;
+    font-family: sans-serif;
+    font-size: 14px;
+    width: 105px;
+    border-top-right-radius: 50px;
+    font-weight: bold;
+}
+
+.tabelinha{
+    display: flex;
+    /* flex-direction: row-reverse; */
+}
+
 .tabela-titulo1{
     background-color:#0770B5;
     padding: 5px 0 5px;

@@ -464,12 +464,14 @@ a.explain{
     width:fit-content;
     margin:0;
     font-size: 14px;
-    color: #134f5c;
+    color: #191b23;
     font-weight:600;
     text-decoration: none;
     display:table-row-group;
     padding:0;
     text-shadow: none;
+    font-family: "DM sans", sans-serif;
+    letter-spacing: 0px;
 }
 h2.explain{
     width:fit-content;
@@ -486,13 +488,13 @@ p.explain{
     width:fit-content;
     margin: 0;
     font-size: 8px;
-    font-family: Arial, Helvetica, sans-serif;
-    color: #134f5c;
+    font-family:"DM sans", sans-serif;
+    color: #191b23;
     font-weight:600;
     text-decoration: none;
     padding:2px 0 0 15px;
     text-shadow: none;
-    letter-spacing: normal;
+    letter-spacing: 0;
 }
 
 
