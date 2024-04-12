@@ -7,9 +7,9 @@ html,body{
 }
 
 .tudo{
-    background-image: url(./IMG/fundo2.jpg);
+    background-color: rgba(0, 128, 0, 0.1);
     padding: 1px 0 0;
-    margin: 75px 0 0;
+    margin: 0 0;
 }
 
 *{
@@ -120,10 +120,6 @@ html,body{
     }
 }
 
-/* section{
-    background-color: green;
-} */
-
 .top-bar{
     display: flex;
     flex-direction: column;
@@ -191,7 +187,7 @@ html,body{
 
 .background:hover{
     cursor:default;
-    box-shadow:0px 0px 10px 0px black;
+    box-shadow:0px 0px 10px 0px rgba(0, 53, 0, 0.4);
     transition: 0.2s;
 }
 .background-3{
@@ -225,7 +221,7 @@ html,body{
 }
 .background2:hover{
     cursor:default;
-    box-shadow:0px 0px 10px 0px black;
+    box-shadow:0px 0px 10px 0px rgba(0, 53, 0, 0.4);
     transition: 0.2s;
 }
 
@@ -251,9 +247,9 @@ html,body{
 
 .background-icon{
     margin: 75px 0;
-    /* background-image: url(./IMG/fundo2.jpg); */
-    /* background-repeat: no-repeat; */
-    /* background-size: cover; */
+    background-image: url(./IMG/fundo2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     width: 100%;
     padding: 30px 0;
     display: block;
@@ -319,7 +315,7 @@ h1.dois{
     text-transform: uppercase;
     letter-spacing: 1.5px;
     text-shadow:none;
-    color: rgba(158, 42, 151, 0.3);
+    color: rgba(158, 42, 151, 0.2);
 }
 h1.tres{
     margin: 0px;
