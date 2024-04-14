@@ -430,7 +430,7 @@ p.explain{
 .wrapper-tabela{
     margin: 0 ;
     display:flex;
-    /* align-items: center; */
+    align-items: center;
     gap: 50px;
     text-shadow: none;
     padding: 0px;
