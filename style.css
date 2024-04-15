@@ -42,10 +42,14 @@ html,body{
         align-content: center;
         justify-content: center;
     }
-
-    
-    
 }
+
+@media(max-width:1080px){
+    a.menu1{
+        font-size: 10px !important;
+    }
+}
+
 @media only screen and (max-width:980px){
     
     .wrapper{
@@ -239,7 +243,7 @@ ul.menu1{
 
 a.menu1{
     color: white;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: bold;
     text-decoration: none;
 }
