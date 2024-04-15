@@ -27,6 +27,10 @@ html,body{
     .info{
         justify-content:flex-start !important;
     }
+
+    a.menu1{
+        font-size: 12px !important;
+    }
 }
 
 @media only screen and (max-width:1150px){
@@ -57,11 +61,30 @@ html,body{
     .centro1{
         justify-content: center;
     }
+
+    .menu{
+        background-color: rgba(0, 128, 0, 0.1) !important;
+        margin: 0 !important;
+    }
+    
+    .esconder{
+        display: block !important;
+        color: white ;
+        padding: 10px !important;
+        border-radius: 10px;
+        font-weight: bold;
+        background-color: rgba(0, 128, 0, 0.6) ;
+        font-size: 20px;
+        font-family: "DM sans", sans-serif;
+    }
+
     ul.menu1{
         display: block !important;
         text-align: center;
-        background-color: rgba(0, 128, 0, 0.1) !important;
-        margin: 0 !important;
+        background-color: rgba(0, 128, 0, 0.0) !important;
+        margin: 15px 240px 0!important;
+        height: 100px;
+        overflow: auto;
     }
 
     li.menu1{
@@ -69,7 +92,15 @@ html,body{
         flex-direction: column;
         background-color:  rgba(0, 128, 0, 0.6);
         padding: 5px;
-        margin: 10px 220px;
+        border-radius: 10px;
+    }
+
+    a.menu1{
+        font-size: 16px !important;
+    }
+
+    .background{
+        margin: 25px 75px !important;
     }
 
 }
@@ -200,6 +231,10 @@ html,body{
 
 .menu{
     text-align: center;
+}
+
+.esconder{
+    display: none;
 }
 
 ul.menu1{
