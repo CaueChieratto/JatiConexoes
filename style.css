@@ -82,7 +82,6 @@ html,body{
         display: block !important;
         text-align: center;
         background-color: rgba(0, 128, 0, 0.0) !important;
-        margin: 15px 240px 0!important;
         height: 100px;
         overflow: auto;
     }
@@ -130,7 +129,7 @@ html,body{
     }
     .background{
         border-radius: 40px !important;
-        margin: 75px 15px !important;
+        margin: 40px 15px !important;
     }
 
     .background2{
@@ -142,9 +141,6 @@ html,body{
     }
     a.menu1{
         font-size: 10px !important;
-    }
-    li.menu1{
-        margin: 10px 100px;
     }
 }
 
