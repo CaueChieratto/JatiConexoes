@@ -69,6 +69,7 @@ html,body{
         flex-direction: column;
         background-color:  rgba(0, 128, 0, 0.6);
         padding: 5px;
+        margin: 10px 220px;
     }
 
 }
@@ -110,6 +111,9 @@ html,body{
     }
     a.menu1{
         font-size: 10px !important;
+    }
+    li.menu1{
+        margin: 5px 100px;
     }
 }
 
@@ -156,6 +160,10 @@ html,body{
     .end{
         font-size: 14px !important;
     }
+
+    li.menu1{
+        margin: 5px 50px;
+    }
 }
 
 @media (max-width: 280px){
@@ -167,6 +175,16 @@ html,body{
     }
 
     .end{
+        font-size: 10px !important;
+    }
+}
+
+@media (max-width: 220px){
+    li.menu1{
+        margin: 5px 10px ;
+    }
+
+    .logo-bottom{
         font-size: 10px !important;
     }
 }
@@ -482,7 +500,6 @@ h2.sete{
    font-family: "lato";
    font-weight: 400;
    font-size: 16px;
-   margin: 0px 0 40px 40px;
    display: flex;
    justify-content: center;
     list-style: normal;
