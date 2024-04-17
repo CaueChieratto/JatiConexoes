@@ -81,6 +81,9 @@ html,body{
         font-size: 20px;
         font-family: "DM sans", sans-serif;
     }
+    .closed{
+        display: none !important;
+    }
 
     ul.menu1{
         display: block !important;
@@ -815,9 +818,7 @@ a{
 
 
 
-.closed{
-    display: none;
-}
+
 
 
 

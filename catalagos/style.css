@@ -49,7 +49,7 @@ html,body{
 }
 
 .logo-bottom{
-    background-color: #134f5c;
+    background-color: rgba(0, 128, 0, 0.6);
     color: white;
     font-size: 24px;
     text-align: center;
@@ -59,7 +59,7 @@ html,body{
 }
 
 .logo-bottom-cata{
-    background-color: #134f5c;
+    background-color: rgba(0, 128, 0, 0.6);
     color: white;
     font-size: 24px;
     text-align: center;
@@ -135,13 +135,15 @@ html,body{
 }
 
 .background-icon{
-    margin: 75px 0;
-    background-image: url(./IMG/fundo2.jpg);
+    margin: 75px 0 0;
+    /* background-image: url(./IMG/fundo2.jpg); */
+    background-color: rgba(0, 128, 0, 0.6);
     background-repeat: no-repeat;
-    background-attachment: fixed;
     background-size: cover;
     width: 100%;
     padding: 30px 0;
+    display: block;
+    border-bottom: 1px solid white;
 }
 
 
@@ -315,10 +317,13 @@ li{
 }
 
 .footer-end{
-    background-color:#134f5c;
+    background-color: rgba(0, 128, 0, 0.6);
     padding: 50px;
     font-family: "lato",sans-serif;
     text-shadow: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .text-end{
