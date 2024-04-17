@@ -467,7 +467,7 @@ h1.description-cata{
 }
 h1.description-cata1{
     color:white;
-    background-color:rgba(94, 193, 227, 0.9);
+    background-color:rgba(94, 193, 227, 1);
     width: fit-content;
     padding: 10px;
     margin:0 0 20px 0 ;
@@ -475,11 +475,12 @@ h1.description-cata1{
     font-size: 12px;
     text-align: center;
     font-weight: normal;
-    text-shadow: none
+    text-shadow: none;
+    font-family: "bebas neue";
 }
 h1.description-cata2{
     color:white;
-    background-color: rgba(158, 42, 151, 0.4);
+    background-color: rgba(158, 42, 151, 1);
     width: fit-content;
     padding: 10px;
     margin:0 0 20px 0 ;
@@ -487,11 +488,12 @@ h1.description-cata2{
     font-size: 12px;
     text-align: center;
     font-weight: normal;
-    text-shadow: none
+    text-shadow: none;
+    font-family: "bebas neue";
 }
 h1.description-cata3{
     color:white;
-    background-color:rgba(243, 134, 63, 0.7);
+    background-color:rgba(243, 134, 63, 1);
     width: fit-content;
     padding: 10px;
     margin:0 0 20px 0 ;
@@ -499,11 +501,12 @@ h1.description-cata3{
     font-size: 12px;
     text-align: center;
     font-weight: normal;
-    text-shadow: none
+    text-shadow: none;
+    font-family: "bebas neue";
 }
 h1.description-cata4{
     color:white;
-    background-color: rgba(24, 168, 91, 0.7);
+    background-color: rgba(24, 168, 91, 1);
     width: fit-content;
     padding: 10px;
     margin:0 0 20px 0 ;
@@ -511,11 +514,12 @@ h1.description-cata4{
     font-size: 12px;
     text-align: center;
     font-weight: normal;
-    text-shadow: none
+    text-shadow: none;
+    font-family: "bebas neue";
 }
 h1.description-cata5 {
     color:white;
-    background-color:rgba(255, 40, 58, 0.6);
+    background-color:rgba(255, 40, 58, 1);
     width: fit-content;
     padding: 10px;
     margin:0 0 20px 0 ;
@@ -523,23 +527,25 @@ h1.description-cata5 {
     font-size: 12px;
     text-align: center;
     font-weight: normal;
-    text-shadow: none
+    text-shadow: none;
+    font-family: "bebas neue";
 }
 h1.description-cata6{
     color:white;
-    background-color:rgba(139, 69, 19, 0.7);
+    background-color:rgba(139, 69, 19, 1);
     width: fit-content;
-    padding: 10px;
+    padding:10px;
     margin:0 0 20px 0 ;
-    border-radius: 60%;
+    border-radius: 80%;
     font-size: 12px;
     text-align: center;
     font-weight: normal;
-    text-shadow: none
+    text-shadow: none;
+    font-family: "bebas neue";
 }
 h1.description-cata7{
     color:white;
-    background-color:rgba(0, 0, 0, 0.3);
+    background-color:rgba(0, 0, 0, 0.8);
     width: fit-content;
     padding: 10px;
     margin:0 0 20px 0 ;
@@ -547,7 +553,8 @@ h1.description-cata7{
     font-size: 12px;
     text-align: center;
     font-weight: normal;
-    text-shadow: none
+    text-shadow: none;
+    font-family: "bebas neue";
 }
 
 a.explain{

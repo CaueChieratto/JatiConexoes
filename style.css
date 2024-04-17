@@ -89,8 +89,6 @@ html,body{
         display: block !important;
         text-align: center;
         background-color: rgba(0, 128, 0, 0.0) !important;
-        height: 100px;
-        overflow: auto;
     }
 
     li.menu1{
@@ -371,17 +369,6 @@ a.menu1{
     padding: 30px 0;
 } */
 
-.background-icon{
-    margin: 75px 0 0;
-    /* background-image: url(./IMG/fundo2.jpg); */
-    background-color: rgba(0, 128, 0, 0.5);
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 100%;
-    padding: 30px 0;
-    display: block;
-    border-bottom: 1px solid white;
-}
 
 
 
@@ -1241,6 +1228,14 @@ a{
     border-radius: 100%;
     margin: 15px 15px 15px 15px;
 }
+
+.background-icon{
+    margin: 75px 0 0;
+    background-color: rgba(0, 128, 0, 0.6);
+    padding: 30px 0;
+    border-bottom: 1px solid white;
+}
+
 
 .footer-end{
     background-color: rgba(0, 128, 0, 0.6);
