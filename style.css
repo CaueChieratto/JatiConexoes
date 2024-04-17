@@ -867,6 +867,7 @@ li{
 .centro1{
     display: flex;
     color: white;
+    justify-content: space-between;
 }
 
 a.espaço{
@@ -1005,6 +1006,39 @@ a.espaço-7{
     background-color:rgba(0, 0, 0, 0.3);
     padding: 10px;
     border-radius: 20px;
+}
+
+.centro2{
+    display: flex;
+    flex-direction:row-reverse;
+}
+.centro3{
+    display: flex;
+    justify-content: center;
+}
+
+.voltar{
+    max-width: 600px;
+    text-align: center;
+    color:#191b23;
+    font-size: 22px;
+    margin-top: 30px;
+    font-family: "bebas neue",arial;
+    /* letter-spacing: 1px; */
+    font-weight: bold;
+    cursor: pointer;
+    /* background-color:rebeccapurple; */
+    padding: 10px;
+    border-radius: 20px;
+}
+.voltar1{
+    
+    font-size: 18px;
+    color:#191b23;
+    font-weight: bold;
+    text-decoration: none;
+    vertical-align: baseline;
+    font-family: "bebas neue";
 }
 
 
