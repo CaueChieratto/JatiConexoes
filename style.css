@@ -441,7 +441,7 @@ h1.dois{
     font-family:"DM sans", sans-serif;
     text-transform: uppercase;
     text-shadow:none;
-    color: rgba(158, 42, 151, 0.4);
+    color: rgba(158, 42, 151, 1);
 }
 h1.tres{
     margin: 0px;
@@ -498,7 +498,7 @@ h2.um{
 h2.dois{
     font-size: 18px;
     margin-bottom: 15px;
-    color: rgba(158, 42, 151, 0.4);
+    color: rgba(158, 42, 151, 1);
 }
 h2.tres{
     font-size: 18px;
@@ -549,7 +549,7 @@ h2.sete{
     list-style: normal;
 }
 .titulo2-lista-2{
-    color: rgba(158, 42, 151, 0.4);
+    color: rgba(158, 42, 151, 1);
    font-family: "lato";
    font-weight: 600;
    font-size: 18px;
@@ -654,7 +654,7 @@ h3.um{
 }
 h3.dois{ 
     font-family: "lato",sans-serif;
-    color: rgba(158, 42, 151, 0.4);
+    color: rgba(158, 42, 151, 1);
     max-width: 500px;
     font-weight: 600;
     width: fit-content;
@@ -870,7 +870,7 @@ a.espaço-1{
     color:rgba(94, 193, 227, 1);
 }
 a.espaço-2{
-    color: rgba(158, 42, 151, 0.4);
+    color: rgba(158, 42, 151, 1);
 }
 a.espaço-3{
     color: rgba(243, 134, 63, 0.7);
@@ -926,7 +926,7 @@ a.espaço-7{
     letter-spacing: 1px;
     font-weight: bold;
     cursor: pointer;
-    background-color: rgba(158, 42, 151, 0.4);
+    background-color: rgba(158, 42, 151, 1);
     padding: 10px;
     border-radius: 20px;
 }
@@ -1041,10 +1041,10 @@ a.espaço-7{
     cursor: pointer;
     padding: 10px;
     border-radius: 20px;
-    border: 1px solid rgba(158, 42, 151, 0.4);
+    border: 1px solid rgba(158, 42, 151, 1);
 }
 .voltar2{
-    color:rgba(158, 42, 151, 0.4);
+    color:rgba(158, 42, 151, 1);
     font-weight: normal;
     text-decoration: none;
     vertical-align: baseline;
