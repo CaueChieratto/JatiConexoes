@@ -433,7 +433,7 @@ h1.um{
     font-family: "DM sans", sans-serif;
     text-transform: uppercase;
     text-shadow:none;
-    color:rgba(94, 193, 227, 0.8);
+    color:rgba(94, 193, 227, 1);
 }
 h1.dois{
     margin: 0px;
@@ -493,7 +493,7 @@ h2{
 h2.um{
     font-size: 18px;
     margin-bottom: 15px; 
-    color:rgba(94, 193, 227, 0.8);
+    color:rgba(94, 193, 227, 1);
 }
 h2.dois{
     font-size: 18px;
@@ -539,7 +539,7 @@ h2.sete{
 }
 
 .titulo2-lista-1{
-    color:rgba(94, 193, 227, 0.8);
+    color:rgba(94, 193, 227, 1);
    font-family: "lato";
    font-weight: 600;
    font-size: 18px;
@@ -646,7 +646,7 @@ h3.b{
 }
 h3.um{
     font-family: "lato",sans-serif;
-    color:rgba(94, 193, 227, 0.8);
+    color:rgba(94, 193, 227, 1);
     max-width: 500px;
     font-weight: 600;
     width: fit-content;
@@ -867,7 +867,7 @@ a.espaço{
     color:#191b23;
 }
 a.espaço-1{
-    color:rgba(94, 193, 227, 0.8);
+    color:rgba(94, 193, 227, 1);
 }
 a.espaço-2{
     color: rgba(158, 42, 151, 0.4);
@@ -912,7 +912,7 @@ a.espaço-7{
     letter-spacing: 1px;
     font-weight: bold;
     cursor: pointer;
-    background-color:rgba(94, 193, 227, 0.8);
+    background-color:rgba(94, 193, 227, 1);
     padding: 10px;
     border-radius: 20px;
 }
@@ -1021,10 +1021,10 @@ a.espaço-7{
     cursor: pointer;
     padding: 10px;
     border-radius: 20px;
-    border: 1px solid rgba(94, 193, 227, 0.8);
+    border: 1px solid rgba(94, 193, 227, 1);
 }
 .voltar1{
-    color:rgba(94, 193, 227, 0.8);
+    color:rgba(94, 193, 227, 1);
     font-weight: normal;
     text-decoration: none;
     vertical-align: baseline;
