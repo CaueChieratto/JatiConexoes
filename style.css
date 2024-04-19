@@ -1269,6 +1269,11 @@ a{
     text-decoration: none;
 }
 
+.end{
+    color:inherit;
+    text-decoration:none;
+}
+
 /* CATÁLAGO */
 
 .background2-cata{
