@@ -47,8 +47,17 @@ html,body{
     margin: 0 0 100px 0;
 }
 
-.logo-bottom-cata{
+.logo-bottom-cata1{
     background-color: rgba(0, 128, 0, 0.6);
+    color: white;
+    font-size: 24px;
+    text-align: center;
+    font-weight: bold;
+    padding: 15px 4px 4px;
+    margin: 0 0 100px 0;
+}
+.logo-bottom-cata{
+    background-color: rgba(94, 193, 227, 1);
     color: white;
     font-size: 24px;
     text-align: center;
@@ -303,7 +312,16 @@ li{
 }
 
 .footer-end{
-    background-color: rgba(0, 128, 0, 0.6);
+    background-color:rgba(94, 193, 227, 1);
+    padding: 50px;
+    font-family: "lato",sans-serif;
+    text-shadow: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.footer-end1{
+    background-color:rgba(0, 128, 0, 0.6);
     padding: 50px;
     font-family: "lato",sans-serif;
     text-shadow: none;
