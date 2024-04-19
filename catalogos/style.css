@@ -202,7 +202,7 @@ html,body{
 .background-icon{
     margin: 75px 0 0;
     /* background-image: url(./IMG/fundo2.jpg); */
-    background-color: rgba(0, 128, 0, 0.6);
+    background-color: white;
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
