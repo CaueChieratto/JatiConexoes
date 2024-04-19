@@ -225,6 +225,11 @@ html,body{
     flex-direction: column;
 } 
 
+span{
+    text-decoration: none;
+    color: white;
+}
+
 .img-bck{
     width: 100%;
 }
@@ -732,7 +737,10 @@ p{
     margin-bottom: 25px;
 }
 
-
+/* .none-link{
+    text-decoration: none;
+    color: white;
+} */
 
 
 
@@ -1261,6 +1269,7 @@ a{
     margin-top: 80px;
     text-shadow: none;
     font-size: 20px;
+    text-decoration: none;
 }
 
 /* CATÁLAGO */
