@@ -69,6 +69,69 @@ html,body{
     padding: 15px 4px 4px;
     margin: 0 0 35px 0;
 }
+.logo-bottom-cata1{
+    background-color:rgba(94, 193, 227, 1);
+    color: white;
+    font-size: 24px;
+    text-align: center;
+    font-weight: bold;
+    padding: 15px 4px 4px;
+    margin: 0 0 35px 0;
+}
+.logo-bottom-cata2{
+    background-color:rgba(158, 42, 151, 1);
+    color: white;
+    font-size: 24px;
+    text-align: center;
+    font-weight: bold;
+    padding: 15px 4px 4px;
+    margin: 0 0 35px 0;
+}
+.logo-bottom-cata3{
+    background-color:rgba(243, 134, 63, 1);
+    color: white;
+    font-size: 24px;
+    text-align: center;
+    font-weight: bold;
+    padding: 15px 4px 4px;
+    margin: 0 0 35px 0;
+}
+.logo-bottom-cata4{
+    background-color:rgba(24, 168, 91, 1);
+    color: white;
+    font-size: 24px;
+    text-align: center;
+    font-weight: bold;
+    padding: 15px 4px 4px;
+    margin: 0 0 35px 0;
+}
+.logo-bottom-cata5{
+    background-color:rgba(255, 40, 58, 1);
+    color: white;
+    font-size: 24px;
+    text-align: center;
+    font-weight: bold;
+    padding: 15px 4px 4px;
+    margin: 0 0 35px 0;
+}
+.logo-bottom-cata6{
+    background-color:rgba(139, 69, 19, 1);
+    color: white;
+    font-size: 24px;
+    text-align: center;
+    font-weight: bold;
+    padding: 15px 4px 4px;
+    margin: 0 0 35px 0;
+}
+.logo-bottom-cata7{
+    background-color:rgba(0, 0, 0, 0.8);
+    color: white;
+    font-size: 24px;
+    text-align: center;
+    font-weight: bold;
+    padding: 15px 4px 4px;
+    margin: 0 0 35px 0;
+}
 
 .logo-description{
     margin: 20px;
@@ -140,6 +203,83 @@ html,body{
     margin: 75px 0 0;
     /* background-image: url(./IMG/fundo2.jpg); */
     background-color: rgba(0, 128, 0, 0.6);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    padding: 30px 0;
+    display: block;
+    border-bottom: 1px solid white;
+}
+.background-icon1{
+    margin: 75px 0 0;
+    /* background-image: url(./IMG/fundo2.jpg); */
+    background-color:rgba(94, 193, 227, 1);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    padding: 30px 0;
+    display: block;
+    border-bottom: 1px solid white;
+}
+.background-icon2{
+    margin: 75px 0 0;
+    /* background-image: url(./IMG/fundo2.jpg); */
+    background-color:rgba(158, 42, 151, 1);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    padding: 30px 0;
+    display: block;
+    border-bottom: 1px solid white;
+}
+.background-icon3{
+    margin: 75px 0 0;
+    /* background-image: url(./IMG/fundo2.jpg); */
+    background-color:rgba(243, 134, 63, 1);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    padding: 30px 0;
+    display: block;
+    border-bottom: 1px solid white;
+}
+.background-icon4{
+    margin: 75px 0 0;
+    /* background-image: url(./IMG/fundo2.jpg); */
+    background-color:rgba(24, 168, 91, 1);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    padding: 30px 0;
+    display: block;
+    border-bottom: 1px solid white;
+}
+.background-icon5{
+    margin: 75px 0 0;
+    /* background-image: url(./IMG/fundo2.jpg); */
+    background-color:rgba(255, 40, 58, 1);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    padding: 30px 0;
+    display: block;
+    border-bottom: 1px solid white;
+}
+.background-icon6{
+    margin: 75px 0 0;
+    /* background-image: url(./IMG/fundo2.jpg); */
+    background-color:rgba(139, 69, 19, 1);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    padding: 30px 0;
+    display: block;
+    border-bottom: 1px solid white;
+}
+.background-icon7{
+    margin: 75px 0 0;
+    /* background-image: url(./IMG/fundo2.jpg); */
+    background-color:rgba(0, 0, 0, 0.8);
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
@@ -320,6 +460,69 @@ li{
 
 .footer-end{
     background-color: rgba(0, 128, 0, 0.6);
+    padding: 50px;
+    font-family: "lato",sans-serif;
+    text-shadow: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.footer-end1{
+    background-color:rgba(94, 193, 227, 1);
+    padding: 50px;
+    font-family: "lato",sans-serif;
+    text-shadow: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.footer-end2{
+    background-color:rgba(158, 42, 151, 1);
+    padding: 50px;
+    font-family: "lato",sans-serif;
+    text-shadow: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.footer-end3{
+    background-color:rgba(243, 134, 63, 1);
+    padding: 50px;
+    font-family: "lato",sans-serif;
+    text-shadow: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.footer-end4{
+    background-color:rgba(24, 168, 91, 1);
+    padding: 50px;
+    font-family: "lato",sans-serif;
+    text-shadow: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.footer-end5{
+    background-color:rgba(255, 40, 58, 1);
+    padding: 50px;
+    font-family: "lato",sans-serif;
+    text-shadow: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.footer-end6{
+    background-color:rgba(139, 69, 19, 1);
+    padding: 50px;
+    font-family: "lato",sans-serif;
+    text-shadow: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.footer-end7{
+    background-color:rgba(0, 0, 0, 0.8);
     padding: 50px;
     font-family: "lato",sans-serif;
     text-shadow: none;
