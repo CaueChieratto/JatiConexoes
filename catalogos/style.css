@@ -603,7 +603,6 @@ li{
     width: fit-content;
     text-align: center;
     display: flex;
-    
     height: 375px;
 }
 
@@ -627,6 +626,7 @@ h1.nome{
     padding: 16px;
     width: 75%;
     transition: 0.3s;
+    justify-content: space-between;
 }
 
 .item:hover{
