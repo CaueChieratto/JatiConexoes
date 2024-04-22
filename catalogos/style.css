@@ -157,6 +157,7 @@ html,body{
     background-size: cover;
     width: 100%;
     padding: 30px 0;
+    min-height: 275px;
 }
 
 .background1{
@@ -589,6 +590,7 @@ li{
   margin: 20px 0 0;
   width: 20%;
   /* background-color: red; */
+  min-height: 375px;
 }
 .wrapper-cata{
     margin: 0 30px;
@@ -601,6 +603,8 @@ li{
     width: fit-content;
     text-align: center;
     display: flex;
+    
+    height: 375px;
 }
 
 h1.nome{
