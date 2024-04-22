@@ -7,7 +7,7 @@ html,body{
 }
 
 .tudo{
-    background-color: rgba(0, 128, 0, 0.1);
+    background-color: rgba(19, 79, 92, 0.2);
     padding: 1px 0 0;
     margin: 0 0;
 }
@@ -74,7 +74,7 @@ html,body{
         padding: 10px !important;
         border-radius: 10px;
         font-weight: bold;
-        background-color: rgba(0, 128, 0, 0.6) ;
+        background-color:#134f5c;
         font-size: 20px;
         font-family: "DM sans", sans-serif;
     }
@@ -91,7 +91,7 @@ html,body{
     li.menu1{
         display: flex;
         flex-direction: column;
-        background-color:  rgba(0, 128, 0, 0.6);
+        background-color:  #134f5c;
         padding: 5px;
         border-radius: 10px;
     }
@@ -243,7 +243,7 @@ ul.menu1{
     display: flex;
     justify-content: space-around;
     padding: 5px;
-    background-color:  rgba(0, 128, 0, 0.6);
+    background-color: #134f5c;
     /* margin-top: 5px; */
     border-top: 1px solid white;
 }
@@ -266,7 +266,7 @@ a.menu1{
 }
 
 .logo-bottom{
-    background-color: rgba(0, 128, 0, 0.6);
+    background-color: #134f5c;
     color: white;
     font-size: 24px;
     text-align: center;
@@ -313,7 +313,7 @@ a.menu1{
 
 .background:hover{
     cursor:default;
-    box-shadow:0px 0px 10px 0px rgba(0, 53, 0, 0.4);
+    box-shadow:0px 0px 10px 0px rgba(19, 79, 92, 0.5);
     transition: 0.2s;
 }
 .background-3{
@@ -347,7 +347,7 @@ a.menu1{
 }
 .background2:hover{
     cursor:default;
-    box-shadow:0px 0px 10px 0px rgba(0, 53, 0, 0.4);
+    box-shadow:0px 0px 10px 0px rgba(19, 79, 92, 0.5);
     transition: 0.2s;
 }
 
@@ -1236,14 +1236,14 @@ a{
 
 .background-icon{
     margin: 75px 0 0;
-    background-color: rgba(0, 128, 0, 0.6);
+    background-color: #134f5c;
     padding: 30px 0;
     border-bottom: 1px solid white;
 }
 
 
 .footer-end{
-    background-color: rgba(0, 128, 0, 0.6);
+    background-color: #134f5c;
     padding: 50px;
     font-family: "lato",sans-serif;
     text-shadow: none;
