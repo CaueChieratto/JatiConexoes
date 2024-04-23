@@ -66,8 +66,8 @@ html,body{
     font-size: 24px;
     text-align: center;
     font-weight: bold;
-    padding: 15px 4px 4px;
-    margin: 0 0 35px 0;
+    padding: 10px;
+    font-family: "DM sans",sans-serif;
 }
 .logo-bottom-cata1{
     background-color:rgba(94, 193, 227, 1);
@@ -77,6 +77,7 @@ html,body{
     font-weight: bold;
     padding: 15px 4px 4px;
     margin: 0 0 35px 0;
+    font-family: "DM sans",sans-serif;
 }
 .logo-bottom-cata2{
     background-color:rgba(158, 42, 151, 1);
@@ -211,8 +212,120 @@ html,body{
     display: block;
     border-bottom: 1px solid white;
 }
+
+a.voltarInicio{
+    background-color: rgba(0, 128, 0, 0.6);;
+    color: white;
+    display: flex;
+    padding: 10px;
+    border-radius: 40px;
+    margin-top: 70px;
+    text-decoration: none;
+    font-size: 20px;
+    letter-spacing: normal;
+    font-weight: normal;
+    font-family: "bebas neue";
+}
+a.voltarInicio1{
+    background-color: rgba(94, 193, 227, 1);
+    color: white;
+    display: flex;
+    padding: 10px;
+    border-radius: 40px;
+    margin-top: 70px;
+    text-decoration: none;
+    font-size: 20px;
+    letter-spacing: normal;
+    font-weight: normal;
+    font-family: "bebas neue";
+}
+a.voltarInicio2{
+    background-color: rgba(158, 42, 151, 1);
+    color: white;
+    display: flex;
+    padding: 10px;
+    border-radius: 40px;
+    margin-top: 70px;
+    text-decoration: none;
+    font-size: 20px;
+    letter-spacing: normal;
+    font-weight: normal;
+    font-family: "bebas neue";
+}
+a.voltarInicio3{
+    background-color: rgba(243, 134, 63, 1);
+    color: white;
+    display: flex;
+    padding: 10px;
+    border-radius: 40px;
+    margin-top: 70px;
+    text-decoration: none;
+    font-size: 20px;
+    letter-spacing: normal;
+    font-weight: normal;
+    font-family: "bebas neue";
+}
+a.voltarInicio4{
+    background-color: rgba(24, 168, 91, 1);
+    color: white;
+    display: flex;
+    padding: 10px;
+    border-radius: 40px;
+    margin-top: 70px;
+    text-decoration: none;
+    font-size: 20px;
+    letter-spacing: normal;
+    font-weight: normal;
+    font-family: "bebas neue";
+}
+a.voltarInicio5{
+    background-color: rgba(255, 40, 58, 1);
+    color: white;
+    display: flex;
+    padding: 10px;
+    border-radius: 40px;
+    margin-top: 70px;
+    text-decoration: none;
+    font-size: 20px;
+    letter-spacing: normal;
+    font-weight: normal;
+    font-family: "bebas neue";
+}
+a.voltarInicio6{
+    background-color: rgba(139, 69, 19, 1);
+    color: white;
+    display: flex;
+    padding: 10px;
+    border-radius: 40px;
+    margin-top: 70px;
+    text-decoration: none;
+    font-size: 20px;
+    letter-spacing: normal;
+    font-weight: normal;
+    font-family: "bebas neue";
+}
+a.voltarInicio7{
+    background-color:rgba(0, 0, 0, 0.8);
+    color: white;
+    display: flex;
+    padding: 10px;
+    border-radius: 40px;
+    margin-top: 70px;
+    text-decoration: none;
+    font-size: 20px;
+    letter-spacing: normal;
+    font-weight: normal;
+    font-family: "bebas neue";
+}
+
+.inicio{
+    display: flex;
+    justify-content: center;
+}
+
+
 .background-icon1{
-    margin: 75px 0 0;
+    margin: 10px 0 0;
     /* background-image: url(./IMG/fundo2.jpg); */
     background-color:rgba(94, 193, 227, 1);
     background-repeat: no-repeat;
@@ -223,7 +336,7 @@ html,body{
     border-bottom: 1px solid white;
 }
 .background-icon2{
-    margin: 75px 0 0;
+    margin: 10px 0 0;
     /* background-image: url(./IMG/fundo2.jpg); */
     background-color:rgba(158, 42, 151, 1);
     background-repeat: no-repeat;
@@ -234,7 +347,7 @@ html,body{
     border-bottom: 1px solid white;
 }
 .background-icon3{
-    margin: 75px 0 0;
+    margin: 10px 0 0;
     /* background-image: url(./IMG/fundo2.jpg); */
     background-color:rgba(243, 134, 63, 1);
     background-repeat: no-repeat;
@@ -245,7 +358,7 @@ html,body{
     border-bottom: 1px solid white;
 }
 .background-icon4{
-    margin: 75px 0 0;
+    margin: 10px 0 0;
     /* background-image: url(./IMG/fundo2.jpg); */
     background-color:rgba(24, 168, 91, 1);
     background-repeat: no-repeat;
@@ -256,7 +369,7 @@ html,body{
     border-bottom: 1px solid white;
 }
 .background-icon5{
-    margin: 75px 0 0;
+    margin: 10px 0 0;
     /* background-image: url(./IMG/fundo2.jpg); */
     background-color:rgba(255, 40, 58, 1);
     background-repeat: no-repeat;
@@ -267,7 +380,7 @@ html,body{
     border-bottom: 1px solid white;
 }
 .background-icon6{
-    margin: 75px 0 0;
+    margin: 10px 0 0;
     /* background-image: url(./IMG/fundo2.jpg); */
     background-color:rgba(139, 69, 19, 1);
     background-repeat: no-repeat;
@@ -278,7 +391,7 @@ html,body{
     border-bottom: 1px solid white;
 }
 .background-icon7{
-    margin: 75px 0 0;
+    margin: 10px 0 0;
     /* background-image: url(./IMG/fundo2.jpg); */
     background-color:rgba(0, 0, 0, 0.8);
     background-repeat: no-repeat;
@@ -300,14 +413,6 @@ html,body{
 
 h1,h2,h3,h4,h5{
     color: white
-}
-h1{
-    margin: 10px;
-    font-size: 30px;
-    font-family: "anton",Arial, Helvetica, sans-serif;
-    text-transform: uppercase;
-    /* letter-spacing: 1.5px; */
-    box-shadow: 2px black;
 }
 
 h2{
@@ -364,15 +469,6 @@ p{
     font-family: "bebas neue";
 }
 
-a{
-    font-size: 20px;
-    letter-spacing: 1.5px;
-    color: white;
-    font-weight: bold;
-    text-decoration: underline;
-    vertical-align: baseline;
-    font-family: "bebas neue";
-}
 
 
 .lista{
@@ -564,12 +660,67 @@ li{
     .background2-cata{
         width: 40% !important;
     }
+    .logo-bottom-cata1{
+        font-size: 18px !important;
+    }
+    .logo-bottom-cata2{
+        font-size: 18px !important;
+    }
+    .logo-bottom-cata3{
+        font-size: 18px !important;
+    }
+    .logo-bottom-cata4{
+        font-size: 18px !important;
+    }
+    .logo-bottom-cata5{
+        font-size: 18px !important;
+    }
+    .logo-bottom-cata6{
+        font-size: 18px !important;
+    }
+    .logo-bottom-cata7{
+        font-size: 18px !important;
+    }
+
+    .logo-description{
+        font-size: 18px !important;
+    }
 }
 @media (max-width:700px){
     .background2-cata{
         width: 51% !important;
     }
 }
+@media(max-width: 600px){
+    .logo-bottom-cata1{
+        font-size: 14px !important;
+    }
+
+    .logo-bottom-cata2{
+        font-size: 14px !important;
+    }
+    .logo-bottom-cata3{
+        font-size: 14px !important;
+    }
+    .logo-bottom-cata4{
+        font-size: 14px !important;
+    }
+    .logo-bottom-cata5{
+        font-size: 14px !important;
+    }
+    .logo-bottom-cata6{
+        font-size: 14px !important;
+    }
+    .logo-bottom-cata7{
+        font-size: 14px !important;
+    }
+
+
+    .logo-description{
+        font-size: 14px !important;
+    }
+}
+
 @media (max-width: 280px){
     .info-icon{
         flex-direction: column;
@@ -677,93 +828,72 @@ h1.description-cata{
 h1.description-cata1{
     color:white;
     background-color:rgba(94, 193, 227, 1);
-    width: fit-content;
     padding: 10px;
-    margin:0 0 20px 0 ;
     border-radius: 60%;
-    font-size: 12px;
-    text-align: center;
+    font-size: 16px;
     font-weight: normal;
-    text-shadow: none;
     font-family: "bebas neue";
+    margin-bottom: 23px;
 }
 h1.description-cata2{
     color:white;
     background-color: rgba(158, 42, 151, 1);
-    width: fit-content;
     padding: 10px;
-    margin:0 0 20px 0 ;
     border-radius: 60%;
-    font-size: 12px;
-    text-align: center;
+    font-size: 16px;
     font-weight: normal;
-    text-shadow: none;
     font-family: "bebas neue";
+    margin-bottom: 23px;
 }
 h1.description-cata3{
     color:white;
     background-color:rgba(243, 134, 63, 1);
-    width: fit-content;
     padding: 10px;
-    margin:0 0 20px 0 ;
     border-radius: 60%;
-    font-size: 12px;
-    text-align: center;
+    font-size: 16px;
     font-weight: normal;
-    text-shadow: none;
     font-family: "bebas neue";
+    margin-bottom: 23px;
 }
 h1.description-cata4{
     color:white;
     background-color: rgba(24, 168, 91, 1);
-    width: fit-content;
     padding: 10px;
-    margin:0 0 20px 0 ;
     border-radius: 60%;
-    font-size: 12px;
-    text-align: center;
+    font-size: 16px;
     font-weight: normal;
-    text-shadow: none;
     font-family: "bebas neue";
+    margin-bottom: 23px;
 }
 h1.description-cata5 {
     color:white;
     background-color:rgba(255, 40, 58, 1);
-    width: fit-content;
     padding: 10px;
-    margin:0 0 20px 0 ;
     border-radius: 60%;
-    font-size: 12px;
-    text-align: center;
+    font-size: 16px;
     font-weight: normal;
-    text-shadow: none;
     font-family: "bebas neue";
+    margin-bottom: 23px;
 }
 h1.description-cata6{
     color:white;
     background-color:rgba(139, 69, 19, 1);
-    width: fit-content;
     padding:10px;
-    margin:0 0 20px 0 ;
     border-radius: 80%;
-    font-size: 12px;
-    text-align: center;
+    font-size: 16px;
     font-weight: normal;
-    text-shadow: none;
     font-family: "bebas neue";
+    margin-bottom: 23px;
 }
 h1.description-cata7{
     color:white;
     background-color:rgba(0, 0, 0, 0.8);
-    width: fit-content;
     padding: 10px;
-    margin:0 0 20px 0 ;
     border-radius: 60%;
-    font-size: 12px;
-    text-align: center;
+    font-size: 16px;
     font-weight: normal;
-    text-shadow: none;
     font-family: "bebas neue";
+    margin-bottom: 23px;
 }
 
 a.explain{
@@ -829,6 +959,7 @@ p.explain2{
     text-align: center;
     height: 38px;
 }
+
 
 
 /* TABELAS */

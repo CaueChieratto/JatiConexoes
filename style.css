@@ -146,6 +146,12 @@ html,body{
     text-decoration: none;
 }
 
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -173,6 +179,7 @@ html,body{
         align-content: center;
         justify-content: center;
     }
+
 }
 
 @media(max-width:1080px){
@@ -200,6 +207,7 @@ html,body{
     .menu{
         background-color: rgba(0, 128, 0, 0.1) !important;
         margin: 0 !important;
+        display: block !important;
     }
     
     .esconder{
@@ -231,12 +239,10 @@ html,body{
     }
 
     a.menu1{
-        font-size: 16px !important;
+        font-size: 18px !important;
     }
 
-    .background{
-        margin: 25px 75px !important;
-    }
+
 
 }
 
@@ -245,7 +251,7 @@ html,body{
         font-size: 18px !important;
     }
     a.menu1{
-        font-size: 14px !important;
+        font-size: 16px !important;
     }
 }
 
@@ -263,24 +269,19 @@ html,body{
     .lista{
         font-size: 16px !important;
     }
-    .background{
-        border-radius: 40px !important;
-        margin: 40px 15px !important;
-    }
-
-    .background2{
-        border-radius: 40px !important;
-        margin: 40px 15px !important;
-    }
     .logo-bottom{
         font-size: 16px !important;
     }
     a.menu1{
-        font-size: 10px !important;
+        font-size: 14px !important;
     }
     .esconder{
         font-size: 16px;
     }
+    .background{
+        margin: 20px 0 !important;
+    }
+ 
 }
 
 @media (max-width:550px){
@@ -296,20 +297,155 @@ html,body{
         font-size: 14px !important;
     }
     a.menu1{
-        font-size: 8px !important;
+        font-size: 12px !important;
     }
+    .background{
+        padding: 30px 60px !important;
+    }
+    .background1{
+        padding: 30px 40px !important;
+    }
+ 
+
+    .baixar-catalogo1{
+        margin: 0 0 0 5px;
+    }
+
+    .ver-produtos1{
+        margin: 0 5px 0 0;
+    }
+    .baixar-catalogo2{
+        margin: 0 0 0 5px;
+    }
+
+    .ver-produtos2{
+        margin: 0 5px 0 0;
+    }
+    .baixar-catalogo3{
+        margin: 0 0 0 5px;
+    }
+
+    .ver-produtos3{
+        margin: 0 5px 0 0;
+    }
+    .baixar-catalogo4{
+        margin: 0 0 0 5px;
+    }
+
+    .ver-produtos4{
+        margin: 0 5px 0 0;
+    }
+    .baixar-catalogo5{
+        margin: 0 0 0 5px;
+    }
+
+    .ver-produtos5{
+        margin: 0 5px 0 0;
+    }
+    .baixar-catalogo6{
+        margin: 0 0 0 5px;
+    }
+
+    .ver-produtos6{
+        margin: 0 5px 0 0;
+    }
+    .baixar-catalogo7{
+        margin: 0 0 0 5px;
+    }
+
+    .ver-produtos7{
+        margin: 0 5px 0 0;
+    }
+    a{
+        font-size: 16px !important;
+    }
+}
+
+@media (max-width: 450px){
+    .produtos-footer{
+        width: 180px !important;
+    }
+    .baixar-catalogo1{
+        margin: 0 0 0 5px;
+    }
+
+    .ver-produtos1{
+        margin: 0 5px 0 0;
+    }
+    .baixar-catalogo2{
+        margin: 0 0 0 5px;
+    }
+
+    .ver-produtos2{
+        margin: 0 5px 0 0;
+    }
+    .baixar-catalogo3{
+        margin: 0 0 0 5px;
+    }
+
+    .ver-produtos3{
+        margin: 0 5px 0 0;
+    }
+    .baixar-catalogo4{
+        margin: 0 0 0 5px;
+    }
+
+    .ver-produtos4{
+        margin: 0 5px 0 0;
+    }
+    .baixar-catalogo5{
+        margin: 0 0 0 5px;
+    }
+
+    .ver-produtos5{
+        margin: 0 5px 0 0;
+    }
+    .baixar-catalogo6{
+        margin: 0 0 0 5px;
+    }
+
+    .ver-produtos6{
+        margin: 0 5px 0 0;
+    }
+    .baixar-catalogo7{
+        margin: 0 0 0 5px;
+    }
+
+    .ver-produtos7{
+        margin: 0 5px 0 0;
+    }
+    .container{
+        margin: 0 30px !important;
+    }
+    .background1{
+        padding: 30px 10px !important;
+    }
+    a{
+        font-size: 12px !important;
+    }
+}
+
+@media (max-width: 400px){
+    .background{
+        padding: 30px 40px !important;
+    }
+    .background1{
+        padding: 30px 0px !important;
+        min-height: 338px !important;
+    }
+    
 }
 @media (max-width:350px){
     .produtos{
-        width: 100px !important;
+        width: 150px !important;
     }
     .produtos-footer{
-        width: 100px !important;
+        width: 80px !important;
     }
     .description-footer{
         font-size: 12px !important;
     }
-    .whatsapp{
+    .whatsapp1{
         width: 43px !important;
     }
     .instagram{
@@ -325,6 +461,66 @@ html,body{
 
     .end{
         font-size: 14px !important;
+    }
+    .voltar8{
+        font-size: 14px;
+    }
+    .meio{
+        flex-direction: column;
+        min-width: 293px !important;
+    }
+    .background{
+        min-width: 300px !important;
+        justify-content: center !important;
+        display: flex;
+        padding: 30px 0!important;
+    }
+
+    .baixar-catalogo1{
+        margin: 20px 50px 0  !important;
+    }
+    .baixar-catalogo2{
+        margin: 20px 50px 0 !important;
+    }
+    .baixar-catalogo3{
+        margin: 20px 50px 0  !important;
+    }
+    .baixar-catalogo4{
+        margin: 20px 50px 0  !important;
+    }
+    .baixar-catalogo5{
+        margin: 20px 50px 0  !important;
+    }
+    .baixar-catalogo6{
+        margin: 20px 50px 0 !important;
+    }
+    .baixar-catalogo7{
+        margin:20px 50px 0 !important;
+    }
+
+    .ver-produtos1{
+        margin: 0 50px 0 !important;
+    }
+    .ver-produtos2{
+        margin: 0 50px 0 !important;
+    }
+    .ver-produtos3{
+        margin: 0 50px 0 !important;
+    }
+    .ver-produtos4{
+        margin: 0 50px 0 !important;
+    }
+    .ver-produtos5{
+        margin: 0 50px 0 !important;
+    }
+    .ver-produtos6{
+        margin: 0 50px 0 !important;
+    }
+    .ver-produtos7{
+        margin: 0 50px 0 !important;
+    }
+    h1{
+        font-size: 16px !important;
     }
 }
 
@@ -367,6 +563,7 @@ span{
 
 .menu{
     text-align: center;
+    display: none;
 }
 
 .esconder{
@@ -384,7 +581,7 @@ ul.menu1{
 
 a.menu1{
     color: white;
-    font-size: 14px;
+    font-size: 18px;
     font-weight: bold;
     text-decoration: none;
 }
@@ -405,7 +602,8 @@ a.menu1{
     font-size: 24px;
     text-align: center;
     font-weight: bold;
-    padding: 4px;
+    padding: 10px;
+    font-family: "DM sans",sans-serif;
     
 }
 
@@ -451,75 +649,27 @@ a.menu1{
     box-shadow:0px 0px 10px 0px rgba(0, 53, 0, 0.4);
     transition: 0.2s;
 }
-.background-3{
-    margin: 75px;
+.background1{
+    margin: 20px 80px;
     background-color: white;
-    padding: 30px 0;
-    box-shadow:5px 5px 20px 15px #f5f6fa;
-    /* width: 90%; */
-    border-radius: 100px;
-    transition: 0.3s;
-}
-
-/* .background2{
-    margin: 75px 0 0 0;
-    background-image: url(./IMG/fundo2.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 100%;
-    padding: 30px 0;
-
-} */
-
-.background2{
-    margin: 75px;
-    background-color: white;
-    padding: 35px 10px;
-    /* box-shadow:5px 5px 20px 15px #f5f6fa; */
-    /* width: 90%; */
+    padding:40px 70px;
     border-radius: 70px;
     transition: 0.3s;
+    min-width: 350px;
 }
-.background2:hover{
+
+.background1:hover{
     cursor:default;
     box-shadow:0px 0px 10px 0px rgba(0, 53, 0, 0.4);
     transition: 0.2s;
 }
-
-/* .background-pdf{
-    margin: 0;
-    background-image: url(./IMG/fundo8.jpg);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    width: 100%;
-    padding: 30px 0;
-}
-
-.background1-pdf{
-    margin: 0;
-    background-image: url(./IMG/fundo8.jpg);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    width: 100%;
-    padding: 30px 0;
-} */
-
-
-
 
 .wrapper{
     margin: 0 30px;
     display:flex;
     justify-content: center;
     gap: 250px;
-}
-.wrapper-3{
-    margin: 0 30px;
-    display:flex;
-    justify-content: center;
-    gap: 250px;
+    max-height: 90px !important;
 }
 
 
@@ -842,15 +992,16 @@ p{
     justify-content: space-between;
     height: 405px;
 }
-.info-3{
+.info1{
     width: fit-content;
     text-align: center;
     /* color: #134f5c; */
     display: flex;
-    flex-wrap: wrap;
     flex-direction: column;
     justify-content: space-between;
+    max-height: 90px;
 }
+
 
 .info-icon{
     width: fit-content;
@@ -860,13 +1011,14 @@ p{
     flex-wrap: wrap;
     /* flex-direction: column; */
     justify-content: space-between;
+    max-height: 90px;
 }
 
 .produtos{
     width: 350px;
     background-color:white;
     /* border-radius: 100%; */
-    margin-bottom: 25px;
+    /* margin-bottom: 25px; */
 }
 
 /* .none-link{
@@ -1281,7 +1433,7 @@ a.espaço-7{
     max-width: 600px;
     text-align: center;
     color:#191b23;
-    font-size: 22px;
+    
     margin-top: 30px;
     font-family: "bebas neue",arial;
     font-weight: normal;
