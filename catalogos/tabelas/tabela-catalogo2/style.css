@@ -17,6 +17,112 @@ html,body{
     padding: 0;
 
 }
+a.voltarInicio{
+    background-color: rgba(0, 128, 0, 0.6);;
+    color: white;
+    display: flex;
+    padding: 10px;
+    border-radius: 40px;
+    margin-top: 70px;
+    text-decoration: none;
+    font-size: 20px;
+}
+a.voltarInicio1{
+    background-color: rgba(94, 193, 227, 1);
+    color: white;
+    display: flex;
+    padding: 10px;
+    border-radius: 40px;
+    margin-top: 70px;
+    text-decoration: none;
+    font-size: 20px;
+    letter-spacing: normal;
+    font-weight: normal;
+    font-family: "bebas neue";
+}
+a.voltarInicio2{
+    background-color: rgba(158, 42, 151, 1);
+    color: white;
+    display: flex;
+    padding: 10px;
+    border-radius: 40px;
+    margin-top: 70px;
+    text-decoration: none;
+    font-size: 20px;
+    letter-spacing: normal;
+    font-weight: normal;
+    font-family: "bebas neue";
+}
+a.voltarInicio3{
+    background-color: rgba(243, 134, 63, 1);
+    color: white;
+    display: flex;
+    padding: 10px;
+    border-radius: 40px;
+    margin-top: 70px;
+    text-decoration: none;
+    font-size: 20px;
+    letter-spacing: normal;
+    font-weight: normal;
+    font-family: "bebas neue";
+}
+a.voltarInicio4{
+    background-color: rgba(24, 168, 91, 1);
+    color: white;
+    display: flex;
+    padding: 10px;
+    border-radius: 40px;
+    margin-top: 70px;
+    text-decoration: none;
+    font-size: 20px;
+    letter-spacing: normal;
+    font-weight: normal;
+    font-family: "bebas neue";
+}
+a.voltarInicio5{
+    background-color: rgba(255, 40, 58, 1);
+    color: white;
+    display: flex;
+    padding: 10px;
+    border-radius: 40px;
+    margin-top: 70px;
+    text-decoration: none;
+    font-size: 20px;
+    letter-spacing: normal;
+    font-weight: normal;
+    font-family: "bebas neue";
+}
+a.voltarInicio6{
+    background-color: rgba(139, 69, 19, 1);
+    color: white;
+    display: flex;
+    padding: 10px;
+    border-radius: 40px;
+    margin-top: 70px;
+    text-decoration: none;
+    font-size: 20px;
+    letter-spacing: normal;
+    font-weight: normal;
+    font-family: "bebas neue";
+}
+a.voltarInicio7{
+    background-color:rgba(0, 0, 0, 0.8);
+    color: white;
+    display: flex;
+    padding: 10px;
+    border-radius: 40px;
+    margin-top: 70px;
+    text-decoration: none;
+    font-size: 20px;
+    letter-spacing: normal;
+    font-weight: normal;
+    font-family: "bebas neue";
+}
+.inicio{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
 
 
 .top-bar{
