@@ -75,8 +75,8 @@ html,body{
     font-size: 24px;
     text-align: center;
     font-weight: bold;
-    padding: 15px 4px 4px;
-    margin: 0 0 35px 0;
+    padding: 10px ;
+    margin: 0 0 10px 0;
     font-family: "DM sans",sans-serif;
 }
 .logo-bottom-cata2{
@@ -85,8 +85,9 @@ html,body{
     font-size: 24px;
     text-align: center;
     font-weight: bold;
-    padding: 15px 4px 4px;
-    margin: 0 0 35px 0;
+    padding: 10px ;
+    margin: 0 0 10px 0;
+    font-family: "DM sans",sans-serif;
 }
 .logo-bottom-cata3{
     background-color:rgba(243, 134, 63, 1);
@@ -94,8 +95,9 @@ html,body{
     font-size: 24px;
     text-align: center;
     font-weight: bold;
-    padding: 15px 4px 4px;
-    margin: 0 0 35px 0;
+    padding: 10px ;
+    margin: 0 0 10px 0;
+    font-family: "DM sans",sans-serif;
 }
 .logo-bottom-cata4{
     background-color:rgba(24, 168, 91, 1);
@@ -103,8 +105,9 @@ html,body{
     font-size: 24px;
     text-align: center;
     font-weight: bold;
-    padding: 15px 4px 4px;
-    margin: 0 0 35px 0;
+    padding: 10px ;
+    margin: 0 0 10px 0;
+    font-family: "DM sans",sans-serif;
 }
 .logo-bottom-cata5{
     background-color:rgba(255, 40, 58, 1);
@@ -112,8 +115,9 @@ html,body{
     font-size: 24px;
     text-align: center;
     font-weight: bold;
-    padding: 15px 4px 4px;
-    margin: 0 0 35px 0;
+    padding: 10px ;
+    margin: 0 0 10px 0;
+    font-family: "DM sans",sans-serif;
 }
 .logo-bottom-cata6{
     background-color:rgba(139, 69, 19, 1);
@@ -121,8 +125,9 @@ html,body{
     font-size: 24px;
     text-align: center;
     font-weight: bold;
-    padding: 15px 4px 4px;
-    margin: 0 0 35px 0;
+    padding: 10px ;
+    margin: 0 0 10px 0;
+    font-family: "DM sans",sans-serif;
 }
 .logo-bottom-cata7{
     background-color:rgba(0, 0, 0, 0.8);
@@ -130,8 +135,9 @@ html,body{
     font-size: 24px;
     text-align: center;
     font-weight: bold;
-    padding: 15px 4px 4px;
-    margin: 0 0 35px 0;
+    padding: 10px ;
+    margin: 0 0 10px 0;
+    font-family: "DM sans",sans-serif;
 }
 
 .logo-description{
@@ -232,7 +238,7 @@ a.voltarInicio1{
     display: flex;
     padding: 10px;
     border-radius: 40px;
-    margin-top: 70px;
+  
     text-decoration: none;
     font-size: 20px;
     letter-spacing: normal;
@@ -245,7 +251,7 @@ a.voltarInicio2{
     display: flex;
     padding: 10px;
     border-radius: 40px;
-    margin-top: 70px;
+
     text-decoration: none;
     font-size: 20px;
     letter-spacing: normal;
@@ -258,7 +264,7 @@ a.voltarInicio3{
     display: flex;
     padding: 10px;
     border-radius: 40px;
-    margin-top: 70px;
+  
     text-decoration: none;
     font-size: 20px;
     letter-spacing: normal;
@@ -271,7 +277,7 @@ a.voltarInicio4{
     display: flex;
     padding: 10px;
     border-radius: 40px;
-    margin-top: 70px;
+ 
     text-decoration: none;
     font-size: 20px;
     letter-spacing: normal;
@@ -284,7 +290,7 @@ a.voltarInicio5{
     display: flex;
     padding: 10px;
     border-radius: 40px;
-    margin-top: 70px;
+ 
     text-decoration: none;
     font-size: 20px;
     letter-spacing: normal;
@@ -297,7 +303,7 @@ a.voltarInicio6{
     display: flex;
     padding: 10px;
     border-radius: 40px;
-    margin-top: 70px;
+
     text-decoration: none;
     font-size: 20px;
     letter-spacing: normal;
@@ -310,7 +316,7 @@ a.voltarInicio7{
     display: flex;
     padding: 10px;
     border-radius: 40px;
-    margin-top: 70px;
+ 
     text-decoration: none;
     font-size: 20px;
     letter-spacing: normal;
@@ -325,79 +331,79 @@ a.voltarInicio7{
 
 
 .background-icon1{
-    margin: 10px 0 0;
+    margin: 30px 0 0;
     /* background-image: url(./IMG/fundo2.jpg); */
     background-color:rgba(94, 193, 227, 1);
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
-    padding: 30px 0;
+    padding: 15px 0;
     display: block;
     border-bottom: 1px solid white;
 }
 .background-icon2{
-    margin: 10px 0 0;
+    margin: 30px 0 0;
     /* background-image: url(./IMG/fundo2.jpg); */
     background-color:rgba(158, 42, 151, 1);
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
-    padding: 30px 0;
+    padding: 15px 0;
     display: block;
     border-bottom: 1px solid white;
 }
 .background-icon3{
-    margin: 10px 0 0;
+    margin: 30px 0 0;
     /* background-image: url(./IMG/fundo2.jpg); */
     background-color:rgba(243, 134, 63, 1);
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
-    padding: 30px 0;
+    padding: 15px 0;
     display: block;
     border-bottom: 1px solid white;
 }
 .background-icon4{
-    margin: 10px 0 0;
+    margin: 30px 0 0;
     /* background-image: url(./IMG/fundo2.jpg); */
     background-color:rgba(24, 168, 91, 1);
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
-    padding: 30px 0;
+    padding: 15px 0;
     display: block;
     border-bottom: 1px solid white;
 }
 .background-icon5{
-    margin: 10px 0 0;
+    margin: 30px 0 0;
     /* background-image: url(./IMG/fundo2.jpg); */
     background-color:rgba(255, 40, 58, 1);
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
-    padding: 30px 0;
+    padding: 15px 0;
     display: block;
     border-bottom: 1px solid white;
 }
 .background-icon6{
-    margin: 10px 0 0;
+    margin: 30px 0 0;
     /* background-image: url(./IMG/fundo2.jpg); */
     background-color:rgba(139, 69, 19, 1);
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
-    padding: 30px 0;
+    padding: 15px 0;
     display: block;
     border-bottom: 1px solid white;
 }
 .background-icon7{
-    margin: 10px 0 0;
+    margin: 30px 0 0;
     /* background-image: url(./IMG/fundo2.jpg); */
     background-color:rgba(0, 0, 0, 0.8);
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
-    padding: 30px 0;
+    padding: 15px 0;
     display: block;
     border-bottom: 1px solid white;
 }
@@ -639,7 +645,7 @@ li{
     color: white;
     font-family: "Montserrat";
     text-align: center;
-    margin-top: 80px;
+    /* margin-top: 80px; */
     text-shadow: none;
     font-size: 20px;
 }
