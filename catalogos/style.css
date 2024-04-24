@@ -233,12 +233,12 @@ a.voltarInicio{
     font-family: "bebas neue";
 }
 a.voltarInicio1{
-    background-color: rgba(94, 193, 227, 1);
-    color: white;
+    background-color: white;
+    color: rgba(94, 193, 227, 1);
     display: flex;
-    padding: 10px;
-    border-radius: 40px;
-  
+    padding: 8px 50px;
+    border-radius: 40px ;
+    border: solid 1px rgba(94, 193, 227, 1);
     text-decoration: none;
     font-size: 20px;
     letter-spacing: normal;
