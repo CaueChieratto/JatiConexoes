@@ -440,7 +440,7 @@ li{
     text-align: center;
     margin-top: 80px;
     text-shadow: none;
-    font-size: 20px;
+    font-size: 18px;
 }
 
 .text-end{
@@ -871,7 +871,22 @@ dd{
         font-size: 15px;
     }
 }
-
+@media(max-width:900px){
+    .logo-bottom-cata{
+        font-size: 18px !important;
+    }
+    a.voltarInicio5{
+        font-size: 18px !important;
+    }
+}
+@media(max-width:600px){
+    .logo-bottom-cata{
+        font-size: 14px !important;
+    }
+    a.voltarInicio5{
+        font-size: 16px !important;
+    }
+}
 @media (max-width: 1087px){
     .name-1-2{
         font-size: 13px;
