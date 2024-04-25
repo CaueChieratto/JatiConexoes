@@ -409,6 +409,7 @@ li{
     font-size: 22px;
     text-align: center;
     align-items: center;
+    
 }
 
 p.explain{
@@ -445,7 +446,7 @@ p.explain{
 .wrapper-tabela{
     margin: 0 ;
     display:flex;
-    align-items: center;
+    align-items: flex-start;
     gap: 50px;
     text-shadow: none;
     padding: 0px;
@@ -714,7 +715,7 @@ dd{
 }
 
 .toda-tabela{
-    width: 700px;
+    width: 500px;
 }
 
 @media (max-width: 1350px){
@@ -737,54 +738,7 @@ dd{
         font-size: 18px;
     }
 }
-@media (max-width: 1200px){
-    .toda-tabela{
-        width: 600px;
-    }
-    .name-1-2{
-        font-size: 15px;
-    }
 
-    .name1-2{
-        font-size: 15px;
-    }
-    .name-1{
-        font-size: 15px;
-    }
-
-    .name1{
-        font-size: 15px;
-    }
-    .tabela-titulo2{
-        font-size: 15px;
-    }
-    .tabela-titulo3{
-        font-size: 15px;
-    }
-}
-
-@media (max-width: 1087px){
-    .name-1-2{
-        font-size: 13px;
-    }
-
-    .name1-2{
-        font-size: 13px;
-    }
-    .name-1{
-        font-size: 13px;
-    }
-
-    .name1{
-        font-size: 13px;
-    }
-    .tabela-titulo2{
-        font-size: 13px;
-    }
-    .tabela-titulo3{
-        font-size: 13px;
-    }
-}
 
 @media (max-width: 1050px){
     .wrapper-tabela{
@@ -847,9 +801,7 @@ dd{
     }
 
    
-    .toda-tabela{
-        width: 700px;
-    }
+
 }
 
 @media(max-width:900px){
@@ -869,65 +821,18 @@ dd{
     }
 }
 
-@media (max-width: 850px){
-    .toda-tabela{
-        width: 500px;
-    }
-    .name-1-2{
-        font-size: 14px;
-    }
 
-    .name1-2{
-        font-size: 14px;
-    }
-    .name-1{
-        font-size: 14px;
-    }
-
-    .name1{
-        font-size: 14px;
-    }
-    .tabela-titulo2{
-        font-size: 14px;
-    }
-    .tabela-titulo3{
-        font-size: 14px;
-    }
-    .buttom1-a-1{
-        font-size: 14px;
-    }
-}
-
-@media (max-width: 620px){
-    .toda-tabela{
-        width: 500px;
-    }
-}
 
 
 @media (max-width: 550px){
     .toda-tabela{
         width: 450px;
     }
-    .name-1-2{
-        font-size: 15px;
-    }
-
-    .name1-2{
-        font-size: 15px;
-    }
-    .name-1{
-        font-size: 15px;
-    }
-
-    .name1{
-        font-size: 15px;
-    }
     .tabela-titulo2{
-        font-size: 15px;
+        font-size: 14px;
     }
     .tabela-titulo3{
-        font-size: 15px;
+        font-size: 14px;
     }
 }
 @media (max-width: 480px){
@@ -935,42 +840,10 @@ dd{
     .toda-tabela{
         width: 400px;
     }
-
-    .name-1-2{
-        font-size: 12px;
-    }
-    .name1-2{
-        font-size: 12px;
-    }
-    .name-1{
-        font-size: 12px;
-    }
-    .name1{
-        font-size: 12px;
-    }
-    .tabela-titulo2{
-        font-size: 12px;
-    }
-    .tabela-titulo3{
-        font-size: 12px;
-    }
-
     .produtos-tabela{
-        width: 200px;
+        width: 300px;
     }
     
-    .title1-tabela{
-        font-size: 16px;
-    }
-    .title-tabela{
-        font-size: 16px;
-    }
-    .title1-tabela{
-        font-size: 16px;
-    }
-    p.explain{
-        font-size: 10px;
-    }
 }
 
 
@@ -979,41 +852,10 @@ dd{
     .toda-tabela{
         width: 350px;
     }
-    .name-1-2{
-        font-size: 10px;
-    }
-
-    .name1-2{
-        font-size: 10px;
-    }
-    .name-1{
-        font-size: 10px;
-    }
-
-    .name1{
-        font-size: 10px;
-    }
-    .tabela-titulo2{
-        font-size: 10px;
-    }
-    .tabela-titulo3{
-        font-size: 10px;
-    }
 }
 
 @media (max-width: 380px){
-    .name-1{
-        font-size: 10px;
-    }
-    .name1{
-        font-size: 10px;
-    }
-    .name-1-2{
-        font-size: 10px;
-    }
-    .name1-2{
-        font-size: 10px;
-    }
+
 
     .title1-tabela{
         font-size: 20px !important;
@@ -1021,13 +863,7 @@ dd{
     .produtos-tabela{
         width: 250px;
     }
-    .buttom1-a{
-        font-size: 10px;
-    }
 
-    p.explain{
-        font-size: 8px;
-    }
 
     .wrapper-tabela{
         gap: 20px !important;
@@ -1197,5 +1033,5 @@ a.voltarInicio7{
 .inicio{
     display: flex;
     justify-content: center;
-    margin-bottom: 10px;
+    margin-bottom: 50px;
 }

@@ -175,7 +175,7 @@ a.voltarInicio7{
     text-align: center;
     font-weight: bold;
     padding: 10px;
-    margin: 0 0 10px 0;
+    margin: 0;
 }
 
 .logo-description{
@@ -432,9 +432,6 @@ li{
 .footer-end{
     background-color:rgba(243, 134, 63, 1);
     padding: 50px;
-    font-family: "lato",sans-serif;
-    text-shadow: none;
-    padding: 50px;
     text-shadow: none;
     color: white;
     font-family: "Montserrat";
@@ -451,7 +448,14 @@ li{
     text-shadow: none;
 }
 
-
+.end{
+    color: white;
+    font-family: "Montserrat";
+    text-align: center;
+    margin-top: 80px;
+    text-shadow: none;
+    font-size: 20px;
+}
 
 /* CATÁLAGO */
 
@@ -560,7 +564,7 @@ p.explain{
 .wrapper-tabela{
     margin: 0 ;
     display:flex;
-    align-items: center;
+    align-items: flex-start;
     gap: 50px;
     text-shadow: none;
     padding: 0px;
@@ -736,7 +740,7 @@ dd{
     display: flex;
     align-items: center;
     flex-direction: column;
-    
+
 }
 
 
@@ -850,22 +854,6 @@ dd{
     }
     .tabela-titulo3{
         font-size: 18px;
-    }
-}
-@media(max-width:900px){
-    .logo-bottom-cata{
-        font-size: 18px !important;
-    }
-    a.voltarInicio3{
-        font-size: 18px !important;
-    }
-}
-@media(max-width:600px){
-    .logo-bottom-cata{
-        font-size: 14px !important;
-    }
-    a.voltarInicio3{
-        font-size: 16px !important;
     }
 }
 @media (max-width: 1200px){
@@ -1198,4 +1186,89 @@ dd{
     p.explain{
         font-size: 6px;
     }
+}
+a.voltarInicio{
+    background-color: rgba(0, 128, 0, 0.6);;
+    color: white;
+    display: flex;
+    padding: 10px;
+    border-radius: 40px;
+    margin-top: 70px;
+    text-decoration: none;
+    font-size: 20px;
+}
+a.voltarInicio1{
+    background-color: rgba(94, 193, 227, 1);
+    color: white;
+    display: flex;
+    padding: 10px;
+    border-radius: 40px;
+    margin-top: 70px;
+    text-decoration: none;
+    font-size: 20px;
+}
+a.voltarInicio2{
+    background-color: rgba(158, 42, 151, 1);
+    color: white;
+    display: flex;
+    padding: 10px;
+    border-radius: 40px;
+    margin-top: 70px;
+    text-decoration: none;
+    font-size: 20px;
+}
+a.voltarInicio3{
+    background-color:white;
+    color: rgba(243, 134, 63, 1);
+    display: flex;
+    padding: 10px;
+    border-radius: 40px;
+    border: 1px solid  rgba(243, 134, 63, 1);;
+    margin: 10px 0 50px 0;
+    text-decoration: none;
+    font-size: 20px;
+}
+a.voltarInicio4{
+    background-color: rgba(24, 168, 91, 1);
+    color: white;
+    display: flex;
+    padding: 10px;
+    border-radius: 40px;
+    margin-top: 70px;
+    text-decoration: none;
+    font-size: 20px;
+}
+a.voltarInicio5{
+    background-color: rgba(255, 40, 58, 1);
+    color: white;
+    display: flex;
+    padding: 10px;
+    border-radius: 40px;
+    margin-top: 70px;
+    text-decoration: none;
+    font-size: 20px;
+}
+a.voltarInicio6{
+    background-color: rgba(139, 69, 19, 1);
+    color: white;
+    display: flex;
+    padding: 10px;
+    border-radius: 40px;
+    margin-top: 70px;
+    text-decoration: none;
+    font-size: 20px;
+}
+a.voltarInicio7{
+    background-color:rgba(0, 0, 0, 0.8);
+    color: white;
+    display: flex;
+    padding: 10px;
+    border-radius: 40px;
+    margin-top: 70px;
+    text-decoration: none;
+    font-size: 20px;
+}
+.inicio{
+    display: flex;
+    justify-content: center;
 }
