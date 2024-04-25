@@ -761,7 +761,7 @@ li{
     width: fit-content;
     text-align: center;
     display: flex;
-    height: 375px;
+    /* height: 375px; */
 }
 
 h1.nome{
