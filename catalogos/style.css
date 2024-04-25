@@ -211,7 +211,7 @@ html,body{
 .background-icon{
     margin: 75px 0 0;
     /* background-image: url(./IMG/fundo2.jpg); */
-    background-color: white;
+    background-color:rgba(0, 128, 0, 0.6);
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
@@ -222,14 +222,14 @@ html,body{
 
 a.voltarInicio{
     background-color: white;
-    color:rgba(0, 128, 0, 0.6);
+    color: rgba(0, 128, 0, 0.6);
     display: flex;
-    padding: 10px;
-    border-radius: 40px;
+    padding:10px;
+    border-radius: 40px ;
     border: solid 1px rgba(0, 128, 0, 0.6);
-    margin-top: 70px;
     text-decoration: none;
     font-size: 20px;
+    margin-top: 10px;
     letter-spacing: normal;
     font-weight: normal;
     font-family: "bebas neue";
