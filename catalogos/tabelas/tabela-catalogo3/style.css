@@ -434,6 +434,14 @@ li{
     padding: 50px;
     font-family: "lato",sans-serif;
     text-shadow: none;
+    padding: 50px;
+    text-shadow: none;
+    color: white;
+    font-family: "Montserrat";
+    text-align: center;
+    margin-top: 80px;
+    text-shadow: none;
+    font-size: 20px;
 }
 
 .text-end{
@@ -443,14 +451,7 @@ li{
     text-shadow: none;
 }
 
-.end{
-    color: white;
-    font-family: "Montserrat";
-    text-align: center;
-    margin-top: 80px;
-    text-shadow: none;
-    font-size: 20px;
-}
+
 
 /* CATÁLAGO */
 

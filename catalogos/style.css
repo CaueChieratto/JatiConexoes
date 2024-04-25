@@ -565,74 +565,90 @@ li{
 .footer-end{
     background-color: rgba(0, 128, 0, 0.6);
     padding: 50px;
-    font-family: "lato",sans-serif;
     text-shadow: none;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    color: white;
+    font-family: "Montserrat";
+    text-align: center;
+    /* margin-top: 80px; */
+    text-shadow: none;
+    font-size: 20px;
 }
 .footer-end1{
     background-color:rgba(94, 193, 227, 1);
     padding: 50px;
-    font-family: "lato",sans-serif;
     text-shadow: none;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    color: white;
+    font-family: "Montserrat";
+    text-align: center;
+    /* margin-top: 80px; */
+    text-shadow: none;
+    font-size: 20px;
 }
 .footer-end2{
     background-color:rgba(158, 42, 151, 1);
     padding: 50px;
-    font-family: "lato",sans-serif;
     text-shadow: none;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    color: white;
+    font-family: "Montserrat";
+    text-align: center;
+    /* margin-top: 80px; */
+    text-shadow: none;
+    font-size: 20px;
 }
 .footer-end3{
     background-color:rgba(243, 134, 63, 1);
     padding: 50px;
-    font-family: "lato",sans-serif;
     text-shadow: none;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    color: white;
+    font-family: "Montserrat";
+    text-align: center;
+    /* margin-top: 80px; */
+    text-shadow: none;
+    font-size: 20px;
 }
 .footer-end4{
     background-color:rgba(24, 168, 91, 1);
     padding: 50px;
-    font-family: "lato",sans-serif;
     text-shadow: none;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    color: white;
+    font-family: "Montserrat";
+    text-align: center;
+    /* margin-top: 80px; */
+    text-shadow: none;
+    font-size: 20px;
 }
 .footer-end5{
     background-color:rgba(255, 40, 58, 1);
     padding: 50px;
-    font-family: "lato",sans-serif;
     text-shadow: none;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    color: white;
+    font-family: "Montserrat";
+    text-align: center;
+    /* margin-top: 80px; */
+    text-shadow: none;
+    font-size: 20px;
 }
 .footer-end6{
     background-color:rgba(139, 69, 19, 1);
     padding: 50px;
-    font-family: "lato",sans-serif;
     text-shadow: none;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    color: white;
+    font-family: "Montserrat";
+    text-align: center;
+    /* margin-top: 80px; */
+    text-shadow: none;
+    font-size: 20px;
 }
 .footer-end7{
     background-color:rgba(0, 0, 0, 0.8);
     padding: 50px;
-    font-family: "lato",sans-serif;
     text-shadow: none;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    color: white;
+    font-family: "Montserrat";
+    text-align: center;
+    /* margin-top: 80px; */
+    text-shadow: none;
+    font-size: 20px;
 }
 
 .text-end{
@@ -642,14 +658,7 @@ li{
     text-shadow: none;
 }
 
-.end{
-    color: white;
-    font-family: "Montserrat";
-    text-align: center;
-    /* margin-top: 80px; */
-    text-shadow: none;
-    font-size: 20px;
-}
+
 
 /* CATÁLAGO */
 

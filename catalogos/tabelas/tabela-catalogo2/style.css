@@ -431,8 +431,13 @@ li{
 .footer-end{
     background-color:rgba(158, 42, 151, 1);
     padding: 50px;
-    font-family: "lato",sans-serif;
     text-shadow: none;
+    color: white;
+    font-family: "Montserrat";
+    text-align: center;
+    margin-top: 80px;
+    text-shadow: none;
+    font-size: 20px;
 }
 
 .text-end{
@@ -442,14 +447,7 @@ li{
     text-shadow: none;
 }
 
-.end{
-    color: white;
-    font-family: "Montserrat";
-    text-align: center;
-    margin-top: 80px;
-    text-shadow: none;
-    font-size: 20px;
-}
+
 
 /* CATÁLAGO */
 
