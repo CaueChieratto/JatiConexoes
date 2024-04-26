@@ -503,6 +503,13 @@ p.explain{
     display: flex;
     justify-content: space-around;
 }
+.tabela-titulo4{
+    background-color:#5C6026;
+    padding: 5px 0 5px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
 .tabela-titulo2{
     background-color:#53A677;
     padding: 10px 10px 10px 15px;
@@ -526,6 +533,7 @@ p.explain{
     margin: 5px 0 1px 0;
 }
 
+
 .tabela{
     background-color: #AADFBA;
     padding: 5px 0 5px;
@@ -542,6 +550,7 @@ p.explain{
     justify-content: space-around;
     background-color:#f5f6fa;
 }
+
 .tabela2{
     /* background-color:blue; */
     padding: 5px 0 5px;
@@ -550,7 +559,14 @@ p.explain{
     justify-content: space-around;
     background-color:#86C4E8;
 }
-
+.tabela3{
+    /* background-color:blue; */
+    padding: 5px 0 5px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    background-color:#B4BA84;
+}
 .name-1{
     color: white;
     font-family: sans-serif;

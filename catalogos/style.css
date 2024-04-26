@@ -981,6 +981,21 @@ h1.description-cata7{
     font-family: "bebas neue";
     margin-bottom: 23px;
 }
+h1.description-cata8{
+    color:#53A677;
+    background-color:white;
+    padding:5px 0;
+    min-width: 110px;    
+    min-height: 35px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 50%;
+    font-size: 16px;
+    font-weight: normal;
+    font-family: "bebas neue";
+    margin-bottom: 23px;
+}
 
 a.explain{
     width:fit-content;
