@@ -789,7 +789,7 @@ li{
     width: fit-content;
     text-align: center;
     display: flex;
-    /* height: 375px; */
+    height: 450px;
 }
 
 h1.nome{
