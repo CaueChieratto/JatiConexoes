@@ -11,126 +11,13 @@ html,body{
     text-shadow: none;
     color: black;
 }
-a.voltarInicio{
-    background-color: white;
-    color:rgba(0, 128, 0, 0.6);
-    display: flex;
-    padding: 10px;
-    border-radius: 40px;
-    border: solid 1px rgba(0, 128, 0, 0.6);
-    margin-top: 70px;
-    text-decoration: none;
-    font-size: 20px;
-    letter-spacing: normal;
-    font-weight: normal;
-    font-family: "bebas neue";
-}
-a.voltarInicio1{
-    background-color: white;
-    color: rgba(94, 193, 227, 1);
-    display: flex;
-    padding: 8px 50px;
-    border-radius: 40px ;
-    border: solid 1px rgba(94, 193, 227, 1);
-    text-decoration: none;
-    font-size: 20px;
-    letter-spacing: normal;
-    font-weight: normal;
-    font-family: "bebas neue";
-}
-a.voltarInicio2{
-    background-color: white;
-    color: rgba(158, 42, 151, 1);
-    display: flex;
-    padding: 10px;
-    border-radius: 40px;
-    border: solid 1px rgba(158, 42, 151, 1);
-    text-decoration: none;
-    font-size: 20px;
-    letter-spacing: normal;
-    font-weight: normal;
-    font-family: "bebas neue";
-}
-a.voltarInicio3{
-    background-color: white;
-    color:rgba(243, 134, 63, 1);
-    display: flex;
-    padding: 10px;
-    border-radius: 40px;
-    border: solid 1px rgba(243, 134, 63, 1);
-    text-decoration: none;
-    font-size: 20px;
-    letter-spacing: normal;
-    font-weight: normal;
-    font-family: "bebas neue";
-}
-a.voltarInicio4{
-    background-color:white;
-    color: rgba(24, 168, 91, 1);
-    display: flex;
-    padding: 10px;
-    border-radius: 40px;
-    border: solid 1px rgba(24, 168, 91, 1);
-    text-decoration: none;
-    font-size: 20px;
-    letter-spacing: normal;
-    font-weight: normal;
-    font-family: "bebas neue";
-}
-a.voltarInicio5{
-    background-color: white;
-    color: rgba(255, 40, 58, 1);
-    display: flex;
-    padding: 10px;
-    border-radius: 40px;
-    border: solid 1px rgba(255, 40, 58, 1);
-    text-decoration: none;
-    font-size: 20px;
-    letter-spacing: normal;
-    font-weight: normal;
-    font-family: "bebas neue";
-}
-a.voltarInicio6{
-    background-color: white;
-    color:  rgba(139, 69, 19, 1);
-    display: flex;
-    padding: 10px;
-    border-radius: 40px;
-    border: solid 1px  rgba(139, 69, 19, 1);
-    text-decoration: none;
-    font-size: 20px;
-    letter-spacing: normal;
-    font-weight: normal;
-    font-family: "bebas neue";
-}
-a.voltarInicio7{
-    background-color:white;
-    color: rgba(0, 0, 0, 0.8);
-    display: flex;
-    padding: 10px;
-    border-radius: 40px;
-    border: solid 1px rgba(0, 0, 0, 0.8);
-    text-decoration: none;
-    font-size: 20px;
-    letter-spacing: normal;
-    font-weight: normal;
-    font-family: "bebas neue";
-}
 
-.inicio{
-    display: flex;
-    justify-content: center;
-    margin-bottom: 10px;
-}
 *{
     margin: 0;
     padding: 0;
 
 }
 
-.divisao1{
-    margin-left: 30px;
-}
 
 .top-bar{
     position:relative;
@@ -151,7 +38,7 @@ a.voltarInicio7{
 }
 
 .logo-bottom{
-    background-color: #134f5c;
+    background-color: rgba(0, 128, 0, 0.6);
     color: white;
     font-size: 24px;
     text-align: center;
@@ -170,7 +57,7 @@ a.voltarInicio7{
     margin: 0 0 100px 0;
 }
 .logo-bottom-cata{
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: rgba(0, 128, 0, 0.6);
     color: white;
     font-size: 24px;
     text-align: center;
@@ -424,15 +311,19 @@ li{
     margin: 15px 15px 15px 15px;
 }
 
-.footer-end1{
+.footer-end{
     background-color:rgba(0, 128, 0, 0.6);
     padding: 50px;
-    font-family: "lato",sans-serif;
     text-shadow: none;
+    color: white;
+    font-family: "Montserrat";
+    text-align: center;
+    margin-top: 80px;
+    text-shadow: none;
+    font-size: 18px;
 }
-
-.footer-end{
-    background-color:rgba(0, 0, 0, 0.8);
+.footer-end1{
+    background-color:rgba(0, 128, 0, 0.6);
     padding: 50px;
     text-shadow: none;
     color: white;
@@ -473,7 +364,7 @@ li{
 }
 
 .produtos-cata{
-    width: 200px;
+    width: 150px;
     margin: 20px 0;
     padding: 0 30px;
 }
@@ -518,6 +409,7 @@ li{
     font-size: 22px;
     text-align: center;
     align-items: center;
+    
 }
 
 p.explain{
@@ -532,7 +424,6 @@ p.explain{
     padding:2px 0 0 0;
     text-shadow: none;
     letter-spacing: 0;
-    text-align: center;
 }
 
 .ai{
@@ -555,7 +446,7 @@ p.explain{
 .wrapper-tabela{
     margin: 0 ;
     display:flex;
-    align-items: center;
+    align-items: flex-start;
     gap: 50px;
     text-shadow: none;
     padding: 0px;
@@ -605,17 +496,8 @@ p.explain{
     display: flex;
     justify-content: space-around;
 }
-
 .tabela-titulo1{
     background-color:#0770B5;
-    padding: 5px 0 5px;
-    width: 100%;
-    display: flex;
-    justify-content: space-around;
-}
-
-.tabela-titulo4{
-    background-color:rgba(139, 69, 19, 0.7);
     padding: 5px 0 5px;
     width: 100%;
     display: flex;
@@ -667,14 +549,6 @@ p.explain{
     display: flex;
     justify-content: space-around;
     background-color:#86C4E8;
-}
-.tabela3{
-    /* background-color:blue; */
-    padding: 5px 0 5px;
-    width: 100%;
-    display: flex;
-    justify-content: space-around;
-    background-color:rgba(139, 69, 19, 0.4);
 }
 
 .name-1{
@@ -841,7 +715,7 @@ dd{
 }
 
 .toda-tabela{
-    width: 700px;
+    width: 500px;
 }
 
 @media (max-width: 1350px){
@@ -864,69 +738,7 @@ dd{
         font-size: 18px;
     }
 }
-@media (max-width: 1200px){
-    .toda-tabela{
-        width: 600px;
-    }
-    .name-1-2{
-        font-size: 15px;
-    }
 
-    .name1-2{
-        font-size: 15px;
-    }
-    .name-1{
-        font-size: 15px;
-    }
-
-    .name1{
-        font-size: 15px;
-    }
-    .tabela-titulo2{
-        font-size: 15px;
-    }
-    .tabela-titulo3{
-        font-size: 15px;
-    }
-}
-@media(max-width:900px){
-    .logo-bottom-cata{
-        font-size: 18px !important;
-    }
-    a.voltarInicio7{
-        font-size: 18px !important;
-    }
-}
-@media(max-width:600px){
-    .logo-bottom-cata{
-        font-size: 14px !important;
-    }
-    a.voltarInicio7{
-        font-size: 16px !important;
-    }
-}
-@media (max-width: 1087px){
-    .name-1-2{
-        font-size: 13px;
-    }
-
-    .name1-2{
-        font-size: 13px;
-    }
-    .name-1{
-        font-size: 13px;
-    }
-
-    .name1{
-        font-size: 13px;
-    }
-    .tabela-titulo2{
-        font-size: 13px;
-    }
-    .tabela-titulo3{
-        font-size: 13px;
-    }
-}
 
 @media (max-width: 1050px){
     .wrapper-tabela{
@@ -989,68 +801,38 @@ dd{
     }
 
    
-    .toda-tabela{
-        width: 700px;
+
+}
+
+@media(max-width:900px){
+    .logo-bottom-cata{
+        font-size: 18px !important;
+    }
+    a.voltarInicio1{
+        font-size: 18px !important;
+    }
+}
+@media(max-width:600px){
+    .logo-bottom-cata{
+        font-size: 14px !important;
+    }
+    a.voltarInicio1{
+        font-size: 16px !important;
     }
 }
 
-@media (max-width: 850px){
-    .toda-tabela{
-        width: 500px;
-    }
-    .name-1-2{
-        font-size: 14px;
-    }
 
-    .name1-2{
-        font-size: 14px;
-    }
-    .name-1{
-        font-size: 14px;
-    }
 
-    .name1{
-        font-size: 14px;
-    }
-    .tabela-titulo2{
-        font-size: 14px;
-    }
-    .tabela-titulo3{
-        font-size: 14px;
-    }
-    .buttom1-a-1{
-        font-size: 14px;
-    }
-}
 
-@media (max-width: 620px){
-    .toda-tabela{
-        width: 500px;
-    }
-}
 @media (max-width: 550px){
     .toda-tabela{
         width: 450px;
     }
-    .name-1-2{
-        font-size: 15px;
-    }
-
-    .name1-2{
-        font-size: 15px;
-    }
-    .name-1{
-        font-size: 15px;
-    }
-
-    .name1{
-        font-size: 15px;
-    }
     .tabela-titulo2{
-        font-size: 15px;
+        font-size: 14px;
     }
     .tabela-titulo3{
-        font-size: 15px;
+        font-size: 14px;
     }
 }
 @media (max-width: 480px){
@@ -1058,42 +840,10 @@ dd{
     .toda-tabela{
         width: 400px;
     }
-
-    .name-1-2{
-        font-size: 12px;
-    }
-    .name1-2{
-        font-size: 12px;
-    }
-    .name-1{
-        font-size: 12px;
-    }
-    .name1{
-        font-size: 12px;
-    }
-    .tabela-titulo2{
-        font-size: 12px;
-    }
-    .tabela-titulo3{
-        font-size: 12px;
-    }
-
     .produtos-tabela{
-        width: 200px;
+        width: 300px;
     }
     
-    .title1-tabela{
-        font-size: 16px;
-    }
-    .title-tabela{
-        font-size: 16px;
-    }
-    .title1-tabela{
-        font-size: 16px;
-    }
-    p.explain{
-        font-size: 10px;
-    }
 }
 
 
@@ -1102,41 +852,10 @@ dd{
     .toda-tabela{
         width: 350px;
     }
-    .name-1-2{
-        font-size: 10px;
-    }
-
-    .name1-2{
-        font-size: 10px;
-    }
-    .name-1{
-        font-size: 10px;
-    }
-
-    .name1{
-        font-size: 10px;
-    }
-    .tabela-titulo2{
-        font-size: 10px;
-    }
-    .tabela-titulo3{
-        font-size: 10px;
-    }
 }
 
 @media (max-width: 380px){
-    .name-1{
-        font-size: 10px;
-    }
-    .name1{
-        font-size: 10px;
-    }
-    .name-1-2{
-        font-size: 10px;
-    }
-    .name1-2{
-        font-size: 10px;
-    }
+
 
     .title1-tabela{
         font-size: 20px !important;
@@ -1144,13 +863,7 @@ dd{
     .produtos-tabela{
         width: 250px;
     }
-    .buttom1-a{
-        font-size: 10px;
-    }
 
-    p.explain{
-        font-size: 8px;
-    }
 
     .wrapper-tabela{
         gap: 20px !important;
@@ -1209,4 +922,116 @@ dd{
     p.explain{
         font-size: 6px;
     }
+}
+
+a.voltarInicio{
+    background-color: white;
+    color:rgba(0, 128, 0, 0.6);
+    display: flex;
+    padding: 10px;
+    border-radius: 40px;
+    border: solid 1px rgba(0, 128, 0, 0.6);
+    margin-top: 70px;
+    text-decoration: none;
+    font-size: 20px;
+    letter-spacing: normal;
+    font-weight: normal;
+    font-family: "bebas neue";
+}
+a.voltarInicio1{
+    background-color: white;
+    color: rgba(0, 128, 0, 0.6);
+    display: flex;
+    padding:10px;
+    border-radius: 40px ;
+    border: solid 1px rgba(0, 128, 0, 0.6);
+    text-decoration: none;
+    font-size: 20px;
+    letter-spacing: normal;
+    font-weight: normal;
+    font-family: "bebas neue";
+}
+a.voltarInicio2{
+    background-color: white;
+    color: rgba(0, 128, 0, 0.6);
+    display: flex;
+    padding: 10px;
+    border-radius: 40px;
+    border: solid 1px rgba(0, 128, 0, 0.6);
+    text-decoration: none;
+    font-size: 20px;
+    letter-spacing: normal;
+    font-weight: normal;
+    font-family: "bebas neue";
+}
+a.voltarInicio3{
+    background-color: white;
+    color:rgba(0, 128, 0, 0.6);
+    display: flex;
+    padding: 10px;
+    border-radius: 40px;
+    border: solid 1px rgba(0, 128, 0, 0.6);
+    text-decoration: none;
+    font-size: 20px;
+    letter-spacing: normal;
+    font-weight: normal;
+    font-family: "bebas neue";
+}
+a.voltarInicio4{
+    background-color:white;
+    color: rgba(0, 128, 0, 0.6);
+    display: flex;
+    padding: 10px;
+    border-radius: 40px;
+    border: solid 1px rgba(0, 128, 0, 0.6);
+    text-decoration: none;
+    font-size: 20px;
+    letter-spacing: normal;
+    font-weight: normal;
+    font-family: "bebas neue";
+}
+a.voltarInicio5{
+    background-color: white;
+    color: rgba(0, 128, 0, 0.6);
+    display: flex;
+    padding: 10px;
+    border-radius: 40px;
+    border: solid 1px rgba(0, 128, 0, 0.6);
+    text-decoration: none;
+    font-size: 20px;
+    letter-spacing: normal;
+    font-weight: normal;
+    font-family: "bebas neue";
+}
+a.voltarInicio6{
+    background-color: white;
+    color:  rgba(0, 128, 0, 0.6);
+    display: flex;
+    padding: 10px;
+    border-radius: 40px;
+    border: solid 1px  rgba(0, 128, 0, 0.6);
+    text-decoration: none;
+    font-size: 20px;
+    letter-spacing: normal;
+    font-weight: normal;
+    font-family: "bebas neue";
+}
+a.voltarInicio7{
+    background-color:white;
+    color: rgba(0, 128, 0, 0.6);
+    display: flex;
+    padding: 10px;
+    border-radius: 40px;
+    border: solid 1px rgba(0, 128, 0, 0.6);
+    text-decoration: none;
+    font-size: 20px;
+    letter-spacing: normal;
+    font-weight: normal;
+    font-family: "bebas neue";
+}
+
+.inicio{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
 }
