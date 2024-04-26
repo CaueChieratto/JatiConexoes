@@ -858,17 +858,17 @@ h1.description-cata{
     text-align: center;
     font-weight: normal;
     text-shadow: none;
-    padding: 8px 5px;
+    padding:5px 0;
+    min-width: 120px;    
     min-height: 20px;
-    min-width: 130px;    
 }
 h1.description-cata1{
     color:rgba(94, 193, 227, 1);
     background-color:white;
     border: 1px solid rgba(94, 193, 227, 1);
-    padding: 8px 5px;
-    min-height: 20px;
-    min-width: 130px;  
+    padding:5px 0;
+    min-width: 120px;    
+    min-height: 20px;  
     border-radius: 50%;
     font-size: 16px;
     font-weight: normal;
@@ -879,9 +879,9 @@ h1.description-cata2{
     color:rgba(158, 42, 151, 1);
     background-color:white;
     border: 1px solid rgba(158, 42, 151, 1);
-    padding: 8px 5px;
+    padding:5px 0;
+    min-width: 120px;    
     min-height: 20px;
-    min-width: 130px;  
     border-radius: 50%;
     font-size: 16px;
     font-weight: normal;
@@ -892,9 +892,9 @@ h1.description-cata3{
     color:rgba(243, 134, 63, 1);
     background-color:white;
     border: 1px solid rgba(243, 134, 63, 1);
-    padding:8px 5px;
-    min-height: 20px;
-    min-width: 130px;  
+    padding:5px 0;
+    min-width: 120px;    
+    min-height: 20px; 
     border-radius: 50%;
     font-size: 16px;
     font-weight: normal;
@@ -905,9 +905,9 @@ h1.description-cata4{
     color:rgba(24, 168, 91, 1);
     background-color:white;
     border: 1px solid rgba(24, 168, 91, 1);
-    padding:  8px 5px;
+    padding:5px 0;
+    min-width: 120px;    
     min-height: 20px;
-    min-width: 130px;  
     border-radius: 50%;
     font-size: 16px;
     font-weight: normal;
@@ -918,9 +918,9 @@ h1.description-cata5 {
     color:rgba(255, 40, 58, 1);
     background-color:white;
     border: 1px solid rgba(255, 40, 58, 1);
-    padding: 8px 5px;
-    min-height: 20px;
-    min-width: 130px;  
+    padding:5px 0;
+    min-width: 120px;    
+    min-height: 20px; 
     border-radius: 50%;
     font-size: 16px;
     font-weight: normal;
@@ -931,9 +931,9 @@ h1.description-cata6{
     color:rgba(139, 69, 19, 1);
     background-color:white;
     border: 1px solid rgba(139, 69, 19, 1);
-    padding:8px 5px;
-    min-height: 20px;
-    min-width: 130px;  
+    padding:5px 0;
+    min-width: 120px;    
+    min-height: 20px; 
     border-radius: 50%;
     font-size: 16px;
     font-weight: normal;
@@ -944,9 +944,9 @@ h1.description-cata7{
     color:rgba(0, 0, 0, 0.8);
     background-color:white;
     border: 1px solid rgba(0, 0, 0, 0.8);
-    padding:  8px 5px;
+    padding:5px 0;
+    min-width: 120px;    
     min-height: 20px;
-    min-width: 130px;  
     border-radius: 50%;
     font-size: 16px;
     font-weight: normal;
