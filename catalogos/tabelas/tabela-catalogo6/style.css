@@ -491,21 +491,14 @@ p.explain{
 
 .tabela-titulo{
     background-color:#53A677;
-    padding: 5px 0 5px;
+    padding:  0;
     width: 100%;
     display: flex;
     justify-content: space-around;
 }
 .tabela-titulo1{
     background-color:#0770B5;
-    padding: 5px 0 5px;
-    width: 100%;
-    display: flex;
-    justify-content: space-around;
-}
-.tabela-titulo4{
-    background-color:#5C6026;
-    padding: 5px 0 5px;
+    padding:  0;
     width: 100%;
     display: flex;
     justify-content: space-around;
@@ -513,59 +506,47 @@ p.explain{
 .tabela-titulo2{
     background-color:#53A677;
     padding: 10px 10px 10px 15px;
-    width: 15%;
+    width: 20%;
     border-top-right-radius: 40px;
     color: white;
     font-size: 20px;
     font-weight: bold;
     display: flex;
-    margin: 0 0 1px 0;
+    margin: 0 0 5px 0;
 }
 .tabela-titulo3{
     background-color:#0770B5;
     padding: 10px 10px 10px 15px;
-    width: 15%;
+    width: 20%;
     border-top-right-radius: 40px;
     color: white;
     font-size: 20px;
     font-weight: bold;
     display: flex;
-    margin: 5px 0 1px 0;
+    margin: 40px 0 5px 0;
 }
-
 
 .tabela{
     background-color: #AADFBA;
-    padding: 5px 0 5px;
+    padding: 0;
     width: 100%;
     display: flex;
     justify-content: space-around;
 }
 
 .tabela1{
-    /* background-color:blue; */
-    padding: 5px 0 5px;
+    padding:0;
     width: 100%;
     display: flex;
     justify-content: space-around;
     background-color:#f5f6fa;
 }
-
 .tabela2{
-    /* background-color:blue; */
-    padding: 5px 0 5px;
+    padding:0;
     width: 100%;
     display: flex;
     justify-content: space-around;
     background-color:#86C4E8;
-}
-.tabela3{
-    /* background-color:blue; */
-    padding: 5px 0 5px;
-    width: 100%;
-    display: flex;
-    justify-content: space-around;
-    background-color:#B4BA84;
 }
 .name-1{
     color: white;
