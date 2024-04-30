@@ -722,6 +722,7 @@ dd{
     align-items: center;
     flex-direction: column;
 }
+
 .esconde{
     display: none;
 }
