@@ -6,7 +6,9 @@ html,body{
     /* background-color: rgba(0, 128, 0, 0.1); */
 }
 
-
+.patente{
+    width: 70px;
+}
 
 .ai{
     background-color: yellow;
