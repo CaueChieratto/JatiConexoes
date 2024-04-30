@@ -697,15 +697,6 @@ dd{
     display: flex;
     align-items: center;
     flex-direction: column;
-    box-shadow:1px 1px 20px 1px  #f5f6fa;
-    border-radius: 55px;
-    padding: 16px;
-    transition: 0.3s;
-}
-
-.item:hover{
-    box-shadow:1px 1px 20px 1px #e2e5f0;
-    transition: 0.3s;
 }
 
 .esconde{
