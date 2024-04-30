@@ -1024,14 +1024,14 @@ h2.explain{
     min-height: 40px;
 }
 p.explain{
-    width:fit-content;
+    text-align: center;
     margin: 0;
     font-size: 9px;
     font-family:"DM sans", sans-serif;
     color:rgba(25, 27, 35, 0.8);
     font-weight:600;
     text-decoration: none;
-    padding:2px 0 0 15px;
+    padding:2px 0 0 ;
     text-shadow: none;
     letter-spacing: 0;
 }
