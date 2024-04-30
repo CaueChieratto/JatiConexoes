@@ -1002,7 +1002,7 @@ a.explain{
     width:fit-content;
     margin:0;
     font-size: 14px;
-    color:rgba(25, 27, 35, 0.8);
+    color:rgba(25, 27, 35, 0.9);
     font-weight:600;
     text-decoration: none;
     display:table-row-group;
@@ -1015,13 +1015,14 @@ h2.explain{
     width:fit-content;
     margin: 0;
     font-size: 14px;
-    color: #134f5c;
+    color: rgba(25, 27, 35, 0.9);;
     font-weight:600;
     text-decoration: none;
     display:table-row-group;
     padding:0;
     text-shadow: none;
     min-height: 40px;
+    font-family: "DM sans", sans-serif;
 }
 p.explain{
     text-align: center;
