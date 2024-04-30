@@ -717,59 +717,66 @@ h2.b{
  }
 h1.um{
     margin: 0px;
-    font-size: 25px;
-    font-family: "DM sans", sans-serif;
+    font-size: 38px;
+    font-family:"Tac One", sans-serif;
     text-transform: uppercase;
     text-shadow:none;
     color:rgba(94, 193, 227, 1);
+    font-weight: 300;
 }
 h1.dois{
     margin: 0px;
-    font-size: 25px;
-    font-family:"DM sans", sans-serif;
+    font-size: 38px;
+    font-family:"Tac One", sans-serif;
     text-transform: uppercase;
     text-shadow:none;
     color: rgba(158, 42, 151, 1);
+    font-weight: 300;
 }
 h1.tres{
     margin: 0px;
-    font-size: 25px;
-    font-family: "DM sans", sans-serif;
+    font-size: 38px;
+    font-family:"Tac One", sans-serif;
     text-transform: uppercase;
     text-shadow:none;
     color:rgba(243, 134, 63, 1);
+    font-weight: 300;
 }
 h1.quatro{
     margin: 0px;
-    font-size: 25px;
-    font-family:"DM sans", sans-serif;
+    font-size: 38px;
+    font-family:"Tac One", sans-serif;
     text-transform: uppercase;
     text-shadow:none;
     color: rgba(24, 168, 91, 1);
+    font-weight: 300;
 }
 h1.cinco{
     margin: 0px;
-    font-size: 25px;
-    font-family:"DM sans", sans-serif;
+    font-size: 38px;
+    font-family:"Tac One", sans-serif;
     text-transform: uppercase;
     text-shadow:none;
     color:rgba(255, 40, 58, 1);
+    font-weight: 300;
 }
 h1.seis{
     margin: 0px;
-    font-size: 25px;
-    font-family: "DM sans", sans-serif;
+    font-size: 38px;
+    font-family:"Tac One", sans-serif;
     text-transform: uppercase; 
     text-shadow:none;
     color:rgba(139, 69, 19, 1);
+    font-weight: 300;
 }
 h1.sete{
     margin: 0px;
-    font-size: 25px;
-    font-family: "DM sans",sans-serif;
+    font-size: 38px;
+    font-family:"Tac One", sans-serif;
     text-transform: uppercase;
     text-shadow:none;
     color:rgba(0, 0, 0, 0.8);
+    font-weight: 300;
 }
 
 h2{
