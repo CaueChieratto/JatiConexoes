@@ -1019,6 +1019,7 @@ h2.explain{
     display:table-row-group;
     padding:0;
     text-shadow: none;
+    min-height: 40px;
 }
 p.explain{
     width:fit-content;
