@@ -525,6 +525,24 @@ p.explain{
     display: flex;
     margin: 40px 0 5px 0;
 }
+.tabela-titulo4{
+    background-color:#512F10;
+    padding:  0;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.tabela-titulo5{
+    background-color:#512F10;
+    padding: 10px 10px 10px 15px;
+    width: 20%;
+    border-top-right-radius: 40px;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    margin: 40px 0 5px 0;
+}
 
 .tabela{
     background-color: #AADFBA;
@@ -547,6 +565,13 @@ p.explain{
     display: flex;
     justify-content: space-around;
     background-color:#86C4E8;
+}
+.tabela3{
+    padding:0;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    background-color:#8f6c4dd3;
 }
 .name-1{
     color: white;
