@@ -210,7 +210,7 @@ html,body{
 }
 
 .background-icon{
-    margin: 75px 0 0;
+    /* margin: 75px 0 0; */
     /* background-image: url(./IMG/fundo2.jpg); */
     background-color:rgba(0, 128, 0, 0.6);
     background-repeat: no-repeat;
@@ -330,6 +330,7 @@ a.voltarInicio7{
 .inicio{
     display: flex;
     justify-content: center;
+    background-color: #E5F2E5;
 }
 
 
@@ -767,15 +768,14 @@ li{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    background-color: white;
-    margin-left:30px ;
+    background-color: rgba(0, 128, 0, 0.1);
+    padding:0 0 60px 30px ;
 }
 
 
 .background2-cata{
   margin: 20px 0 0;
   width: 20%;
-  /* background-color: red; */
   min-height: 375px;
 }
 .wrapper-cata{
@@ -790,6 +790,7 @@ li{
     text-align: center;
     display: flex;
     height: 450px;
+    
 }
 
 h1.nome{
@@ -807,18 +808,18 @@ h1.nome{
     display: flex;
     align-items: center;
     flex-direction: column;
-    box-shadow:1px 1px 20px 1px #f5f6fa;
     border-radius: 8px;
     padding: 16px;
     width: 75%;
     transition: 0.3s;
     justify-content: space-between;
+    background-color: white;
 }
 
 .item:hover{
-    cursor:pointer;
-    box-shadow:5px 5px 20px 5px #e2e5f0;
-    transition: 0.3s;
+    cursor:default;
+    box-shadow:0px 0px 10px 0px rgba(0, 53, 0, 0.4);
+    transition: 0.2s;
 }
 
 .produtos-cata{
