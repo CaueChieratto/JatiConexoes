@@ -32,14 +32,14 @@ html,body{
     text-decoration: none;
 }
 .ver-produtos1{
-    color:rgba(94, 193, 227, 1);
+    color:rgb(44, 168, 209);
     padding: 10px;
     border-radius: 20px;
-    border: 1px solid rgba(94, 193, 227, 1);
+    border: 1px solid rgb(44, 168, 209);
     text-decoration: none;
 }
 .ver-produtos2{
-    color:rgba(158, 42, 151, 1);
+    color:rgba(158, 42, 151, 0.8);
     padding: 10px;
     border-radius: 20px;
     border: 1px solid rgba(158, 42, 151, 1);
@@ -60,17 +60,17 @@ html,body{
     text-decoration: none;
 }
 .ver-produtos5{
-    color:rgba(255, 40, 58, 1);
+    color:rgba(19, 79, 92, 0.9);
     padding: 10px;
     border-radius: 20px;
-    border: 1px solid rgba(255, 40, 58, 1);
+    border: 1px solid rgba(19, 79, 92, 0.9);
     text-decoration: none;
 }
 .ver-produtos6{
-    color:rgba(139, 69, 19, 1);
+    color:rgba(90, 71, 54,0.9);
     padding: 10px;
     border-radius: 20px;
-    border: 1px solid rgba(139, 69, 19, 1);
+    border: 1px solid rgba(90, 71, 54,0.9);
     text-decoration: none;
 }
 .ver-produtos7{
@@ -90,7 +90,7 @@ html,body{
     text-decoration: none;
 }
 .baixar-catalogo1{
-    background-color:rgba(94, 193, 227, 1);
+    background-color:rgb(44, 168, 209);
     font-weight: bold;
     color:white ;
     padding: 10px;
@@ -98,7 +98,7 @@ html,body{
     text-decoration: none;
 }
 .baixar-catalogo2{
-    background-color:rgba(158, 42, 151, 1);
+    background-color:rgba(158, 42, 151, 0.8);
     font-weight: bold;
     color:white ;
     padding: 10px;
@@ -122,7 +122,7 @@ html,body{
     text-decoration: none;
 }
 .baixar-catalogo5{
-    background-color:rgba(255, 40, 58, 1);
+    background-color:#134f5c;
     font-weight: bold;
     color:white ;
     padding: 10px;
@@ -130,7 +130,7 @@ html,body{
     text-decoration: none;
 }
 .baixar-catalogo6{
-    background-color:rgba(139, 69, 19, 1);
+    background-color:rgba(90, 71, 54,0.9);
     font-weight: bold;
     color:white ;
     padding: 10px;
@@ -717,66 +717,73 @@ h2.b{
  }
 h1.um{
     margin: 0px;
-    font-size: 35px;
-    font-family:"Oswald", sans-serif;
+    font-size: 32px;
+    font-family:"anton", sans-serif;
     text-transform: uppercase;
     text-shadow:none;
-    color:rgba(94, 193, 227, 1);
+    color:rgb(44, 168, 209);
     font-weight: 600;
+    letter-spacing: 1px;
 }
 h1.dois{
     margin: 0px;
-    font-size: 35px;
-    font-family:"Oswald", sans-serif;
+    font-size: 32px;
+    font-family:"anton", sans-serif;
     text-transform: uppercase;
     text-shadow:none;
-    color: rgba(158, 42, 151, 1);
+    color: rgba(158, 42, 151, 0.8);
     font-weight: 600;
+    letter-spacing: 1px;
 }
 h1.tres{
     margin: 0px;
-    font-size: 35px;
-    font-family:"Oswald", sans-serif;
+    font-size: 32px;
+    font-family:"anton", sans-serif;
     text-transform: uppercase;
     text-shadow:none;
     color:rgba(243, 134, 63, 1);
     font-weight: 600;
+    letter-spacing: 1px;
 }
 h1.quatro{
     margin: 0px;
-    font-size: 35px;
-    font-family:"Oswald", sans-serif;
+    font-size: 32px;
+    font-family:"anton", sans-serif;
     text-transform: uppercase;
     text-shadow:none;
     color: rgba(24, 168, 91, 1);
     font-weight: 600;
+    letter-spacing: 1px;
 }
 h1.cinco{
     margin: 0px;
-    font-size: 35px;
-    font-family:"Oswald", sans-serif;
+    font-size: 32px;
+    font-family:"anton", sans-serif;
     text-transform: uppercase;
     text-shadow:none;
-    color:rgba(255, 40, 58, 1);
+    color:rgba(19, 79, 92, 0.9);
     font-weight: 600;
+    letter-spacing: 1px;
 }
 h1.seis{
     margin: 0px;
-    font-size: 35px;
-    font-family:"Oswald", sans-serif;
+    font-size: 32px;
+    font-family:"anton", sans-serif;
     text-transform: uppercase; 
     text-shadow:none;
-    color:rgba(139, 69, 19, 1);
+    color:rgba(90, 71, 54,0.9);
     font-weight: 600;
+    letter-spacing: 1px;
 }
 h1.sete{
     margin: 0px;
-    font-size: 35px;
-    font-family:"Oswald", sans-serif;
+    font-size: 32px;
+    font-family:"anton", sans-serif;
     text-transform: uppercase;
     text-shadow:none;
     color:rgba(0, 0, 0, 0.8);
     font-weight: 600;
+    letter-spacing: 1px;
 }
 
 h2{
@@ -941,7 +948,7 @@ h3.b{
 }
 h3.um{
     font-family: "DM sans",sans-serif;
-    color:rgba(94, 193, 227, 1);
+    color:rgb(44, 168, 209);
     max-width: 500px;
     font-weight: 600;
     width: fit-content;
