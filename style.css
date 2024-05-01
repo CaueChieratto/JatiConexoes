@@ -6,6 +6,18 @@ html,body{
 
 }
 
+.stick{
+    position: sticky;
+    top: 0px;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.image-stick{
+    width: 100px;
+    margin: 30px 20px 0 0;
+}
+
 .tudo{
     background-color: rgba(0, 128, 0, 0.1);
     padding: 1px 0 0;
@@ -281,7 +293,9 @@ html,body{
     .background{
         margin: 20px 0 !important;
     }
- 
+    .image-stick{
+        width: 60px !important;
+    }
 }
 
 @media (max-width:550px){
@@ -422,6 +436,9 @@ html,body{
     }
     a{
         font-size: 12px !important;
+    }
+    .image-stick{
+        width: 40px !important;
     }
 }
 
