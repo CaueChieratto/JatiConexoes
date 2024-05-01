@@ -13,9 +13,30 @@ html,body{
     flex-direction: row-reverse;
 }
 
+.botao{
+    background-color:white;
+    border: 1px solid black;
+    padding:0 10px;
+    height: 20px;
+    margin: 30px 0 0 0;
+    border-radius: 35px;
+    font-size: 9px;
+    display: flex;
+    align-items: center;
+    font-family: "DM sans",sans-serif;
+    font-weight: 700;
+    color:black;
+}
+
+a.balao{
+    display: flex;
+    flex-direction: row-reverse;
+    text-decoration: none;
+}
+
 .image-stick{
-    width: 100px;
-    margin: 30px 20px 0 0;
+    width: 60px;
+    
 }
 
 .tudo{
@@ -191,12 +212,18 @@ html,body{
         align-content: center;
         justify-content: center;
     }
+    .stick{
+        position: relative !important;
+    }
 
 }
 
 @media(max-width:1080px){
     a.menu1{
         font-size: 10px !important;
+    }
+    .stick{
+        position: sticky !important;
     }
 }
 
@@ -264,6 +291,9 @@ html,body{
     }
     a.menu1{
         font-size: 16px !important;
+    }
+    .stick{
+        position: relative !important;
     }
 }
 
@@ -437,9 +467,7 @@ html,body{
     a{
         font-size: 12px !important;
     }
-    .image-stick{
-        width: 40px !important;
-    }
+   
 }
 
 @media (max-width: 400px){
