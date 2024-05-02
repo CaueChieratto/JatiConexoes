@@ -226,10 +226,13 @@ a.balao{
     .stick{
         position: sticky !important;
     }
+    
 }
 
 @media only screen and (max-width:980px){
-    
+    .background{
+        border-radius: 40px !important;
+    }    
     .wrapper{
         margin: 0 30px;
         display:flex;
