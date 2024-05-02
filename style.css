@@ -8,7 +8,7 @@ html,body{
 
 .stick{
     position: sticky;
-    top: 0px;
+    top: 10px;
     display: flex;
     flex-direction: row-reverse;
     margin: 10px 10px 0 0;
