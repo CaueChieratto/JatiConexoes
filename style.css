@@ -766,7 +766,7 @@ a.menu1{
 h1.um{
     margin: 0px;
     font-size: 32px;
-    font-family:"anton", sans-serif;
+    font-family:"anton", sans-serif, "Open Sans";
     text-transform: uppercase;
     text-shadow:none;
     color:rgb(44, 168, 209);
@@ -776,7 +776,7 @@ h1.um{
 h1.dois{
     margin: 0px;
     font-size: 32px;
-    font-family:"anton", sans-serif;
+    font-family:"anton", sans-serif, "Open Sans";
     text-transform: uppercase;
     text-shadow:none;
     color: rgba(158, 42, 151, 0.8);
@@ -786,7 +786,7 @@ h1.dois{
 h1.tres{
     margin: 0px;
     font-size: 32px;
-    font-family:"anton", sans-serif;
+    font-family:"anton", sans-serif, "Open Sans";
     text-transform: uppercase;
     text-shadow:none;
     color:rgba(243, 134, 63, 1);
@@ -796,7 +796,7 @@ h1.tres{
 h1.quatro{
     margin: 0px;
     font-size: 32px;
-    font-family:"anton", sans-serif;
+    font-family:"anton", sans-serif, "Open Sans";
     text-transform: uppercase;
     text-shadow:none;
     color: rgba(24, 168, 91, 1);
@@ -806,7 +806,7 @@ h1.quatro{
 h1.cinco{
     margin: 0px;
     font-size: 32px;
-    font-family:"anton", sans-serif;
+    font-family:"anton", sans-serif, "Open Sans";
     text-transform: uppercase;
     text-shadow:none;
     color:rgba(19, 79, 92, 0.9);
@@ -816,7 +816,7 @@ h1.cinco{
 h1.seis{
     margin: 0px;
     font-size: 32px;
-    font-family:"anton", sans-serif;
+    font-family:"anton", sans-serif, "Open Sans";
     text-transform: uppercase; 
     text-shadow:none;
     color:rgba(90, 71, 54,0.9);
@@ -826,7 +826,7 @@ h1.seis{
 h1.sete{
     margin: 0px;
     font-size: 32px;
-    font-family:"anton", sans-serif;
+    font-family:"anton", sans-serif, "Open Sans";
     text-transform: uppercase;
     text-shadow:none;
     color:rgba(0, 0, 0, 0.8);
