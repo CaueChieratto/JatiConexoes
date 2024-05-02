@@ -17,7 +17,9 @@ html,body{
     padding: 0;
 
 }
-
+section{
+    min-height: 70vh;
+}
 
 .top-bar{
     position:relative;
@@ -668,7 +670,8 @@ dd{
 }
 
 .buttom1-a{
-    text-decoration: dashed;
+    text-decoration: none;
+    outline: none;
     width: fit-content;
     margin: 20px 0 0 30px;
     background-color:rgba(243, 134, 63, 0.7);
@@ -680,7 +683,8 @@ dd{
     visibility: hidden;
 }
 .buttom1-a-1{
-    text-decoration: dashed;
+    text-decoration: none;
+    outline: none;
     width: fit-content;
     margin: 20px 0 0 30px;
     background-color: rgba(24, 168, 91, 0.7);
