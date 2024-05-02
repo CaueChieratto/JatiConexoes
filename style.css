@@ -491,7 +491,7 @@ a.balao{
 }
 @media (max-width:350px){
     .produtos{
-        width: 200px !important;
+        width: 250px !important;
     }
     .produtos-footer{
         width: 200px !important;
@@ -577,7 +577,8 @@ a.balao{
         margin: 0 50px 0 !important;
     }
     h1{
-        font-size: 16px !important;
+        font-size: 26px !important;
+        font-weight: 500 !important;
     }
 }
 
@@ -840,44 +841,6 @@ h2{
     margin-bottom: 15px; 
     color: black;
 }
-
-h2.um{
-    font-size: 18px;
-    margin-bottom: 15px; 
-    color:rgba(94, 193, 227, 1);
-}
-h2.dois{
-    font-size: 18px;
-    margin-bottom: 15px;
-    color: rgba(158, 42, 151, 1);
-}
-h2.tres{
-    font-size: 18px;
-    margin-bottom: 15px;
-    color:rgba(243, 134, 63, 1);
-    font-family: "DM sans", sans-serif;
-}
-h2.quatro{
-    font-size: 18px;
-    margin-bottom: 15px;
-    color: rgba(24, 168, 91, 1);
-}
-h2.cinco{
-    font-size: 18px;
-    margin-bottom: 15px;
-    color:rgba(255, 40, 58, 1);
-}
-h2.seis{
-    font-size: 18px;
-    margin-bottom: 15px;
-    color:rgba(139, 69, 19, 1);
-}
-h2.sete{
-    font-size: 18px;
-    margin-bottom: 15px;
-    color:rgba(0, 0, 0, 0.8);
-}
-
 
 .produtos-title{
    color:#18A85B;
