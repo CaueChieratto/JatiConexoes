@@ -578,7 +578,31 @@ a.balao{
     .ver-produtos7{
         margin: 0 50px 0 !important;
     }
-    h1{
+    h1.um{
+        font-size: 26px !important;
+        font-weight: 500 !important;
+    }
+    h1.dois{
+        font-size: 26px !important;
+        font-weight: 500 !important;
+    }
+    h1.tres{
+        font-size: 26px !important;
+        font-weight: 500 !important;
+    }
+    h1.quatro{
+        font-size: 26px !important;
+        font-weight: 500 !important;
+    }
+    h1.cinco{
+        font-size: 26px !important;
+        font-weight: 500 !important;
+    }
+    h1.seis{
+        font-size: 26px !important;
+        font-weight: 500 !important;
+    }
+    h1.sete{
         font-size: 26px !important;
         font-weight: 500 !important;
     }
