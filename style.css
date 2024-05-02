@@ -763,24 +763,6 @@ a.menu1{
 }
 
 
-h1,h2,h3,h4,h5{
-    color: black
-}
-h1{
-    margin: 0px;
-    font-size: 20px;
-    font-weight: bold;
-    font-family: "DM sans", sans-serif;
-    text-transform: uppercase;
-    text-shadow:none;
-    color:#191b23;
-}
-h2.b{
-   font-size: 18px;
-   margin-bottom: 15px; 
-   color: #191b23;
-   font-family: "DM sans", sans-serif;
-}
 h1.um{
     margin: 0px;
     font-size: 32px;
