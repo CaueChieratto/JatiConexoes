@@ -2,7 +2,7 @@ html,body{
     margin: 0;
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
-
+    
 }
 .ai{
     background-color: yellow;
@@ -10,6 +10,10 @@ html,body{
     text-align: center;
     text-shadow: none;
     color: black;
+}
+
+section{
+    min-height: 70vh;
 }
 
 *{
