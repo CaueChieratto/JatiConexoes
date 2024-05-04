@@ -249,6 +249,11 @@ a.voltarInicio7{
         width: 195px !important;
     }
 }
+@media(max-width:320px){
+    .background2-cata{
+        width: 51% !important;
+    }
+}
 @media (max-width: 280px){
     .info-icon{
         flex-direction: column;
