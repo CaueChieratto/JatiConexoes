@@ -1,7 +1,7 @@
 html,body{
     margin: 0;
     padding: 0;
-    font-family:"anton", sans-serif !important;
+    font-family:"Anton", sans-serif !important;
 }
 
 .stick{
@@ -581,37 +581,37 @@ a.balao{
     h1.um{
         font-size: 26px !important;
         font-weight: 500 !important;
-        font-family:"anton", sans-serif !important;
+        font-family:"Anton", sans-serif !important;
     }
     h1.dois{
         font-size: 26px !important;
         font-weight: 500 !important;
-        font-family:"anton",sans-serif !important;
+        font-family:"Anton",sans-serif !important;
     }
     h1.tres{
         font-size: 26px !important;
         font-weight: 500 !important;
-        font-family:"anton", sans-serif !important;
+        font-family:"Anton", sans-serif !important;
     }
     h1.quatro{
         font-size: 26px !important;
         font-weight: 500 !important;
-        font-family:"anton", sans-serif !important;
+        font-family:"Anton", sans-serif !important;
     }
     h1.cinco{
         font-size: 26px !important;
         font-weight: 500 !important;
-        font-family:"anton", sans-serif !important;
+        font-family:"Anton", sans-serif !important;
     }
     h1.seis{
         font-size: 26px !important;
         font-weight: 500 !important;
-        font-family:"anton", sans-serif !important;
+        font-family:"Anton", sans-serif !important;
     }
     h1.sete{
         font-size: 26px !important;
         font-weight: 500 !important;
-        font-family:"anton", sans-serif !important;
+        font-family:"Anton", sans-serif !important;
     }
 }
 
@@ -773,7 +773,7 @@ a.menu1{
 h1.um{
     margin: 0px;
     font-size: 32px;
-    font-family:"anton", sans-serif;
+    font-family:"Anton", sans-serif;
     text-transform: uppercase;
     text-shadow:none;
     color:rgb(44, 168, 209);
@@ -783,7 +783,7 @@ h1.um{
 h1.dois{
     margin: 0px;
     font-size: 32px;
-    font-family:"anton", sans-serif;
+    font-family:"Anton", sans-serif;
     text-transform: uppercase;
     text-shadow:none;
     color: rgba(158, 42, 151, 0.8);
@@ -793,7 +793,7 @@ h1.dois{
 h1.tres{
     margin: 0px;
     font-size: 32px;
-    font-family:"anton", sans-serif;
+    font-family:"Anton", sans-serif;
     text-transform: uppercase;
     text-shadow:none;
     color:rgba(243, 134, 63, 1);
@@ -803,7 +803,7 @@ h1.tres{
 h1.quatro{
     margin: 0px;
     font-size: 32px;
-    font-family:"anton", sans-serif;
+    font-family:"Anton", sans-serif;
     text-transform: uppercase;
     text-shadow:none;
     color: rgba(24, 168, 91, 1);
@@ -813,7 +813,7 @@ h1.quatro{
 h1.cinco{
     margin: 0px;
     font-size: 32px;
-    font-family:"anton", sans-serif;
+    font-family:"Anton", sans-serif;
     text-transform: uppercase;
     text-shadow:none;
     color:rgba(19, 79, 92, 0.9);
@@ -823,7 +823,7 @@ h1.cinco{
 h1.seis{
     margin: 0px;
     font-size: 32px;
-    font-family:"anton", sans-serif ;
+    font-family:"Anton", sans-serif ;
     text-transform: uppercase; 
     text-shadow:none;
     color:rgba(90, 71, 54,0.9);
@@ -833,7 +833,7 @@ h1.seis{
 h1.sete{
     margin: 0px;
     font-size: 32px;
-    font-family:"anton", sans-serif;
+    font-family:"Anton", sans-serif;
     text-transform: uppercase;
     text-shadow:none;
     color:rgba(0, 0, 0, 0.8);
@@ -1050,14 +1050,4 @@ a{
     font-size: 20px;
     text-decoration: none;
 }
-@font-face {
-    font-family: 'Anton';
-    src: url('Anton-Regular.eot'); /* IE9 Compat Modes */
-    src: local('Anton'),
-         url('Anton-Regular.woff2') format('woff2'), /* Super Modern Browsers */
-         url('Anton-Regular.woff') format('woff'), /* Modern Browsers */
-         url('Anton-Regular.ttf')  format('truetype'), /* Safari, Android, iOS */
-         url('Anton-Regular.svg#svgFontName') format('svg'); /* Legacy iOS */
-    font-weight: normal;
-    font-style: normal;
-}
+
