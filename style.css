@@ -1050,3 +1050,14 @@ a{
     font-size: 20px;
     text-decoration: none;
 }
+@font-face {
+    font-family: 'Anton';
+    src: url('Anton-Regular.eot'); /* IE9 Compat Modes */
+    src: local('Anton'),
+         url('Anton-Regular.woff2') format('woff2'), /* Super Modern Browsers */
+         url('Anton-Regular.woff') format('woff'), /* Modern Browsers */
+         url('Anton-Regular.ttf')  format('truetype'), /* Safari, Android, iOS */
+         url('Anton-Regular.svg#svgFontName') format('svg'); /* Legacy iOS */
+    font-weight: normal;
+    font-style: normal;
+}
