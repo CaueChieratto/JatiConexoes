@@ -587,7 +587,8 @@ a.balao{
         font-size: 26px !important;
         font-weight: 500 !important;
         font-family:"Anton",sans-serif !important;
-        -webkit-font-smoothing: antialiased;
+        -webkit-font-smoothing: antialiased; /* Para Chrome, Safari, e Opera */
+        -moz-osx-font-smoothing: grayscale; /* Para Firefox */
     }
     h1.tres{
         font-size: 26px !important;
