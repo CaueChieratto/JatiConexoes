@@ -399,12 +399,11 @@ a.balao{
     a{
         font-size: 16px !important;
     }
-    h1{
-        font-family:"Anton", sans-serif !important;
-        
-    }
     .produtos{
         width: 285px !important;
+    }
+    .meio{
+        justify-content: center !important;
     }
 }
 
@@ -468,7 +467,7 @@ a.balao{
         padding: 30px 10px !important;
     }
     a{
-        font-size: 12px !important;
+        font-size: 14px !important;
     }
    
 }
@@ -533,25 +532,25 @@ a.balao{
     }
 
     .baixar-catalogo1{
-        margin: 20px 50px 0  !important;
+        margin: 5px 50px 0  !important;
     }
     .baixar-catalogo2{
-        margin: 20px 50px 0 !important;
+        margin: 5px 50px 0 !important;
     }
     .baixar-catalogo3{
-        margin: 20px 50px 0  !important;
+        margin: 5px 50px 0  !important;
     }
     .baixar-catalogo4{
-        margin: 20px 50px 0  !important;
+        margin: 5px 50px 0  !important;
     }
     .baixar-catalogo5{
-        margin: 20px 50px 0  !important;
+        margin: 5px 50px 0  !important;
     }
     .baixar-catalogo6{
-        margin: 20px 50px 0 !important;
+        margin: 5px 50px 0 !important;
     }
     .baixar-catalogo7{
-        margin:20px 50px 0 !important;
+        margin:5px 50px 0 !important;
     }
 
     .ver-produtos1{
