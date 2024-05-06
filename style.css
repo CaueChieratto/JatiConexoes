@@ -317,9 +317,6 @@ a.balao{
     .lista{
         font-size: 16px !important;
     }
-    .logo-bottom{
-        font-size: 16px !important;
-    }
     a.menu1{
         font-size: 14px !important;
     }
@@ -335,16 +332,9 @@ a.balao{
 }
 
 @media (max-width:550px){
-    .produtos{
-        width: 250px !important;
-        /* width: 170px !important; */
-    }
     
     .lista{
         border-bottom: none !important;
-    }
-    .logo-bottom{
-        font-size: 14px !important;
     }
     a.menu1{
         font-size: 12px !important;
@@ -409,40 +399,11 @@ a.balao{
     a{
         font-size: 16px !important;
     }
-    h1.um{
-        font-size: 26px !important;
-        font-weight: 500 !important;
+    h1{
         font-family:"Anton", sans-serif !important;
     }
-    h1.dois{
-        font-size: 26px !important;
-        font-weight: 500 !important;
-        font-family:"Anton",sans-serif !important;
-    }
-    h1.tres{
-        font-size: 26px !important;
-        font-weight: 500 !important;
-        font-family:"Anton", sans-serif !important;
-    }
-    h1.quatro{
-        font-size: 26px !important;
-        font-weight: 500 !important;
-        font-family:"Anton", sans-serif !important;
-    }
-    h1.cinco{
-        font-size: 26px !important;
-        font-weight: 500 !important;
-        font-family:"Anton", sans-serif !important;
-    }
-    h1.seis{
-        font-size: 26px !important;
-        font-weight: 500 !important;
-        font-family:"Anton", sans-serif !important;
-    }
-    h1.sete{
-        font-size: 26px !important;
-        font-weight: 500 !important;
-        font-family:"Anton", sans-serif !important;
+    .produtos{
+        width: 285px !important;
     }
 }
 
@@ -941,16 +902,15 @@ li{
     text-align: center;
     color:#191b23;
     margin-top: 30px;
-    font-family: "bebas neue",arial;
     font-weight: normal;
     cursor: pointer;
-    padding: 10px;
+    padding: 10px 30px;
     border-radius: 20px;
     border: 1px solid rgba(25, 27, 35, 0.9);
 }
 .voltar8{
     color:rgba(25, 27, 35, 0.9) ;
-    font-weight: normal;
+    font-weight: 500;
     text-decoration: none;
     vertical-align: baseline;
     font-family: "bebas neue",arial;
