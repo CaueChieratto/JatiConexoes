@@ -409,6 +409,41 @@ a.balao{
     a{
         font-size: 16px !important;
     }
+    h1.um{
+        font-size: 26px !important;
+        font-weight: 500 !important;
+        font-family:"Anton", sans-serif !important;
+    }
+    h1.dois{
+        font-size: 26px !important;
+        font-weight: 500 !important;
+        font-family:"Anton",sans-serif !important;
+    }
+    h1.tres{
+        font-size: 26px !important;
+        font-weight: 500 !important;
+        font-family:"Anton", sans-serif !important;
+    }
+    h1.quatro{
+        font-size: 26px !important;
+        font-weight: 500 !important;
+        font-family:"Anton", sans-serif !important;
+    }
+    h1.cinco{
+        font-size: 26px !important;
+        font-weight: 500 !important;
+        font-family:"Anton", sans-serif !important;
+    }
+    h1.seis{
+        font-size: 26px !important;
+        font-weight: 500 !important;
+        font-family:"Anton", sans-serif !important;
+    }
+    h1.sete{
+        font-size: 26px !important;
+        font-weight: 500 !important;
+        font-family:"Anton", sans-serif !important;
+    }
 }
 
 @media (max-width: 450px){
@@ -578,43 +613,7 @@ a.balao{
     .ver-produtos7{
         margin: 0 50px 0 !important;
     }
-    h1.um{
-        font-size: 26px !important;
-        font-weight: 500 !important;
-        font-family:"Anton", sans-serif !important;
-    }
-    h1.dois{
-        font-size: 26px !important;
-        font-weight: 500 !important;
-        font-family:"Anton",sans-serif !important;
-        -webkit-font-smoothing: antialiased; /* Para Chrome, Safari, e Opera */
-        -moz-osx-font-smoothing: grayscale; /* Para Firefox */
-    }
-    h1.tres{
-        font-size: 26px !important;
-        font-weight: 500 !important;
-        font-family:"Anton", sans-serif !important;
-    }
-    h1.quatro{
-        font-size: 26px !important;
-        font-weight: 500 !important;
-        font-family:"Anton", sans-serif !important;
-    }
-    h1.cinco{
-        font-size: 26px !important;
-        font-weight: 500 !important;
-        font-family:"Anton", sans-serif !important;
-    }
-    h1.seis{
-        font-size: 26px !important;
-        font-weight: 500 !important;
-        font-family:"Anton", sans-serif !important;
-    }
-    h1.sete{
-        font-size: 26px !important;
-        font-weight: 500 !important;
-        font-family:"Anton", sans-serif !important;
-    }
+    
 }
 
 @media(max-width:320px){
