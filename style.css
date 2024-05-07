@@ -405,6 +405,9 @@ a.balao{
     .meio{
         justify-content: center !important;
     }
+    h1{
+        font-family: "Bebas Neue",sans-serif;
+    }
 }
 
 @media (max-width: 450px){
