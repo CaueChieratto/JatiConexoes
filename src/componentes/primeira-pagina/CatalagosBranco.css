@@ -1,0 +1,68 @@
+/* From Uiverse.io by gharsh11032000 */ 
+.animated-button-white {
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding: 6px;
+    border-color: transparent;
+    font-size: 12px;
+    background-color: #53A677;
+    border-radius: 20px;
+    font-weight: bold;
+    color: white;
+    border: 1px solid #53A677;
+    cursor: pointer;
+    overflow: hidden;
+    transition: all 0.6s cubic-bezier(0.23, 1, 0.32, 1);
+  }
+  
+  
+  .animated-button-white .arr-1 {
+    right: 16px;
+  }
+  
+  .animated-button-white .arr-2 {
+    left: -25%;
+  }
+  
+  .animated-button-white .circle1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    border-radius: 50%;
+    opacity: 0;
+    transition: all 0.8s cubic-bezier(0.23, 1, 0.32, 1);
+  }
+  
+  .animated-button-white .text-green {
+    position: relative;
+    z-index: 1;
+    transition: all 0.8s cubic-bezier(0.23, 1, 0.32, 1);
+  }
+  
+  .animated-button-white:hover {
+    color: #53A677;
+  }
+  
+  .animated-button-white:hover .arr-1 {
+    right: -25%;
+  }
+  
+  .animated-button-white:hover .arr-2 {
+    left: 16px;
+  }
+  
+  .animated-button-white:active {
+    scale: 0.95;
+  }
+  
+  .animated-button-white:hover .circle1 {
+    width: 220px;
+    height: 220px;
+    opacity: 1;
+  }
+  

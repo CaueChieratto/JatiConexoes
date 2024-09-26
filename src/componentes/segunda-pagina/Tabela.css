@@ -1,0 +1,261 @@
+
+.containerTabela{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    background-color: rgba(0, 0, 0, 0.9);
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    animation: fadeIn 0.5s ease;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.card {
+    width: fit-content;
+    min-height: 340px;
+    max-height: 340px;
+    overflow-y: scroll;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: white;
+    border-radius: 20px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 1);
+    transform: scale(0);
+    animation: grow 0.8s forwards;
+}
+
+@keyframes grow {
+    0% {
+        transform: scale(0);
+        opacity: 0;
+    }
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+.centroTabela{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.card::-webkit-scrollbar {
+  width: 8px;
+}
+
+.card::-webkit-scrollbar-track {
+  background: white;
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+  margin: 30px;
+}
+
+.card::-webkit-scrollbar-thumb {
+  background-color: rgba(22, 24, 22,0.8);
+  border-radius: 20px;
+}
+
+.modal{
+    width:500px;
+}
+
+.PN{
+    padding: 10px 10px 10px 15px;
+    width: 100px;
+    border-top-right-radius: 40px;
+    color: white;
+    font-size: 20px;
+    border: 1px solid #42454A;
+    margin: 0 0 5px 0;
+}
+
+.tabela{
+    max-width: 500px;
+    border: 1px solid #42454A;
+}
+
+.tituloTabela{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.coluna{
+    padding: 10px;
+    text-align: center;
+    width: 25%;
+    font-size: 18px;
+    color: white;
+}
+.colunaGrande{
+    padding: 10px;
+    text-align: center;
+    width: 25%;
+    font-size: 18px;
+    color: white;
+}
+
+.dadosTabelas{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.colunaTabela{
+    width: 25%;
+    padding: 10px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: normal;
+    color:#42454A;
+}
+.colunaTabelaGrande{
+    width: 25%;
+    padding: 10px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: normal;
+    color:#42454A;
+}
+
+.botoesTabela{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 310px;
+}
+
+.nomeProdutoTabela{
+  color: white;
+  text-align: center;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 20px;
+  border: 1px solid #42454A;
+  margin-bottom: 5px;
+}
+
+.descricao{
+  color: white;
+  border-top: 1px solid white;
+  font-weight: normal;
+  font-size: 12px;
+}
+
+.botaoFichaTecnica{
+  display: flex;
+  align-items: center;
+}
+
+.fichaTecnica{
+  color: white;
+  border: 1px solid #42454A;
+  font-size: 12px;
+  padding: 8px;
+  font-weight: 700;
+  border-radius: 25px;
+}
+
+a{
+  font-style: normal;
+}
+
+.botaoFecharTabela{
+    position: fixed;
+    cursor: pointer;
+    top: 5%;
+    right: 10%;
+    width: 3em;
+    height: 3em;
+    border: none;
+    background: rgba(180, 83, 107, 0.11);
+    border-radius: 5px;
+    transition: background 0.5s;
+  }
+  
+  .X {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 2em;
+    height: 1.5px;
+    background-color: rgb(255, 255, 255);
+    transform: translateX(-50%) rotate(45deg);
+  }
+  
+  .Y {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 2em;
+    height: 1.5px;
+    background-color: #fff;
+    transform: translateX(-50%) rotate(-45deg);
+  }
+  
+  .close {
+    position: absolute;
+    display: flex;
+    padding: 0.8rem 1.5rem;
+    align-items: center;
+    justify-content: center;
+    transform: translateX(-50%);
+    top: -70%;
+    left: 50%;
+    width: 3em;
+    height: 1.7em;
+    font-size: 12px;
+    background-color: rgb(19, 22, 24);
+    color: rgb(187, 229, 236);
+    border: none;
+    border-radius: 3px;
+    pointer-events: none;
+    opacity: 0;
+  }
+  
+  .botaoFecharTabela:hover {
+    background-color: rgb(211, 21, 21);
+  }
+  
+  .botaoFecharTabela:active {
+    background-color: rgb(130, 0, 0);
+  }
+  
+  @keyframes close {
+    100% {
+      opacity: 1;
+    }
+  }
+  
+
+  body::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  body::-webkit-scrollbar-track {
+    background: #E5F2E5;
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background-color: rgba(22, 24, 22,0.8);
+    border-radius: 20px;
+  }

@@ -1,0 +1,224 @@
+/* 123 */
+
+
+@media  (max-width: 800px){
+    .cabeçalho{
+        font-size: 1.2em;
+      }
+    .container-preso{
+        position: relative;
+    }
+
+    .imagem-moça{
+        filter: none;
+    }
+
+    .botao{
+        filter: none;
+        padding-top: 3px;
+        margin-top: 32px;
+    }
+}
+
+@media (max-width:670px){
+    .background{
+        margin: 5px;
+        min-height: 210px;
+    }
+}
+
+@media (max-width:650px){
+    .imagem-moça{
+        width: 60px;
+    }
+
+    .footer-end{
+        font-size: 0.6em;
+        padding: 20px;
+    }
+
+    .icon{
+        justify-content: normal;
+        gap: 0;
+    }
+
+    .aviso{
+        right: 10px;
+    }
+
+    .tooltip-aviso{
+        margin-left: -170px;
+    }
+
+    .tooltip-aviso::after{
+        left: 90%;
+    }
+}
+
+@media(max-width:600px){
+    .produtos{
+        width: 200px;
+    }
+    .produtos-imagem{
+        width: 200px;
+    }
+    .animated-button{
+        font-size: 10px;
+        margin-right: 5px;
+    }
+    .animated-button-white{
+        font-size: 10px;
+        margin-left: 5px;
+    }
+
+    .cartao{
+        max-width: 250px;
+    }
+
+    .nome-linha{
+        font-size: 16px;
+    }
+
+    .nome-secundario{
+        font-size: 8px;
+    }
+}
+
+@media(max-width:530px){
+    .background{
+        min-height: 206px;
+    }
+    .background-foot{
+        padding: 10px;
+        width: 160px;
+        height: 191.625px;
+        margin: 5px;
+    }
+    .produtos-imagem{
+        width: 160px;
+        margin: 0;
+    }
+    .descricao{
+        font-size: 8px;
+        gap: 15px;
+    }
+    .info{
+        height: 206px;
+    }
+    .produtos{
+        width: 160px;
+    }
+
+    .animated-button{
+        font-size: 8px;
+        margin-right: 1px;
+        padding: 8px;
+    }
+    .animated-button-white{
+        font-size: 8px;
+        margin-left: 1px;
+        padding: 8px;
+    }
+
+    .cartao{
+        max-width: 210px;
+    }
+}
+@media(max-width:430px){
+    .background{
+        padding: 10px;
+    }
+
+    .animated-button{
+        font-size: 8px;
+        margin-right: 1px;
+        padding: 8px;
+    }
+    .animated-button-white{
+        font-size: 8px;
+        margin-left: 1px;
+        padding: 8px;
+    }
+    .cartao{
+        max-width: 190px;
+    }
+
+    .nome-linha{
+        font-size: 12px;
+    }
+
+
+    .imagem-moça{
+        width: 50px;
+    }
+    .frase-balao{
+        font-size: 0.6em;
+    }
+}
+@media(max-width:375px){
+    .background{
+       padding: 7px;
+       margin: 4px;
+    }
+
+    .icon-aviso>svg{
+        width: 40px;
+        height: 40px;
+    }
+    #insta{
+        padding: 4px;
+        font-size: 1.8em;
+    }
+
+    #face{
+        padding: 4px;
+        font-size: 1.6em;
+    }
+
+    #zap{
+        padding: 4px;
+        font-size: 1.8em;
+    }
+}
+
+@media(max-width: 363px){
+    .cartao{
+        max-width: 152px;
+    }
+
+    .produtos{
+        width: 130px;
+    }
+
+    .animated-button{
+        font-size: 6px;
+        padding: 5px;
+    }
+    .animated-button-white{
+        font-size: 6px;
+        padding: 5px;
+    }
+}
+
+@media (max-width: 280px){
+    .info-icon{
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 220px){
+
+    .cabeçalho{
+        font-size: 1.2em;
+      }
+}
+  @media(max-width:500px){
+    .cabeçalho{
+      font-size: 1em;
+    }
+  }
+  @media(max-width:350px){
+    .cabeçalho{
+      font-size: 0.9em;
+    }
+  }

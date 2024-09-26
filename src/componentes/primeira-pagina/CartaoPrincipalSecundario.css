@@ -1,0 +1,56 @@
+.fundo{
+    margin-top: 30px;
+  }
+  
+  .container-foot{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+ 
+  
+  .background-foot{
+    margin: 10px;
+    background-color: white;
+    transition: 0.3s;
+  }
+  .background-foot:hover{
+    cursor:default;
+    box-shadow:0px 0px 20px 0px rgba(0, 53, 0, 0.4);
+    transition: 0.2s;
+    transform: scale(1.01);
+  }
+  
+  
+  .info-foot{
+    width: fit-content;
+    text-align: center;
+  }
+  .descricao{
+    margin: 0px;
+    color: rgba(25, 27, 35, 1);
+    font-weight: 700;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .produtos-imagem{
+    width: 250px;
+    margin: 15px;
+  }
+  
+  .subTitulo{
+    font-size: 0.875em;
+    padding-bottom: 15px;
+  }
+
+  .nome-secundario{
+    margin: 0px;
+    font-size: 1.125em;
+    color:rgba(25, 27, 35, 1);
+    font-weight: 700;
+    padding-bottom: 15px;
+  }

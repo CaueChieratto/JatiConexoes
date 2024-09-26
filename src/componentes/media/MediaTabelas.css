@@ -1,0 +1,81 @@
+@media(max-width:620px){
+    .modal{
+        width: 440px;
+    }
+   
+    .botoesTabela{
+        max-width: 275px;
+    }
+}
+
+@media(max-width:500px){
+    .modal{
+        width: 370px;
+    }
+    .colunaGrande{
+        font-size: 16px;
+    }
+
+    .colunaTabelaGrande{
+        font-size: 14px;
+    }
+}
+
+@media(max-width:450px){
+    .modal{
+        width: 300px;
+    }
+
+    .botoesTabela{
+        max-width: 170px;
+    }
+
+    .setaParaBaixo{
+        border-left: 2px solid transparent;
+        border-right: 2px solid transparent;
+        border-top: 5px solid black;
+    }
+
+    .PN{
+        font-size: 14px;
+        width: 60px;
+        padding: 8px 5px 8px 10px;
+    }
+
+    .coluna{
+        font-size: 14px;
+    }
+    .colunaTabela{
+        font-size: 13px;
+    }
+
+    .fichaTecnica{
+        font-size: 10px;
+    }
+
+    .nomeProdutoTabela{
+        font-size: 14px;
+    }
+
+    .colunaGrande{
+        font-size: 12px;
+    }
+
+    .colunaTabelaGrande{
+        font-size: 10px;
+    }
+}
+
+@media(max-width:330px){
+    .modal{
+        width: 240px;
+    }
+
+    .coluna{
+        font-size: 10px;
+    }
+
+    .colunaTabela{
+        font-size: 10px;
+    }
+}

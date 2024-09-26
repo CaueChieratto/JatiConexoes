@@ -1,0 +1,104 @@
+
+@media(max-width:950px){
+    .alturaPadrao{
+        width: 31%;
+    }
+
+    .cartaoProdutos{
+        padding: 35px;
+    }
+}
+
+@media(max-width:860px){
+    .alturaPadrao{
+        width: 31%;
+    }
+
+    .cartaoProdutos{
+        padding: 20px;
+    }
+}
+
+@media(max-width:720px){
+    .alturaPadrao{
+        width: 48%;
+    }
+}
+
+@media(max-width:550px){
+    .alturaPadrao{
+        width: 45%;
+    }
+}
+
+@media(max-width:480px){
+    .alturaPadrao{
+        width: 45%;
+        min-height: 350px;
+    }
+
+    .cartaoProdutos{
+        padding: 10px;
+    }
+
+    .tamanhoPadrao{
+        max-width: 170px;
+        justify-content: space-around;
+    }
+
+    .imagemProdutos{
+        width: 150px;
+    }
+
+    .nomeProdutos{
+        font-size: 12px;
+        min-width: 170px;
+    }
+}
+
+@media(max-width:390px){
+    .containerProdutos{
+        gap: 15px;
+    }
+
+    .cartaoProdutos{
+        padding:0;
+    }
+}
+
+@media(max-width:350px){
+    .alturaPadrao{
+        margin-bottom: 50px;
+    }
+
+    .containerProdutos{
+        gap: 0;
+    }
+
+    .tamanhoPadrao{
+        width: 140px;
+    }
+
+    .imagemProdutos{
+        width: 120px;
+    }
+
+    .linha{
+        font-size: 14px;
+        padding: 2px 0;
+    }
+
+    .nomeProdutos{
+        font-size: 10px;
+    }
+}
+
+@media(max-width:320px){
+    .containerProdutos{
+        gap: 5px;
+    }
+
+    .nomeProdutos{
+        min-width: 150px;
+    }
+}

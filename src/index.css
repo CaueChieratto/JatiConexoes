@@ -1,0 +1,108 @@
+html{
+  font-size: 16px;
+}
+
+*{
+  padding: 0;
+  margin: 0;
+  font-family: "DM sans", sans-serif;
+}
+
+.cabeçalho{
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  font-size: 1.5em;
+}
+
+.inicio{
+  width:100% ;
+}
+
+.barra-topo{
+  background-color: rgba(0, 128, 0, 0.6);
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  padding: 10px;
+}
+
+.tudo{
+  background-color: rgba(0, 128, 0, 0.1);
+  padding: 1px 0 80px;
+}
+
+.icon-container{
+  display: flex;
+  flex-direction: column;
+  border-bottom: 1px solid white;
+}
+
+.icon{
+  background-color:#66B366;
+  display: flex;
+  justify-content: center;
+  padding:30px;
+  gap: 20px;
+}
+
+.icons{
+  display: flex;
+  gap: 20px;
+}
+
+
+i{
+  width: 35px;
+  height: 35px;
+}
+
+.fa-brands{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+#insta{
+  background-color: #FE005C;
+  border-radius: 100%;
+  padding: 8px;
+  font-size: 2.1em;
+}
+
+#face{
+  background-color: #1877F2;
+  border-radius: 100%;
+  padding: 8px;
+  font-size: 2.1em;
+}
+
+#zap{
+  background-color: #29A71A;
+  border-radius: 100%;
+  padding: 8px;
+  font-size: 2.1em;
+}
+
+.footer-end{
+  background-color: rgba(0, 128, 0, 0.6);
+  padding: 30px;
+  font-size: 0.8em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.end{
+  color: white;
+  text-align: center;
+  text-shadow: none;
+  font-size: 1.25em;
+  text-decoration: none;
+}
+
+a{
+  text-decoration: none;
+}
+
