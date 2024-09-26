@@ -15,8 +15,7 @@
     overflow: hidden;
     transition: all 0.6s cubic-bezier(0.23, 1, 0.32, 1);
   }
-  
-  
+    
   .animated-button .arr-1 {
     right: 16px;
   }

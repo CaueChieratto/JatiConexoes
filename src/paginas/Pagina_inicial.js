@@ -91,7 +91,7 @@ export default function Pagina_inicial() {
               <div className="cartao">
                 <Cartao_primario
                   titulo="ANÉIS DE VEDAÇÃO"
-                  imagem="/imagens-pagina-inicio/aneis-de-vedacao.jpg"
+                  imagem="/imagens-pagina-inicio/Aneis-de-vedacao.jpg"
                   cliqueProdutos={() => linkProdutos(AneisVedacao)}
                   linkCatalagos="/pdf/aneis-de-vedaçao.pdf"
                 ></Cartao_primario>
