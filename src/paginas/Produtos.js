@@ -16,10 +16,12 @@ export default function Produtos() {
   const mostrarTabela = (produto) => {
     setProduto(produto);
     setAbrirTabela(true);
+    document.documentElement.style.overflowY = "hidden";
     document.body.style.overflowY = "hidden";
   };
   const fecharTabela = () => {
     setAbrirTabela(false);
+    document.documentElement.style.overflowY = "auto";
     document.body.style.overflowY = "auto";
   };
 
