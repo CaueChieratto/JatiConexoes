@@ -6,7 +6,7 @@ export default function Error() {
       <h1>Página não encontrada</h1>
       <p>
         Oops! A página que você está procurando não existe, tente essa
-        <a href="https://jaticonexoes.com.br/">Jati Conexões</a>
+        <a href="https://jaticonexoes.com.br/"> Jati Conexões</a>
       </p>
     </>
   );
