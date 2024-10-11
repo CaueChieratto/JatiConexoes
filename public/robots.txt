@@ -3,3 +3,4 @@ User-agent: *
 Disallow:
 
 Sitemap: https://jaticonexoes.com.br/produtos
+Sitemap: https://jaticonexoes.com.br/
