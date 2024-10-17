@@ -58,6 +58,7 @@ export default function Produtos() {
             subTitulo={produto.subTitulo}
             valores={produto.tabelas}
             mostrarDescricao={produto.mostrarDescricao}
+            descricao={produto.descricao}
             pdf={produto.pdf}
           ></Tabela>
         )}

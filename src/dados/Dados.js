@@ -81,10 +81,11 @@ export const Injetada = {
     {
       titulo: "INJETADA",
       subTitulo: "JOELHO 90° BB/IRR SOLD",
+      descricao: "SAÍDA C/ ROSCA INTERNA",
       imagem:
         "/imagens-pagina-secundaria/linha-injetada/JOELHO RI INJETADO.jpg",
       pdf: "/pdf/ficha-tecnica/injetadas/joelho-90-bb-irr-sold.pdf",
-      mostrarDescricao: true,
+      mostrarDescricao: false,
       tabelas: [
         {
           pn: "PN80",

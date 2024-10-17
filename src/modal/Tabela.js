@@ -25,11 +25,13 @@ export default function Tabela(props) {
               }}
             >
               {props.subTitulo}
-              {props.mostrarDescricao && (
-                <>
-                  <div className="descricao">SAÍDA C/ ROSCA INTERNA</div>
-                </>
-              )}
+              {props.mostrarDescricao ? (
+                <div className="descricao">
+                  REFORÇADO COM LAMINAÇÃO EM FIBRA DE VIDRO
+                </div>
+              ) : props.descricao ? (
+                <div className="descricao">{props.descricao}</div>
+              ) : null}
             </div>
             {props.pdf && (
               <>

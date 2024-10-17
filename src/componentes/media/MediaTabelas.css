@@ -18,6 +18,9 @@
     .colunaTabelaGrande{
         font-size: 14px;
     }
+    .descricao{
+        font-size: 8px;
+    }
 }
 
 @media(max-width:450px){
