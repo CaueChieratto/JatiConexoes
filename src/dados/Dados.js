@@ -1313,7 +1313,7 @@ export const IrrigaJei = {
       tabelas: [
         {
           pn: "PASTA",
-          dados: [{ dn: "900 g", embalagem: "6", codigo: "132639422" }],
+          dados: [{ dn: "900 g", embalagem: "6", codigo: "920501005" }],
         },
       ],
     },
