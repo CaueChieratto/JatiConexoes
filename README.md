@@ -17,9 +17,6 @@ Catálogo digital de peças de PVC desenvolvido inicialmente com HTML, CSS e Jav
 - Firebase Firestore / Realtime Database  
 - Firebase Authentication (se aplicável)  
 
-## Palavras-chave  
-Catálogo digital, catálogo online, peças de PVC, ReactJS, Firebase, painel administrativo, site responsivo, gerenciamento de dados, front-end, web app.
-
 ---
 
 Obrigado por visitar o projeto!
